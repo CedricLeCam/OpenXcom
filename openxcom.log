@@ -1,0 +1,33 @@
+[07-04-2015 12:46:45]	[INFO]	Data folder is: 
+[07-04-2015 12:46:45]	[INFO]	Data search is: 
+[07-04-2015 12:46:45]	[INFO]	- C:\Users\clecam\Documents\OpenXcom\data\
+[07-04-2015 12:46:45]	[INFO]	- C:\Games\OpenXcom\data\
+[07-04-2015 12:46:45]	[INFO]	- C:\Games\OpenXcom\data\
+[07-04-2015 12:46:45]	[INFO]	User folder is: C:\Users\clecam\Documents\OpenXcom\
+[07-04-2015 12:46:45]	[INFO]	Config folder is: C:\Users\clecam\Documents\OpenXcom\
+[07-04-2015 12:46:45]	[INFO]	Options loaded successfully.
+[07-04-2015 12:46:45]	[INFO]	SDL initialized successfully.
+[07-04-2015 12:46:45]	[INFO]	SDL_mixer initialized successfully.
+[07-04-2015 12:46:45]	[INFO]	Attempting to set display to 800x600x8...
+[07-04-2015 12:46:46]	[INFO]	Display set to 800x600x8.
+[07-04-2015 12:46:46]	[INFO]	Loading ruleset...
+[07-04-2015 12:46:46]	[INFO]	Ruleset loaded successfully.
+[07-04-2015 12:46:46]	[INFO]	Loading resources...
+[07-04-2015 12:46:47]	[INFO]	Loading extra resources from ruleset...
+[07-04-2015 12:46:47]	[INFO]	Resources loaded successfully.
+[07-04-2015 12:46:47]	[INFO]	Loading language...
+[07-04-2015 12:46:47]	[INFO]	Language loaded successfully.
+[07-04-2015 12:46:47]	[INFO]	OpenXcom started successfully!
+[07-04-2015 12:46:47]	[INFO]	Playing flx, 320x200, 890 frames
+[07-04-2015 12:46:47]	[INFO]	Using software scaling routine. For best results, try an OpenGL filter.
+[07-04-2015 12:46:58]	[INFO]	SDL_mixer initialized successfully.
+[07-04-2015 12:46:59]	[INFO]	Attempting to set display to 800x600x32...
+[07-04-2015 12:46:59]	[INFO]	Display set to 800x600x32.
+[07-04-2015 12:47:14]	[INFO]	Attempting to set display to 1280x600x8...
+[07-04-2015 12:47:14]	[INFO]	Display set to 1280x600x8.
+[07-04-2015 12:47:21]	[INFO]	Attempting to set display to 800x600x32...
+[07-04-2015 12:47:21]	[INFO]	Display set to 800x600x32.
+[07-04-2015 12:47:31]	[INFO]	Attempting to set display to 1280x768x8...
+[07-04-2015 12:47:31]	[INFO]	Display set to 1280x768x8.
+[07-04-2015 12:47:43]	[INFO]	Attempting to set display to 1280x768x32...
+[07-04-2015 12:47:43]	[INFO]	Display set to 1280x768x32.

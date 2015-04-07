@@ -1,0 +1,947 @@
+version: 1.0
+name: test 2
+time:
+  hour: 0
+  minute: 39
+  month: 2
+  day: 1
+  year: 1999
+  weekday: 2
+  second: 15
+rulesets:
+  - Xcom1Ruleset
+  - Aliens_Pick_Up_Weapons
+  - FinalModPack
+  - UFOextender_Gun_Melee
+build: " git 2015-03-24 04:14"
+---
+bases:
+  - lon: 0.54273619002676243
+    lat: -0.69198754769924808
+    name: rxt
+    facilities:
+      - type: STR_ACCESS_LIFT
+        x: 0
+        y: 2
+      - y: 0
+        type: STR_HANGAR
+        x: 0
+      - type: STR_HANGAR
+        x: 2
+        y: 0
+      - type: STR_HANGAR
+        x: 4
+        y: 0
+      - type: STR_LIVING_QUARTERS_2
+        x: 0
+        y: 3
+      - type: STR_WORKSHOP
+        x: 2
+        y: 3
+      - type: STR_LABORATORY
+        x: 2
+        y: 4
+      - type: STR_SMALL_RADAR_SYSTEM
+        x: 0
+        y: 5
+    soldiers:
+      - id: 1
+        name: Tangi Metua
+        initialStats:
+          tu: 50
+          stamina: 65
+          health: 30
+          bravery: 60
+          reactions: 47
+          firing: 62
+          throwing: 75
+          strength: 21
+          psiStrength: 56
+          psiSkill: 0
+          melee: 29
+        currentStats:
+          tu: 50
+          stamina: 65
+          health: 30
+          bravery: 60
+          reactions: 47
+          firing: 62
+          throwing: 75
+          strength: 21
+          psiStrength: 56
+          psiSkill: 0
+          melee: 29
+        rank: 0
+        craft:
+          lon: 0.54273619002676243
+          lat: -0.69198754769924808
+          type: STR_SKYRANGER
+          id: 1
+        gender: 0
+        look: 3
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+      - id: 2
+        name: Ruben Martin
+        initialStats:
+          tu: 54
+          stamina: 49
+          health: 36
+          bravery: 50
+          reactions: 33
+          firing: 63
+          throwing: 77
+          strength: 25
+          psiStrength: 40
+          psiSkill: 0
+          melee: 33
+        currentStats:
+          tu: 54
+          stamina: 49
+          health: 36
+          bravery: 50
+          reactions: 33
+          firing: 63
+          throwing: 77
+          strength: 25
+          psiStrength: 40
+          psiSkill: 0
+          melee: 33
+        rank: 0
+        craft:
+          lon: 0.54273619002676243
+          lat: -0.69198754769924808
+          type: STR_SKYRANGER
+          id: 1
+        gender: 0
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+      - id: 3
+        name: Bouse Dikengu
+        initialStats:
+          tu: 54
+          stamina: 46
+          health: 30
+          bravery: 20
+          reactions: 51
+          firing: 61
+          throwing: 53
+          strength: 37
+          psiStrength: 1
+          psiSkill: 0
+          melee: 36
+        currentStats:
+          tu: 54
+          stamina: 46
+          health: 30
+          bravery: 20
+          reactions: 51
+          firing: 61
+          throwing: 53
+          strength: 37
+          psiStrength: 1
+          psiSkill: 0
+          melee: 36
+        rank: 0
+        craft:
+          lon: 0.54273619002676243
+          lat: -0.69198754769924808
+          type: STR_SKYRANGER
+          id: 1
+        gender: 0
+        look: 3
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+      - id: 4
+        name: Damyan Kirilov
+        initialStats:
+          tu: 52
+          stamina: 60
+          health: 33
+          bravery: 10
+          reactions: 31
+          firing: 68
+          throwing: 72
+          strength: 39
+          psiStrength: 56
+          psiSkill: 0
+          melee: 21
+        currentStats:
+          tu: 52
+          stamina: 60
+          health: 33
+          bravery: 10
+          reactions: 31
+          firing: 68
+          throwing: 72
+          strength: 39
+          psiStrength: 56
+          psiSkill: 0
+          melee: 21
+        rank: 0
+        craft:
+          lon: 0.54273619002676243
+          lat: -0.69198754769924808
+          type: STR_SKYRANGER
+          id: 1
+        gender: 0
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+      - name: Marco Abate
+        initialStats:
+          tu: 56
+          stamina: 50
+          health: 35
+          bravery: 30
+          reactions: 46
+          firing: 68
+          throwing: 78
+          strength: 36
+          psiStrength: 4
+          psiSkill: 0
+          melee: 28
+        currentStats:
+          tu: 56
+          stamina: 50
+          health: 35
+          bravery: 30
+          reactions: 46
+          firing: 68
+          throwing: 78
+          strength: 36
+          psiStrength: 4
+          psiSkill: 0
+          melee: 28
+        rank: 0
+        craft:
+          lon: 0.54273619002676243
+          lat: -0.69198754769924808
+          type: STR_SKYRANGER
+          id: 1
+        gender: 0
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        id: 5
+      - id: 6
+        name: Tudor Iordan
+        initialStats:
+          tu: 50
+          stamina: 60
+          health: 33
+          bravery: 60
+          reactions: 56
+          firing: 56
+          throwing: 80
+          strength: 34
+          psiStrength: 87
+          psiSkill: 0
+          melee: 37
+        currentStats:
+          tu: 50
+          stamina: 60
+          health: 33
+          bravery: 60
+          reactions: 56
+          firing: 56
+          throwing: 80
+          strength: 34
+          psiStrength: 87
+          psiSkill: 0
+          melee: 37
+        rank: 0
+        craft:
+          lon: 0.54273619002676243
+          lat: -0.69198754769924808
+          type: STR_SKYRANGER
+          id: 1
+        gender: 0
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+      - id: 7
+        name: Turgut Kalyoncu
+        initialStats:
+          tu: 60
+          stamina: 62
+          health: 38
+          bravery: 60
+          reactions: 34
+          firing: 70
+          throwing: 80
+          strength: 31
+          psiStrength: 56
+          psiSkill: 0
+          melee: 28
+        currentStats:
+          tu: 60
+          stamina: 62
+          health: 38
+          bravery: 60
+          reactions: 34
+          firing: 70
+          throwing: 80
+          strength: 31
+          psiStrength: 56
+          psiSkill: 0
+          melee: 28
+        rank: 0
+        craft:
+          lon: 0.54273619002676243
+          lat: -0.69198754769924808
+          type: STR_SKYRANGER
+          id: 1
+        gender: 0
+        look: 1
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+      - craft:
+          lon: 0.54273619002676243
+          lat: -0.69198754769924808
+          type: STR_SKYRANGER
+          id: 1
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        rank: 0
+        currentStats:
+          melee: 30
+          strength: 30
+          psiSkill: 0
+          stamina: 58
+          bravery: 10
+          psiStrength: 27
+          firing: 43
+          throwing: 55
+          health: 35
+          reactions: 38
+          tu: 59
+        id: 8
+        name: Hakim Ibrahim
+        initialStats:
+          firing: 43
+          reactions: 38
+          bravery: 10
+          strength: 30
+          psiSkill: 0
+          melee: 30
+          psiStrength: 27
+          throwing: 55
+          tu: 59
+          stamina: 58
+          health: 35
+    crafts:
+      - lon: 0.54273619002676243
+        lat: -0.69198754769924808
+        speedLon: 0
+        speedLat: 0
+        speedRadian: 0
+        speed: 0
+        type: STR_SKYRANGER
+        id: 1
+        fuel: 1500
+        damage: 0
+        items:
+          STR_GRENADE: 8
+          STR_PISTOL: 3
+          STR_PISTOL_CLIP: 5
+          STR_RIFLE: 6
+          STR_RIFLE_CLIP: 12
+          STR_SHOTGUN: 2
+          STR_SHOTGUN_SHELLS_AP: 6
+          STR_SMG: 1
+          STR_SMG_CLIP: 4
+        status: STR_READY
+      - lon: 0.54273619002676243
+        lat: -0.69198754769924808
+        speedLon: 0
+        speedLat: 0
+        speedRadian: 0
+        speed: 0
+        type: STR_INTERCEPTOR
+        id: 1
+        fuel: 1000
+        damage: 0
+        weapons:
+          - type: STR_STINGRAY
+            ammo: 6
+          - type: STR_CANNON_UC
+            ammo: 200
+        items:
+          {}
+        status: STR_READY
+      - lon: 0.54273619002676243
+        lat: -0.69198754769924808
+        speedLon: 0
+        speedLat: 0
+        speedRadian: 0
+        speed: 0
+        type: STR_INTERCEPTOR
+        id: 2
+        fuel: 1000
+        damage: 0
+        weapons:
+          - type: STR_STINGRAY
+            ammo: 6
+          - type: STR_CANNON_UC
+            ammo: 200
+        items:
+          {}
+        status: STR_READY
+    items:
+      STR_AVALANCHE_LAUNCHER: 1
+      STR_AVALANCHE_MISSILES: 10
+      STR_CANNON: 2
+      STR_CANNON_ROUNDS_X50: 1
+      STR_COMBAT_KNIFE: 5
+      STR_GRENADE: 10
+      STR_MEDI_PACK: 3
+      STR_PISTOL: 2
+      STR_PISTOL_CLIP: 8
+      STR_RIFLE: 2
+      STR_RIFLE_CLIP: 8
+      STR_ROCKET_LAUNCHER: 1
+      STR_SHOTGUN: 2
+      STR_SHOTGUN_SHELLS: 6
+      STR_SHOTGUN_SHELLS_AP: 6
+      STR_SMALL_ROCKET: 4
+      STR_SMG: 2
+      STR_SMG_CLIP: 4
+      STR_SMOKE_GRENADE: 5
+      STR_STINGRAY_LAUNCHER: 1
+      STR_STINGRAY_MISSILES: 25
+    scientists: 0
+    engineers: 10
+    inBattlescape: false
+    research:
+      - project: STR_MOTION_SCANNER
+        assigned: 10
+        spent: 0
+        cost: 257
+    retaliationTarget: false
+alienMissions:
+  - type: STR_ALIEN_BASE
+    region: STR_NORTH_AFRICA
+    race: STR_SNAKEMAN
+    nextWave: 0
+    nextUfoCounter: 0
+    spawnCountdown: 15120
+    liveUfos: 0
+    uniqueID: 3
+  - type: STR_ALIEN_TERROR
+    region: STR_NORTH_AMERICA
+    race: STR_SECTOID
+    nextWave: 0
+    nextUfoCounter: 0
+    spawnCountdown: 90
+    liveUfos: 0
+    uniqueID: 4
+alienStrategy:
+  regions:
+    STR_ANTARCTICA: 4
+    STR_ARCTIC: 4
+    STR_AUSTRALASIA: 10
+    STR_CENTRAL_ASIA: 12
+    STR_EUROPE: 16
+    STR_INDIAN_OCEAN: 5
+    STR_NORTH_AFRICA: 12
+    STR_NORTH_AMERICA: 18
+    STR_NORTH_ATLANTIC: 45
+    STR_PACIFIC: 5
+    STR_SIBERIA: 10
+    STR_SOUTHERN_AFRICA: 8
+    STR_SOUTH_AMERICA: 10
+    STR_SOUTH_ATLANTIC: 5
+    STR_SOUTH_EAST_ASIA: 15
+  possibleMissions:
+    - region: STR_ANTARCTICA
+      missions:
+        STR_ALIEN_BASE: 35
+        STR_ALIEN_RESEARCH: 25
+    - region: STR_ARCTIC
+      missions:
+        STR_ALIEN_BASE: 35
+        STR_ALIEN_RESEARCH: 25
+        STR_HYBRID_BASE: 5
+        STR_HYBRID_GROUND_CONVOY: 20
+        STR_HYBRID_MEETING: 15
+        STR_HYBRID_MIB_MEETING: 10
+        STR_MIB_COVERUP: 8
+        STR_MIB_TERROR: 6
+    - region: STR_AUSTRALASIA
+      missions:
+        STR_ALIEN_ABDUCTION: 4
+        STR_ALIEN_BASE: 16
+        STR_ALIEN_FLYBY: 15
+        STR_ALIEN_HARVEST: 11
+        STR_ALIEN_INFILTRATION: 8
+        STR_ALIEN_RESEARCH: 15
+        STR_HYBRID_BASE: 5
+        STR_HYBRID_GROUND_CONVOY: 10
+        STR_HYBRID_MEETING: 5
+        STR_HYBRID_MIB_MEETING: 5
+        STR_MIB_BASE: 5
+        STR_MIB_COVERUP: 11
+        STR_MIB_TERROR: 8
+    - region: STR_CENTRAL_ASIA
+      missions:
+        STR_ALIEN_ABDUCTION: 6
+        STR_ALIEN_BASE: 8
+        STR_ALIEN_FLYBY: 9
+        STR_ALIEN_HARVEST: 5
+        STR_ALIEN_INFILTRATION: 10
+        STR_ALIEN_RESEARCH: 5
+        STR_HYBRID_BASE: 5
+        STR_HYBRID_GROUND_CONVOY: 15
+        STR_HYBRID_MEETING: 10
+        STR_HYBRID_MIB_MEETING: 5
+        STR_MIB_BASE: 4
+        STR_MIB_COVERUP: 16
+        STR_MIB_TERROR: 10
+    - region: STR_EUROPE
+      missions:
+        STR_ALIEN_ABDUCTION: 15
+        STR_ALIEN_BASE: 6
+        STR_ALIEN_FLYBY: 10
+        STR_ALIEN_HARVEST: 10
+        STR_ALIEN_INFILTRATION: 20
+        STR_HYBRID_BASE: 5
+        STR_HYBRID_GROUND_CONVOY: 20
+        STR_HYBRID_MEETING: 15
+        STR_HYBRID_MIB_MEETING: 10
+        STR_MIB_BASE: 4
+        STR_MIB_COVERUP: 18
+        STR_MIB_TERROR: 10
+    - region: STR_INDIAN_OCEAN
+      missions:
+        STR_ALIEN_RESEARCH: 15
+    - region: STR_NORTH_AFRICA
+      missions:
+        STR_ALIEN_ABDUCTION: 8
+        STR_ALIEN_FLYBY: 8
+        STR_ALIEN_HARVEST: 8
+        STR_ALIEN_INFILTRATION: 8
+        STR_ALIEN_RESEARCH: 8
+        STR_HYBRID_BASE: 5
+        STR_HYBRID_GROUND_CONVOY: 25
+        STR_HYBRID_MEETING: 15
+        STR_HYBRID_MIB_MEETING: 10
+        STR_MIB_BASE: 6
+        STR_MIB_COVERUP: 15
+        STR_MIB_TERROR: 18
+    - region: STR_NORTH_AMERICA
+      missions:
+        STR_ALIEN_ABDUCTION: 20
+        STR_ALIEN_BASE: 20
+        STR_ALIEN_FLYBY: 14
+        STR_ALIEN_HARVEST: 17
+        STR_ALIEN_INFILTRATION: 20
+        STR_ALIEN_RESEARCH: 14
+        STR_HYBRID_BASE: 10
+        STR_HYBRID_GROUND_CONVOY: 35
+        STR_HYBRID_MEETING: 15
+        STR_HYBRID_MIB_MEETING: 10
+        STR_MIB_BASE: 6
+        STR_MIB_COVERUP: 25
+        STR_MIB_TERROR: 12
+    - region: STR_NORTH_ATLANTIC
+      missions:
+        STR_ALIEN_RESEARCH: 15
+        STR_ALIEN_TERROR: 15
+    - region: STR_PACIFIC
+      missions:
+        STR_ALIEN_BASE: 27
+        STR_ALIEN_RESEARCH: 15
+        STR_HYBRID_GROUND_CONVOY: 5
+        STR_HYBRID_MEETING: 5
+        STR_HYBRID_MIB_MEETING: 5
+        STR_MIB_COVERUP: 6
+        STR_MIB_TERROR: 4
+    - region: STR_SIBERIA
+      missions:
+        STR_ALIEN_ABDUCTION: 4
+        STR_ALIEN_BASE: 9
+        STR_ALIEN_FLYBY: 9
+        STR_ALIEN_RESEARCH: 6
+        STR_HYBRID_BASE: 10
+        STR_HYBRID_GROUND_CONVOY: 30
+        STR_HYBRID_MEETING: 20
+        STR_HYBRID_MIB_MEETING: 10
+        STR_MIB_BASE: 8
+        STR_MIB_COVERUP: 2
+        STR_MIB_TERROR: 3
+    - region: STR_SOUTHERN_AFRICA
+      missions:
+        STR_ALIEN_ABDUCTION: 8
+        STR_ALIEN_BASE: 9
+        STR_ALIEN_FLYBY: 9
+        STR_ALIEN_HARVEST: 8
+        STR_ALIEN_INFILTRATION: 8
+        STR_ALIEN_RESEARCH: 7
+        STR_HYBRID_BASE: 10
+        STR_HYBRID_GROUND_CONVOY: 20
+        STR_HYBRID_MEETING: 15
+        STR_HYBRID_MIB_MEETING: 10
+        STR_MIB_BASE: 3
+        STR_MIB_COVERUP: 15
+        STR_MIB_TERROR: 14
+    - region: STR_SOUTH_AMERICA
+      missions:
+        STR_ALIEN_ABDUCTION: 12
+        STR_ALIEN_BASE: 22
+        STR_ALIEN_FLYBY: 18
+        STR_ALIEN_HARVEST: 24
+        STR_ALIEN_INFILTRATION: 18
+        STR_ALIEN_RESEARCH: 10
+        STR_HYBRID_BASE: 10
+        STR_HYBRID_GROUND_CONVOY: 30
+        STR_HYBRID_MEETING: 20
+        STR_HYBRID_MIB_MEETING: 15
+        STR_MIB_BASE: 7
+        STR_MIB_COVERUP: 15
+        STR_MIB_TERROR: 16
+    - region: STR_SOUTH_ATLANTIC
+      missions:
+        STR_ALIEN_RESEARCH: 15
+    - region: STR_SOUTH_EAST_ASIA
+      missions:
+        STR_ALIEN_ABDUCTION: 21
+        STR_ALIEN_BASE: 8
+        STR_ALIEN_FLYBY: 20
+        STR_ALIEN_HARVEST: 13
+        STR_ALIEN_INFILTRATION: 13
+        STR_ALIEN_RESEARCH: 8
+        STR_HYBRID_BASE: 5
+        STR_HYBRID_GROUND_CONVOY: 20
+        STR_HYBRID_MEETING: 10
+        STR_HYBRID_MIB_MEETING: 5
+        STR_MIB_BASE: 7
+        STR_MIB_COVERUP: 20
+        STR_MIB_TERROR: 10
+countries:
+  - activityAlien:
+      - 2
+      - 0
+    type: STR_USA
+    funding:
+      - 840000
+      - 798000
+    activityXcom:
+      - 0
+      - 0
+  - type: STR_RUSSIA
+    funding:
+      - 266000
+      - 219000
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 9
+      - 0
+  - type: STR_UK
+    funding:
+      - 230000
+      - 205000
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 77
+      - 0
+  - activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 8
+      - 0
+    type: STR_FRANCE
+    funding:
+      - 553000
+      - 498000
+  - type: STR_GERMANY
+    funding:
+      - 448000
+      - 386000
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 1
+      - 0
+  - type: STR_ITALY
+    funding:
+      - 243000
+      - 222000
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 3
+      - 0
+  - type: STR_SPAIN
+    funding:
+      - 206000
+      - 174000
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 148
+      - 0
+  - activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 2
+      - 0
+    type: STR_CHINA
+    funding:
+      - 262000
+      - 213000
+  - type: STR_JAPAN
+    funding:
+      - 464000
+      - 413000
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 0
+      - 0
+  - type: STR_INDIA
+    funding:
+      - 262000
+      - 231000
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 2
+      - 0
+  - type: STR_BRAZIL
+    funding:
+      - 500000
+      - 440000
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 2
+      - 0
+  - type: STR_AUSTRALIA
+    funding:
+      - 380000
+      - 342000
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 0
+      - 0
+  - type: STR_NIGERIA
+    funding:
+      - 289000
+      - 243000
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 1
+      - 0
+  - activityAlien:
+      - 41
+      - 0
+    type: STR_SOUTH_AFRICA
+    funding:
+      - 295000
+      - 269000
+    activityXcom:
+      - 0
+      - 0
+  - type: STR_EGYPT
+    funding:
+      - 405000
+      - 365000
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 1
+      - 0
+  - type: STR_CANADA
+    funding:
+      - 370000
+      - 296000
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 2
+      - 0
+globeLon: 2.6303981633974476
+globeLat: 0.41509341496011387
+globeZoom: 0
+ids:
+  ALIEN_MISSIONS: 5
+  STR_INTERCEPTOR: 3
+  STR_LANDING_SITE: 7
+  STR_SKYRANGER: 2
+  STR_SOLDIER: 9
+  STR_TERROR_SITE: 2
+  STR_UFO: 7
+rng: 13277540752066213724
+funds:
+  - 7488000
+  - 7488000
+maintenance:
+  - 2624000
+  - 0
+researchScores:
+  - 0
+  - 0
+incomes:
+  - 6013000
+  - 6013000
+expenditures:
+  - 1914000
+  - 2624000
+warned: false
+regions:
+  - type: STR_NORTH_AMERICA
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 3
+      - 0
+  - type: STR_ARCTIC
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 8
+      - 0
+  - type: STR_ANTARCTICA
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 1
+      - 0
+  - type: STR_SOUTH_AMERICA
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 2
+      - 0
+  - type: STR_EUROPE
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 360
+      - 0
+  - type: STR_NORTH_AFRICA
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 1055
+      - 0
+  - type: STR_SOUTHERN_AFRICA
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 140
+      - 0
+  - type: STR_CENTRAL_ASIA
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 8
+      - 0
+  - type: STR_SOUTH_EAST_ASIA
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 2
+      - 0
+  - type: STR_SIBERIA
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 1
+      - 0
+  - activityAlien:
+      - 1
+      - 0
+    type: STR_AUSTRALASIA
+    activityXcom:
+      - 0
+      - 0
+  - type: STR_PACIFIC
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 6
+      - 0
+  - activityAlien:
+      - 2
+      - 0
+    type: STR_NORTH_ATLANTIC
+    activityXcom:
+      - 0
+      - 0
+  - type: STR_SOUTH_ATLANTIC
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 3
+      - 0
+  - type: STR_INDIAN_OCEAN
+    activityXcom:
+      - 0
+      - 0
+    activityAlien:
+      - 0
+      - 0
+difficulty: 2
+monthsPassed: 1
+graphRegionToggles: ""
+graphCountryToggles: ""
+graphFinanceToggles: ""

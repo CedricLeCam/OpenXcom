@@ -1,0 +1,1327 @@
+rulesets:
+  - Xcom1Ruleset
+  - Aliens_Pick_Up_Weapons
+  - UFOextender_Gun_Melee
+  - DartRifle
+  - FusionTorch
+  - LukesextraUFOs
+  - Ryskeliini - Grenade Launcher
+  - Ryskeliini - Magnum
+  - Ryskeliini - RPG Launcher
+  - Ryskeliini - Taser Pistol
+  - SECTOPOD_HWP
+  - Scoutdrone
+  - Stun_Grenade
+  - Terrain_Pack_Nightly
+  - TerrorSites
+build: " git 2015-03-24 04:14"
+name: landing
+time:
+  day: 14
+  minute: 3
+  weekday: 5
+  month: 1
+  year: 1999
+  second: 5
+  hour: 5
+version: 1.0
+---
+ufos:
+  - lon: 0.3177722920084195
+    lat: -0.77281304312128407
+    dest:
+      lon: 1.7274190011875137
+      type: STR_WAYPOINT
+      lat: -0.2857506996613785
+      id: 0
+    damage: 0
+    type: STR_LARGE_SCOUT
+    speed: 0
+    speedLon: 0
+    direction: STR_NONE_UC
+    trajectoryPoint: 7
+    id: 3
+    landId: 2
+    altitude: STR_GROUND
+    detected: true
+    speedLat: -0
+    mission: 1
+    trajectory: P4
+    secondsRemaining: 27380
+    speedRadian: 0
+    fireCountdown: 0
+    status: 1
+    escapeCountdown: 0
+  - lat: 0.21106772335795801
+    lon: 2.3107124486677622
+    id: 0
+    altitude: STR_VERY_LOW
+    fireCountdown: 0
+    escapeCountdown: 0
+    speedRadian: 0.00091144972048592759
+    trajectoryPoint: 3
+    status: 0
+    trajectory: P0
+    direction: STR_SOUTH_WEST
+    speed: 2256
+    dest:
+      type: STR_WAYPOINT
+      lat: 0.2816885726034048
+      lon: 2.2715615451318425
+      id: 0
+    speedLat: 0.00080481240800501456
+    damage: 0
+    mission: 2
+    speedLon: -0.00043751496954084579
+    type: STR_TERROR_SHIP
+bases:
+  - soldiers:
+      - initialStats:
+          throwing: 62
+          stamina: 41
+          bravery: 20
+          reactions: 43
+          tu: 52
+          strength: 23
+          psiSkill: 0
+          psiStrength: 53
+          melee: 20
+          health: 25
+          firing: 65
+        id: 1
+        kills: 1
+        name: Paolo Sansone
+        armor: STR_NONE_UC
+        psiStrImprovement: 0
+        rank: 1
+        gender: 0
+        look: 0
+        improvement: 0
+        equipmentLayout:
+          - itemType: STR_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - slotX: 1
+            slot: STR_RIGHT_SHOULDER
+            itemType: STR_SMOKE_GRENADE
+          - itemType: STR_ELECTRO_FLARE
+            slot: STR_LEFT_HAND
+          - itemType: STR_MAGNUM
+            ammoItem: STR_MAGNUM_DRUM
+            slot: STR_RIGHT_HAND
+          - slot: STR_LEFT_SHOULDER
+            itemType: STR_MAGNUM_DRUM
+          - slot: STR_LEFT_SHOULDER
+            itemType: STR_MAGNUM_DRUM
+            slotX: 1
+        missions: 1
+        currentStats:
+          tu: 52
+          melee: 20
+          psiStrength: 53
+          psiSkill: 0
+          firing: 67
+          bravery: 20
+          reactions: 43
+          stamina: 44
+          strength: 23
+          throwing: 62
+          health: 27
+      - missions: 1
+        psiStrImprovement: 0
+        id: 2
+        kills: 0
+        initialStats:
+          reactions: 57
+          stamina: 45
+          firing: 45
+          melee: 27
+          bravery: 20
+          health: 37
+          psiStrength: 37
+          throwing: 70
+          strength: 28
+          tu: 58
+          psiSkill: 0
+        name: David Vermeulen
+        look: 0
+        improvement: 0
+        currentStats:
+          firing: 45
+          psiSkill: 0
+          health: 37
+          reactions: 57
+          stamina: 45
+          bravery: 20
+          strength: 28
+          tu: 58
+          melee: 27
+          throwing: 71
+          psiStrength: 37
+        armor: STR_NONE_UC
+        equipmentLayout:
+          - slot: STR_RIGHT_HAND
+            itemType: STR_RIFLE
+            ammoItem: STR_RIFLE_CLIP
+          - itemType: STR_RIFLE_CLIP
+            slot: STR_RIGHT_SHOULDER
+          - itemType: STR_RIFLE_CLIP
+            slot: STR_RIGHT_SHOULDER
+            slotX: 1
+          - slot: STR_LEFT_HAND
+            itemType: STR_ELECTRO_FLARE
+          - itemType: STR_GRENADE
+            slot: STR_LEFT_SHOULDER
+          - slotX: 1
+            itemType: STR_SMOKE_GRENADE
+            slot: STR_LEFT_SHOULDER
+        rank: 0
+        gender: 0
+      - id: 3
+        name: Huia Tamaki
+        initialStats:
+          tu: 59
+          health: 39
+          reactions: 31
+          firing: 66
+          stamina: 61
+          bravery: 20
+          strength: 24
+          psiSkill: 0
+          melee: 23
+          throwing: 79
+          psiStrength: 81
+        look: 2
+        equipmentLayout:
+          - slot: STR_RIGHT_HAND
+            itemType: STR_MAGNUM
+            ammoItem: STR_MAGNUM_DRUM
+          - itemType: STR_MAGNUM_DRUM
+            slot: STR_LEFT_SHOULDER
+          - itemType: STR_ELECTRO_FLARE
+            slot: STR_LEFT_HAND
+          - slot: STR_RIGHT_SHOULDER
+            itemType: STR_GRENADE
+          - slotX: 1
+            itemType: STR_SMOKE_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - itemType: STR_MAGNUM_DRUM
+            slot: STR_LEFT_SHOULDER
+            slotX: 1
+        improvement: 0
+        kills: 1
+        currentStats:
+          stamina: 62
+          bravery: 20
+          health: 41
+          psiStrength: 81
+          firing: 66
+          tu: 59
+          strength: 28
+          throwing: 80
+          reactions: 31
+          melee: 23
+          psiSkill: 0
+        missions: 1
+        gender: 1
+        rank: 2
+        psiStrImprovement: 0
+        armor: STR_NONE_UC
+      - id: 4
+        name: Juho Hietala
+        initialStats:
+          melee: 32
+          health: 33
+          stamina: 43
+          bravery: 50
+          tu: 54
+          reactions: 36
+          throwing: 52
+          firing: 42
+          psiStrength: 98
+          strength: 20
+          psiSkill: 0
+        currentStats:
+          psiStrength: 98
+          tu: 54
+          stamina: 43
+          reactions: 36
+          health: 33
+          bravery: 50
+          firing: 42
+          throwing: 53
+          strength: 20
+          psiSkill: 0
+          melee: 32
+        rank: 0
+        gender: 0
+        look: 0
+        missions: 1
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_RIFLE
+            ammoItem: STR_RIFLE_CLIP
+            slot: STR_RIGHT_HAND
+          - slot: STR_RIGHT_SHOULDER
+            itemType: STR_RIFLE_CLIP
+          - itemType: STR_ELECTRO_FLARE
+            slot: STR_LEFT_HAND
+          - itemType: STR_SMOKE_GRENADE
+            slot: STR_LEFT_SHOULDER
+      - equipmentLayout:
+          - ammoItem: STR_MAGNUM_DRUM
+            slot: STR_RIGHT_HAND
+            itemType: STR_MAGNUM
+          - itemType: STR_MAGNUM_DRUM
+            slot: STR_LEFT_SHOULDER
+          - slot: STR_LEFT_HAND
+            itemType: STR_ELECTRO_FLARE
+          - itemType: STR_SMOKE_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - slot: STR_RIGHT_SHOULDER
+            slotX: 1
+            itemType: STR_GRENADE
+        psiStrImprovement: 0
+        improvement: 0
+        armor: STR_NONE_UC
+        missions: 1
+        name: Gaia De Luca
+        initialStats:
+          tu: 53
+          stamina: 47
+          health: 25
+          bravery: 30
+          reactions: 38
+          firing: 70
+          throwing: 63
+          melee: 26
+          psiSkill: 0
+          strength: 21
+          psiStrength: 25
+        id: 5
+        currentStats:
+          reactions: 38
+          stamina: 50
+          health: 29
+          tu: 56
+          throwing: 63
+          firing: 72
+          strength: 21
+          psiStrength: 25
+          psiSkill: 0
+          melee: 26
+          bravery: 30
+        look: 1
+        rank: 2
+        gender: 1
+        kills: 3
+      - equipmentLayout:
+          - slot: STR_RIGHT_HAND
+            ammoItem: STR_RIFLE_CLIP
+            itemType: STR_RIFLE
+          - itemType: STR_RIFLE_CLIP
+            slot: STR_RIGHT_SHOULDER
+          - slotX: 1
+            itemType: STR_SMOKE_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - slot: STR_LEFT_SHOULDER
+            itemType: STR_GRENADE
+          - itemType: STR_ELECTRO_FLARE
+            slot: STR_LEFT_HAND
+          - slotX: 1
+            itemType: STR_RIFLE_CLIP
+            slot: STR_LEFT_SHOULDER
+        improvement: 0
+        armor: STR_NONE_UC
+        psiStrImprovement: 0
+        look: 1
+        kills: 0
+        missions: 1
+        rank: 0
+        currentStats:
+          firing: 44
+          melee: 40
+          psiStrength: 76
+          psiSkill: 0
+          throwing: 58
+          strength: 29
+          tu: 59
+          reactions: 54
+          stamina: 40
+          health: 36
+          bravery: 50
+        name: Peter Keniz
+        initialStats:
+          psiSkill: 0
+          psiStrength: 76
+          firing: 44
+          throwing: 58
+          strength: 29
+          stamina: 40
+          bravery: 50
+          health: 36
+          tu: 59
+          reactions: 54
+          melee: 40
+        id: 6
+        gender: 0
+      - name: Mitsuko Kikuchi
+        initialStats:
+          reactions: 58
+          firing: 69
+          health: 33
+          bravery: 20
+          stamina: 59
+          tu: 51
+          melee: 33
+          psiSkill: 0
+          psiStrength: 0
+          throwing: 60
+          strength: 31
+        id: 7
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        equipmentLayout:
+          - itemType: STR_MAGNUM
+            ammoItem: STR_MAGNUM_DRUM
+            slot: STR_RIGHT_HAND
+          - slot: STR_LEFT_SHOULDER
+            itemType: STR_MAGNUM_DRUM
+          - slotX: 1
+            slot: STR_LEFT_SHOULDER
+            itemType: STR_MAGNUM_DRUM
+          - slot: STR_LEFT_HAND
+            itemType: STR_ELECTRO_FLARE
+          - slot: STR_RIGHT_SHOULDER
+            itemType: STR_GRENADE
+          - slotX: 1
+            slot: STR_RIGHT_SHOULDER
+            itemType: STR_SMOKE_GRENADE
+          - itemType: STR_GRENADE
+            slot: STR_LEFT_LEG
+        psiStrImprovement: 0
+        look: 2
+        missions: 1
+        gender: 1
+        craft:
+          id: 1
+          type: STR_SKYRANGER
+          lon: 0.50163972540486657
+          lat: -0.68505863064443395
+        rank: 2
+        currentStats:
+          melee: 33
+          psiStrength: 0
+          psiSkill: 0
+          strength: 35
+          firing: 70
+          reactions: 58
+          bravery: 20
+          health: 37
+          stamina: 64
+          tu: 53
+          throwing: 61
+      - look: 1
+        gender: 1
+        kills: 0
+        missions: 1
+        craft:
+          lat: -0.68505863064443395
+          id: 1
+          type: STR_SKYRANGER
+          lon: 0.50163972540486657
+        rank: 0
+        currentStats:
+          melee: 35
+          psiSkill: 0
+          psiStrength: 40
+          strength: 32
+          throwing: 61
+          firing: 49
+          reactions: 37
+          bravery: 60
+          health: 27
+          stamina: 68
+          tu: 51
+        initialStats:
+          melee: 35
+          psiStrength: 40
+          throwing: 61
+          reactions: 37
+          psiSkill: 0
+          firing: 49
+          strength: 32
+          health: 27
+          bravery: 60
+          tu: 51
+          stamina: 68
+        id: 8
+        name: Karoline Fjaerestad
+        equipmentLayout:
+          - slot: STR_RIGHT_HAND
+            itemType: STR_RIFLE
+            ammoItem: STR_RIFLE_CLIP
+          - slot: STR_RIGHT_SHOULDER
+            itemType: STR_RIFLE_CLIP
+          - itemType: STR_ELECTRO_FLARE
+            slot: STR_LEFT_HAND
+          - slot: STR_RIGHT_SHOULDER
+            itemType: STR_GRENADE
+            slotX: 1
+          - slot: STR_LEFT_SHOULDER
+            itemType: STR_SMOKE_GRENADE
+          - itemType: STR_GRENADE
+            slotX: 1
+            slot: STR_LEFT_SHOULDER
+          - slot: STR_LEFT_LEG
+            itemType: STR_GRENADE
+          - slotX: 1
+            slot: STR_LEFT_LEG
+            itemType: STR_GRENADE
+        improvement: 0
+        armor: STR_NONE_UC
+        psiStrImprovement: 0
+      - rank: 0
+        craft:
+          lat: -0.68505863064443395
+          lon: 0.50163972540486657
+          type: STR_SKYRANGER
+          id: 1
+        equipmentLayout:
+          - ammoItem: STR_MAGNUM_DRUM
+            slot: STR_RIGHT_HAND
+            itemType: STR_MAGNUM
+          - itemType: STR_MAGNUM_DRUM
+            slot: STR_LEFT_SHOULDER
+          - slot: STR_LEFT_HAND
+            itemType: STR_ELECTRO_FLARE
+          - itemType: STR_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - slot: STR_RIGHT_SHOULDER
+            slotX: 1
+            itemType: STR_SMOKE_GRENADE
+        gender: 0
+        look: 0
+        kills: 0
+        psiStrImprovement: 0
+        improvement: 0
+        missions: 1
+        armor: STR_NONE_UC
+        currentStats:
+          throwing: 67
+          strength: 28
+          firing: 65
+          psiStrength: 78
+          psiSkill: 0
+          melee: 38
+          bravery: 10
+          tu: 52
+          stamina: 67
+          health: 31
+          reactions: 52
+        initialStats:
+          melee: 38
+          psiSkill: 0
+          strength: 28
+          tu: 52
+          throwing: 66
+          firing: 65
+          bravery: 10
+          reactions: 52
+          stamina: 67
+          psiStrength: 78
+          health: 31
+        id: 9
+        name: Ralf Lange
+      - armor: STR_NONE_UC
+        id: 10
+        psiStrImprovement: 0
+        improvement: 0
+        initialStats:
+          strength: 36
+          bravery: 60
+          tu: 53
+          firing: 41
+          psiSkill: 0
+          melee: 24
+          reactions: 45
+          health: 34
+          stamina: 70
+          throwing: 78
+          psiStrength: 35
+        name: Tapani Kokkonen
+        rank: 0
+        missions: 1
+        gender: 0
+        look: 0
+        craft:
+          lat: -0.68505863064443395
+          type: STR_SKYRANGER
+          lon: 0.50163972540486657
+          id: 1
+        kills: 0
+        currentStats:
+          melee: 24
+          psiStrength: 35
+          reactions: 45
+          bravery: 60
+          tu: 53
+          stamina: 70
+          health: 34
+          throwing: 78
+          psiSkill: 0
+          firing: 41
+          strength: 36
+        equipmentLayout:
+          - itemType: STR_RIFLE
+            ammoItem: STR_RIFLE_CLIP
+            slot: STR_RIGHT_HAND
+          - slot: STR_RIGHT_SHOULDER
+            itemType: STR_RIFLE_CLIP
+          - slot: STR_RIGHT_SHOULDER
+            itemType: STR_GRENADE
+            slotX: 1
+          - slot: STR_LEFT_HAND
+            itemType: STR_ELECTRO_FLARE
+          - slot: STR_LEFT_SHOULDER
+            itemType: STR_SMOKE_GRENADE
+      - gender: 0
+        look: 3
+        craft:
+          id: 1
+          type: STR_SKYRANGER
+          lat: -0.68505863064443395
+          lon: 0.50163972540486657
+        kills: 0
+        initialStats:
+          psiSkill: 0
+          bravery: 60
+          tu: 56
+          stamina: 53
+          health: 30
+          reactions: 31
+          psiStrength: 98
+          throwing: 78
+          strength: 36
+          melee: 32
+          firing: 53
+        name: Céléstin Lubanga
+        psiStrImprovement: 0
+        improvement: 0
+        rank: 0
+        id: 11
+        armor: STR_NONE_UC
+        missions: 0
+        currentStats:
+          psiStrength: 98
+          psiSkill: 0
+          melee: 32
+          strength: 36
+          health: 30
+          reactions: 31
+          throwing: 78
+          bravery: 60
+          firing: 53
+          stamina: 53
+          tu: 56
+      - armor: STR_NONE_UC
+        improvement: 0
+        id: 12
+        psiStrImprovement: 0
+        kills: 0
+        name: Nuno Peixe
+        currentStats:
+          firing: 55
+          stamina: 49
+          tu: 50
+          bravery: 10
+          reactions: 37
+          strength: 40
+          throwing: 65
+          psiStrength: 99
+          health: 36
+          melee: 26
+          psiSkill: 0
+        rank: 0
+        missions: 0
+        gender: 0
+        look: 3
+        initialStats:
+          tu: 50
+          reactions: 37
+          bravery: 10
+          health: 36
+          firing: 55
+          strength: 40
+          psiSkill: 0
+          psiStrength: 99
+          melee: 26
+          throwing: 65
+          stamina: 49
+        craft:
+          lon: 0.50163972540486657
+          lat: -0.68505863064443395
+          id: 1
+          type: STR_SKYRANGER
+      - name: Robert Pawlowski
+        currentStats:
+          bravery: 40
+          stamina: 47
+          tu: 54
+          health: 33
+          reactions: 48
+          throwing: 56
+          strength: 29
+          psiSkill: 0
+          psiStrength: 39
+          melee: 24
+          firing: 48
+        initialStats:
+          bravery: 40
+          tu: 54
+          psiStrength: 39
+          reactions: 48
+          strength: 29
+          firing: 48
+          throwing: 56
+          melee: 24
+          stamina: 47
+          psiSkill: 0
+          health: 33
+        id: 13
+        craft:
+          id: 1
+          lon: 0.50163972540486657
+          lat: -0.68505863064443395
+          type: STR_SKYRANGER
+        kills: 0
+        armor: STR_NONE_UC
+        rank: 0
+        gender: 0
+        missions: 0
+        psiStrImprovement: 0
+        improvement: 0
+        look: 0
+      - gender: 0
+        kills: 0
+        initialStats:
+          firing: 62
+          bravery: 30
+          melee: 27
+          psiStrength: 23
+          strength: 25
+          reactions: 57
+          throwing: 68
+          psiSkill: 0
+          health: 35
+          tu: 51
+          stamina: 49
+        psiStrImprovement: 0
+        look: 0
+        id: 14
+        craft:
+          lon: 0.50163972540486657
+          id: 1
+          type: STR_SKYRANGER
+          lat: -0.68505863064443395
+        missions: 0
+        name: Vural Ersoy
+        currentStats:
+          melee: 27
+          firing: 62
+          reactions: 57
+          tu: 51
+          throwing: 68
+          bravery: 30
+          stamina: 49
+          psiStrength: 23
+          health: 35
+          strength: 25
+          psiSkill: 0
+        rank: 0
+        improvement: 0
+        armor: STR_NONE_UC
+      - kills: 0
+        initialStats:
+          firing: 67
+          tu: 54
+          stamina: 59
+          psiSkill: 0
+          psiStrength: 88
+          melee: 34
+          strength: 23
+          reactions: 59
+          throwing: 52
+          health: 27
+          bravery: 40
+        armor: STR_NONE_UC
+        id: 15
+        currentStats:
+          bravery: 40
+          stamina: 59
+          tu: 54
+          health: 27
+          strength: 23
+          psiStrength: 88
+          reactions: 59
+          melee: 34
+          psiSkill: 0
+          firing: 67
+          throwing: 52
+        name: Mulu Ken Melku
+        gender: 1
+        rank: 0
+        missions: 0
+        psiStrImprovement: 0
+        craft:
+          type: STR_SKYRANGER
+          lat: -0.68505863064443395
+          id: 1
+          lon: 0.50163972540486657
+        improvement: 0
+        look: 3
+      - craft:
+          lon: 0.50163972540486657
+          id: 1
+          lat: -0.68505863064443395
+          type: STR_SKYRANGER
+        kills: 0
+        rank: 0
+        name: Liviu Marinescu
+        initialStats:
+          throwing: 55
+          strength: 35
+          tu: 53
+          firing: 45
+          stamina: 70
+          bravery: 20
+          health: 27
+          reactions: 53
+          melee: 31
+          psiStrength: 52
+          psiSkill: 0
+        armor: STR_NONE_UC
+        missions: 0
+        psiStrImprovement: 0
+        currentStats:
+          stamina: 70
+          firing: 45
+          strength: 35
+          reactions: 53
+          throwing: 55
+          psiSkill: 0
+          tu: 53
+          melee: 31
+          bravery: 20
+          psiStrength: 52
+          health: 27
+        gender: 0
+        look: 1
+        improvement: 0
+        id: 16
+    items:
+      STR_ELERIUM_115: 50
+      STR_PLASMA_PISTOL_CLIP: 8
+      STR_RIFLE_CLIP: 9
+      STR_STINGRAY_MISSILES: 19
+      STR_PLASMA_RIFLE: 1
+      STR_RPG_HE: 10
+      STR_PLASMA_PISTOL: 5
+      STR_UFO_NAVIGATION: 2
+      STR_MIND_PROBE: 1
+      STR_ALIEN_ALLOYS: 12
+      STR_RIFLE: 6
+      STR_AVALANCHE_MISSILES: 7
+      STR_SECTOID_CORPSE: 1
+      STR_PISTOL_CLIP: 13
+      STR_AC_AP_AMMO: 4
+      STR_PISTOL: 5
+      STR_UFO_POWER_SOURCE: 1
+      STR_RPG: 1
+      STR_SCOUT_SMOKE: 6
+    inBattlescape: false
+    research:
+      - cost: 302
+        assigned: 24
+        spent: 270
+        project: STR_MEDI_KIT
+    retaliationTarget: false
+    crafts:
+      - interceptionOrder: 2
+        status: STR_OUT
+        takeoff: 50
+        damage: 0
+        speedLat: -0.00018069408151211126
+        items:
+          STR_ELECTRO_FLARE: 10
+          STR_AC_AP_AMMO: 2
+          STR_HEAVY_CANNON: 2
+          STR_RIFLE_CLIP: 20
+          STR_MAGNUM_DRUM: 12
+          STR_SMALL_ROCKET: 10
+          STR_MAGNUM: 6
+          STR_GRENADE: 15
+          STR_HC_HE_AMMO: 8
+          STR_RIFLE: 10
+          STR_SMOKE_GRENADE: 13
+          STR_ROCKET_LAUNCHER: 1
+          STR_HC_AP_AMMO: 8
+          STR_AUTO_CANNON: 1
+        speed: 760
+        lon: 0.50163972540486657
+        lat: -0.68505863064443395
+        vehicles:
+          - size: 1
+            type: STR_SCOUT_DRONE
+            ammo: 6
+        dest:
+          type: STR_UFO
+          lon: 0.3177722920084195
+          lat: -0.77281304312128407
+          id: 3
+        speedLon: -0.00032062679751594967
+        type: STR_SKYRANGER
+        speedRadian: 0.0003070486647027061
+        fuel: 1500
+        id: 1
+      - type: STR_INTERCEPTOR
+        speedRadian: 0
+        damage: 0
+        weapons:
+          - ammo: 3
+            type: STR_AVALANCHE
+          - ammo: 6
+            type: STR_STINGRAY
+        fuel: 1000
+        speedLat: 0
+        lat: -0.68505863064443395
+        speed: 0
+        status: STR_READY
+        id: 1
+        items:
+          {}
+        lon: 0.50163972540486657
+        speedLon: 0
+      - weapons:
+          - type: STR_STINGRAY
+            ammo: 6
+          - ammo: 6
+            type: STR_STINGRAY
+        status: STR_OUT
+        interceptionOrder: 1
+        items:
+          {}
+        takeoff: 36
+        lon: 0.50163972540486657
+        speed: 2100
+        type: STR_INTERCEPTOR
+        speedLat: -0.00049928627786241281
+        dest:
+          id: 3
+          lat: -0.77281304312128407
+          type: STR_UFO
+          lon: 0.3177722920084195
+        id: 2
+        damage: 0
+        speedLon: -0.00088617327639293694
+        fuel: 1000
+        speedRadian: 0.00084842394194168801
+        lat: -0.68505863064443395
+    transfers:
+      - hours: 19
+        itemId: STR_ROCKET_LAUNCHER
+        itemQty: 1
+      - itemId: STR_LARGE_ROCKET
+        hours: 19
+        itemQty: 6
+      - itemQty: 10
+        itemId: STR_HIGH_EXPLOSIVE
+        hours: 19
+    engineers: 10
+    scientists: 0
+    name: X1
+    lon: 0.50163972540486657
+    lat: -0.68505863064443395
+    facilities:
+      - x: 0
+        type: STR_ACCESS_LIFT
+        y: 2
+      - y: 0
+        type: STR_HANGAR
+        x: 0
+      - y: 0
+        x: 2
+        type: STR_HANGAR
+      - type: STR_HANGAR
+        y: 0
+        x: 4
+      - type: STR_GENERAL_STORES
+        y: 3
+        x: 0
+      - x: 0
+        y: 4
+        type: STR_LIVING_QUARTERS
+      - x: 0
+        y: 5
+        type: STR_SMALL_RADAR_SYSTEM
+      - y: 3
+        type: STR_LABORATORY
+        x: 1
+      - type: STR_WORKSHOP
+        x: 1
+        y: 4
+      - x: 2
+        y: 3
+        type: STR_GENERAL_STORES
+      - type: STR_LIVING_QUARTERS
+        y: 4
+        x: 2
+        buildTime: 3
+      - buildTime: 12
+        x: 1
+        y: 5
+        type: STR_LARGE_RADAR_SYSTEM
+      - buildTime: 21
+        type: STR_ALIEN_CONTAINMENT
+        y: 5
+        x: 2
+alienMissions:
+  - region: STR_EUROPE
+    spawnCountdown: 10320
+    uniqueID: 1
+    nextWave: 2
+    race: STR_SECTOID
+    type: STR_ALIEN_RESEARCH
+    liveUfos: 1
+    nextUfoCounter: 1
+  - liveUfos: 1
+    spawnCountdown: 9180
+    uniqueID: 2
+    type: STR_ALIEN_TERROR
+    region: STR_AUSTRALASIA
+    nextUfoCounter: 0
+    race: STR_SECTOID
+    nextWave: 3
+alienStrategy:
+  regions:
+    STR_PACIFIC: 5
+    STR_NORTH_AMERICA: 18
+    STR_AUSTRALASIA: 10
+    STR_NORTH_ATLANTIC: 45
+    STR_SOUTH_ATLANTIC: 5
+    STR_SIBERIA: 10
+    STR_INDIAN_OCEAN: 5
+    STR_NORTH_AFRICA: 12
+    STR_SOUTH_EAST_ASIA: 15
+    STR_ANTARCTICA: 4
+    STR_CENTRAL_ASIA: 12
+    STR_EUROPE: 16
+    STR_SOUTHERN_AFRICA: 8
+    STR_ARCTIC: 4
+    STR_SOUTH_AMERICA: 10
+  possibleMissions:
+    - region: STR_ANTARCTICA
+      missions:
+        STR_ALIEN_BASE: 35
+        STR_ALIEN_RESEARCH: 25
+    - region: STR_ARCTIC
+      missions:
+        STR_ALIEN_RESEARCH: 25
+        STR_ALIEN_BASE: 35
+    - missions:
+        STR_ALIEN_INFILTRATION: 8
+        STR_ALIEN_BASE: 16
+        STR_ALIEN_RESEARCH: 15
+        STR_ALIEN_HARVEST: 11
+        STR_ALIEN_ABDUCTION: 4
+      region: STR_AUSTRALASIA
+    - missions:
+        STR_ALIEN_ABDUCTION: 6
+        STR_ALIEN_INFILTRATION: 10
+        STR_ALIEN_BASE: 8
+        STR_ALIEN_RESEARCH: 5
+        STR_ALIEN_HARVEST: 5
+      region: STR_CENTRAL_ASIA
+    - region: STR_EUROPE
+      missions:
+        STR_ALIEN_INFILTRATION: 20
+        STR_ALIEN_BASE: 6
+        STR_ALIEN_ABDUCTION: 15
+        STR_ALIEN_HARVEST: 10
+    - region: STR_INDIAN_OCEAN
+      missions:
+        STR_ALIEN_RESEARCH: 15
+        STR_ALIEN_TERROR: 15
+    - region: STR_NORTH_AFRICA
+      missions:
+        STR_ALIEN_BASE: 19
+        STR_ALIEN_HARVEST: 8
+        STR_ALIEN_RESEARCH: 8
+        STR_ALIEN_INFILTRATION: 8
+        STR_ALIEN_ABDUCTION: 8
+    - missions:
+        STR_ALIEN_HARVEST: 17
+        STR_ALIEN_BASE: 20
+        STR_ALIEN_ABDUCTION: 20
+        STR_ALIEN_INFILTRATION: 20
+        STR_ALIEN_RESEARCH: 14
+      region: STR_NORTH_AMERICA
+    - region: STR_NORTH_ATLANTIC
+      missions:
+        STR_ALIEN_RESEARCH: 15
+        STR_ALIEN_TERROR: 15
+    - region: STR_PACIFIC
+      missions:
+        STR_ALIEN_TERROR: 15
+        STR_ALIEN_RESEARCH: 15
+        STR_ALIEN_BASE: 27
+    - missions:
+        STR_ALIEN_BASE: 9
+        STR_ALIEN_ABDUCTION: 4
+        STR_ALIEN_RESEARCH: 6
+      region: STR_SIBERIA
+    - region: STR_SOUTHERN_AFRICA
+      missions:
+        STR_ALIEN_HARVEST: 8
+        STR_ALIEN_ABDUCTION: 8
+        STR_ALIEN_INFILTRATION: 8
+        STR_ALIEN_BASE: 9
+        STR_ALIEN_RESEARCH: 7
+    - missions:
+        STR_ALIEN_INFILTRATION: 18
+        STR_ALIEN_HARVEST: 24
+        STR_ALIEN_RESEARCH: 10
+        STR_ALIEN_ABDUCTION: 12
+        STR_ALIEN_BASE: 22
+      region: STR_SOUTH_AMERICA
+    - region: STR_SOUTH_ATLANTIC
+      missions:
+        STR_ALIEN_TERROR: 15
+        STR_ALIEN_RESEARCH: 15
+    - region: STR_SOUTH_EAST_ASIA
+      missions:
+        STR_ALIEN_RESEARCH: 8
+        STR_ALIEN_INFILTRATION: 13
+        STR_ALIEN_HARVEST: 13
+        STR_ALIEN_ABDUCTION: 21
+        STR_ALIEN_BASE: 8
+globeZoom: 1
+incomes:
+  - 6204108
+expenditures:
+  - 5262900
+rng: 13313331007993671670
+globeLat: -0.77281304312128407
+regions:
+  - activityXcom:
+      - 0
+    type: STR_NORTH_AMERICA
+    activityAlien:
+      - 0
+  - activityAlien:
+      - 1
+    activityXcom:
+      - 0
+    type: STR_ARCTIC
+  - type: STR_ANTARCTICA
+    activityAlien:
+      - 5
+    activityXcom:
+      - 0
+  - activityXcom:
+      - 0
+    type: STR_SOUTH_AMERICA
+    activityAlien:
+      - 1
+  - type: STR_EUROPE
+    activityAlien:
+      - 98
+    activityXcom:
+      - 149
+  - activityAlien:
+      - 3
+    type: STR_NORTH_AFRICA
+    activityXcom:
+      - 0
+  - activityAlien:
+      - 0
+    activityXcom:
+      - 0
+    type: STR_SOUTHERN_AFRICA
+  - type: STR_CENTRAL_ASIA
+    activityXcom:
+      - 0
+    activityAlien:
+      - 4
+  - activityXcom:
+      - 0
+    type: STR_SOUTH_EAST_ASIA
+    activityAlien:
+      - 8
+  - activityXcom:
+      - 0
+    type: STR_SIBERIA
+    activityAlien:
+      - 2
+  - activityAlien:
+      - 199
+    type: STR_AUSTRALASIA
+    activityXcom:
+      - 0
+  - activityAlien:
+      - 0
+    activityXcom:
+      - 0
+    type: STR_PACIFIC
+  - activityXcom:
+      - 0
+    activityAlien:
+      - 0
+    type: STR_NORTH_ATLANTIC
+  - type: STR_SOUTH_ATLANTIC
+    activityXcom:
+      - 0
+    activityAlien:
+      - 4
+  - activityXcom:
+      - 0
+    activityAlien:
+      - 0
+    type: STR_INDIAN_OCEAN
+researchScores:
+  - 0
+globeLon: 0.3177722920084195
+difficulty: 2
+graphFinanceToggles: 00000
+monthsPassed: 0
+maintenance:
+  - 0
+graphCountryToggles: 11111111111111110
+countries:
+  - funding:
+      - 1144000
+    activityXcom:
+      - 0
+    activityAlien:
+      - 0
+    type: STR_USA
+  - activityAlien:
+      - 3
+    type: STR_RUSSIA
+    activityXcom:
+      - 0
+    funding:
+      - 366000
+  - activityXcom:
+      - 0
+    activityAlien:
+      - 2
+    type: STR_UK
+    funding:
+      - 439000
+  - activityAlien:
+      - 2
+    funding:
+      - 596000
+    type: STR_FRANCE
+    activityXcom:
+      - 0
+  - activityAlien:
+      - 19
+    type: STR_GERMANY
+    funding:
+      - 253000
+    activityXcom:
+      - 149
+  - activityAlien:
+      - 3
+    funding:
+      - 198000
+    activityXcom:
+      - 0
+    type: STR_ITALY
+  - funding:
+      - 218000
+    activityXcom:
+      - 0
+    type: STR_SPAIN
+    activityAlien:
+      - 0
+  - funding:
+      - 359000
+    activityAlien:
+      - 3
+    type: STR_CHINA
+    activityXcom:
+      - 0
+  - activityXcom:
+      - 0
+    funding:
+      - 616000
+    activityAlien:
+      - 1
+    type: STR_JAPAN
+  - funding:
+      - 175000
+    activityAlien:
+      - 1
+    activityXcom:
+      - 0
+    type: STR_INDIA
+  - funding:
+      - 291000
+    activityAlien:
+      - 1
+    activityXcom:
+      - 0
+    type: STR_BRAZIL
+  - activityAlien:
+      - 110
+    type: STR_AUSTRALIA
+    funding:
+      - 428000
+    activityXcom:
+      - 0
+  - activityAlien:
+      - 0
+    funding:
+      - 171000
+    type: STR_NIGERIA
+    activityXcom:
+      - 0
+  - activityXcom:
+      - 0
+    type: STR_SOUTH_AFRICA
+    funding:
+      - 240000
+    activityAlien:
+      - 0
+  - activityXcom:
+      - 0
+    type: STR_EGYPT
+    funding:
+      - 279000
+    activityAlien:
+      - 0
+  - funding:
+      - 232000
+    activityAlien:
+      - 0
+    type: STR_CANADA
+    activityXcom:
+      - 0
+warned: false
+funds:
+  - 941208
+ids:
+  STR_UFO: 4
+  STR_LANDING_SITE: 3
+  STR_SKYRANGER: 2
+  STR_INTERCEPTOR: 3
+  ALIEN_MISSIONS: 3
+  STR_WAYPOINT: 7
+  STR_SOLDIER: 17
+graphRegionToggles: 1111111111111110
