@@ -1,31 +1,29 @@
-[07-04-2015 23:06:23]	[INFO]	Data folder is: 
-[07-04-2015 23:06:23]	[INFO]	Data search is: 
-[07-04-2015 23:06:23]	[INFO]	- C:\Users\User\Documents\OpenXcom\data\
-[07-04-2015 23:06:23]	[INFO]	- C:\Games\OpenXcom\data\
-[07-04-2015 23:06:23]	[INFO]	- C:\Games\OpenXcom\data\
-[07-04-2015 23:06:23]	[INFO]	User folder is: C:\Users\User\Documents\OpenXcom\
-[07-04-2015 23:06:23]	[INFO]	Config folder is: C:\Users\User\Documents\OpenXcom\
-[07-04-2015 23:06:23]	[INFO]	Options loaded successfully.
-[07-04-2015 23:06:23]	[INFO]	SDL initialized successfully.
-[07-04-2015 23:06:28]	[INFO]	SDL_mixer initialized successfully.
-[07-04-2015 23:06:28]	[INFO]	Attempting to set display to 1280x768x8...
-[07-04-2015 23:06:28]	[INFO]	Display set to 1280x768x8.
-[07-04-2015 23:06:28]	[INFO]	Loading ruleset...
-[07-04-2015 23:06:30]	[INFO]	Ruleset loaded successfully.
-[07-04-2015 23:06:30]	[INFO]	Loading resources...
-[07-04-2015 23:06:31]	[INFO]	Loading extra resources from ruleset...
-[07-04-2015 23:06:31]	[INFO]	Resources loaded successfully.
-[07-04-2015 23:06:31]	[INFO]	Loading language...
-[07-04-2015 23:06:31]	[INFO]	Language loaded successfully.
-[07-04-2015 23:06:31]	[INFO]	OpenXcom started successfully!
-[07-04-2015 23:06:31]	[INFO]	Playing flx, 320x200, 890 frames
-[07-04-2015 23:06:31]	[INFO]	Using software scaling routine. For best results, try an OpenGL filter.
-[07-04-2015 23:06:52]	[INFO]	SDL_mixer initialized successfully.
-[07-04-2015 23:06:53]	[INFO]	Attempting to set display to 1280x768x32...
-[07-04-2015 23:06:53]	[INFO]	Display set to 1280x768x32.
-[07-04-2015 23:07:05]	[INFO]	Attempting to set display to 800x600x8...
-[07-04-2015 23:07:05]	[INFO]	Display set to 800x600x8.
-[07-04-2015 23:07:21]	[INFO]	Attempting to set display to 800x600x32...
-[07-04-2015 23:07:21]	[INFO]	Display set to 800x600x32.
-[07-04-2015 23:07:26]	[INFO]	Attempting to set display to 800x600x32...
-[07-04-2015 23:07:26]	[INFO]	Display set to 800x600x32.
+[09-04-2015 13:49:16]	[INFO]	Data folder is: 
+[09-04-2015 13:49:16]	[INFO]	Data search is: 
+[09-04-2015 13:49:16]	[INFO]	- C:\Users\clecam\Documents\OpenXcom\data\
+[09-04-2015 13:49:16]	[INFO]	- C:\Games\OpenXcom\data\
+[09-04-2015 13:49:16]	[INFO]	- C:\Games\OpenXcom\data\
+[09-04-2015 13:49:16]	[INFO]	User folder is: C:\Users\clecam\Documents\OpenXcom\
+[09-04-2015 13:49:16]	[INFO]	Config folder is: C:\Users\clecam\Documents\OpenXcom\
+[09-04-2015 13:49:16]	[INFO]	Options loaded successfully.
+[09-04-2015 13:49:16]	[INFO]	SDL initialized successfully.
+[09-04-2015 13:49:16]	[INFO]	SDL_mixer initialized successfully.
+[09-04-2015 13:49:16]	[INFO]	Attempting to set display to 800x600x8...
+[09-04-2015 13:49:17]	[INFO]	Display set to 800x600x8.
+[09-04-2015 13:49:17]	[INFO]	Loading ruleset...
+[09-04-2015 13:49:17]	[INFO]	Ruleset loaded successfully.
+[09-04-2015 13:49:17]	[INFO]	Loading resources...
+[09-04-2015 13:49:18]	[INFO]	Loading extra resources from ruleset...
+[09-04-2015 13:49:18]	[INFO]	Resources loaded successfully.
+[09-04-2015 13:49:18]	[INFO]	Loading language...
+[09-04-2015 13:49:18]	[INFO]	Language loaded successfully.
+[09-04-2015 13:49:18]	[INFO]	OpenXcom started successfully!
+[09-04-2015 13:49:18]	[INFO]	Playing flx, 320x200, 890 frames
+[09-04-2015 13:49:18]	[INFO]	Using software scaling routine. For best results, try an OpenGL filter.
+[09-04-2015 13:49:22]	[INFO]	SDL_mixer initialized successfully.
+[09-04-2015 13:49:23]	[INFO]	Attempting to set display to 800x600x32...
+[09-04-2015 13:49:23]	[INFO]	Display set to 800x600x32.
+[09-04-2015 13:55:35]	[WARN]	No free channels available
+[09-04-2015 13:58:17]	[WARN]	No free channels available
+[09-04-2015 14:10:54]	[WARN]	No free channels available
+[09-04-2015 14:14:06]	[WARN]	No free channels available
