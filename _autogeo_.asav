@@ -1,13 +1,3 @@
-name: _autogeo_.asav
-version: 1.0
-time:
-  weekday: 5
-  hour: 0
-  second: 0
-  month: 5
-  day: 20
-  year: 1999
-  minute: 48
 rulesets:
   - Xcom1Ruleset
   - Aliens_Pick_Up_Weapons
@@ -24,1777 +14,1524 @@ rulesets:
   - TerrorSites
   - sectopod_xcom
   - Doge
+name: _autogeo_.asav
+version: 1.0
 build: " git 2015-04-06 16:34"
+time:
+  month: 6
+  year: 1999
+  weekday: 3
+  minute: 0
+  day: 1
+  second: 0
+  hour: 0
 ---
-bases:
-  - scientists: 0
-    engineers: 0
-    transfers:
-      - itemId: STR_AVALANCHE_MISSILES
-        hours: 25
-        itemQty: 8
-      - hours: 49
-        soldier:
-          psiStrImprovement: 0
-          missions: 0
-          kills: 0
-          currentStats:
-            health: 38
-            tu: 57
-            psiStrength: 73
-            throwing: 79
-            bravery: 60
-            strength: 36
-            melee: 38
-            psiSkill: 0
-            firing: 65
-            reactions: 36
-            stamina: 62
-          gender: 0
-          id: 67
-          look: 1
-          improvement: 0
-          armor: STR_NONE_UC
-          initialStats:
-            reactions: 36
-            psiStrength: 73
-            throwing: 79
-            strength: 36
-            firing: 65
-            tu: 57
-            psiSkill: 0
-            stamina: 62
-            health: 38
-            bravery: 60
-            melee: 38
-          rank: 0
-          name: Antal Mindszenty
-      - hours: 26
-        itemQty: 6
-        itemId: STR_AVALANCHE_MISSILES
-    retaliationTarget: false
-    crafts:
-      - lat: -0.27483864552248072
-        mission: true
-        speed: 760
-        dest:
-          lat: -0.68505863064443395
-          lon: 0.50163972540486657
-          type: STR_BASE
-          id: 0
-        speedRadian: 0.0003070486647027061
-        fuel: 1269
-        id: 1
-        speedLon: -0.0002562069766282148
-        type: STR_SKYRANGER
-        speedLat: -0.00018296967789731896
-        interceptionOrder: 2
-        status: STR_OUT
-        lon: 1.8187412085933599
-        items:
-          STR_SMOKE_GRENADE: 13
-          STR_HEAVY_LASER: 4
-          STR_LASER_RIFLE: 12
-          STR_HIGH_EXPLOSIVE: 9
-          STR_STUN_ROD: 8
-          STR_MEDI_KIT: 5
-          STR_DART_RIFLE: 3
-          STR_ELECTRO_FLARE: 9
-          STR_GRENADE: 15
-          STR_DART_RIFLE_CLIP_A: 3
-        damage: 0
-      - speedLat: 0
-        items:
-          {}
-        id: 1
-        lon: 0.50163972540486657
-        fuel: 1000
-        weapons:
-          - type: STR_AVALANCHE
-            ammo: 1
-          - ammo: 1
-            type: STR_AVALANCHE
-        damage: 0
-        type: STR_INTERCEPTOR
-        lat: -0.68505863064443395
-        speedLon: 0
-        speedRadian: 0
-        speed: 0
-        status: STR_READY
-    research:
-      - project: STR_HEAVY_PLASMA_CLIP
-        cost: 496
-        assigned: 50
-        spent: 0
-    items:
-      STR_SMALL_LAUNCHER: 4
-      STR_CYBERDISC_CORPSE: 1
-      STR_STUN_BOMB: 8
-      STR_MIND_PROBE: 1
-      STR_EXAMINATION_ROOM: 1
-      STR_SMALL_ROCKET: 6
-      STR_SECTOID_CORPSE: 6
-      STR_PLASMA_RIFLE: 13
-      STR_ALIEN_ALLOYS: 78
-      STR_SNAKEMAN_CORPSE: 1
-      STR_ALIEN_HABITAT: 1
-      STR_ROCKET_LAUNCHER: 2
-      STR_ELERIUM_115: 200
-      STR_UFO_NAVIGATION: 7
-      STR_ALIEN_GRENADE: 20
-      STR_HEAVY_PLASMA_CLIP: 16
-      STR_REAPER_TERRORIST: 3
-      STR_HEAVY_CANNON: 2
-      STR_TASER_CLIP: 16
-      STR_LARGE_ROCKET: 6
-      STR_HC_HE_AMMO: 4
-      STR_TASER: 8
-      STR_BLASTER_BOMB: 7
-      STR_PLASMA_PISTOL: 12
-      STR_HC_I_AMMO: 2
-      STR_REAPER_CORPSE: 1
-      STR_BLASTER_LAUNCHER: 2
-      STR_SECTOID_SOLDIER: 2
-      STR_PLASMA_RIFLE_CLIP: 25
-      STR_PLASMA_PISTOL_CLIP: 23
-      STR_HEAVY_PLASMA: 16
-      STR_UFO_POWER_SOURCE: 3
-      STR_CHRYSSALID_CORPSE: 1
-      STR_ALIEN_ENTERTAINMENT: 1
-    productions:
-      - infinite: true
-        assigned: 76
-        spent: 26378
-        item: STR_LASER_CANNON
-        amount: 1
-        sell: true
-    inBattlescape: false
-    soldiers:
-      - missions: 9
-        psiStrImprovement: 0
-        name: Fernande Mpoyi
-        look: 3
-        equipmentLayout:
-          - itemType: STR_GRENADE
-            slot: STR_RIGHT_SHOULDER
-          - slot: STR_RIGHT_HAND
-            itemType: STR_HEAVY_LASER
-          - slot: STR_BELT
-            itemType: STR_MEDI_KIT
-          - itemType: STR_SMOKE_GRENADE
-            slot: STR_RIGHT_SHOULDER
-            slotX: 1
-        gender: 1
-        id: 28
-        improvement: 0
-        armor: STR_PERSONAL_ARMOR_UC
-        initialStats:
-          stamina: 57
-          tu: 50
-          reactions: 31
-          throwing: 63
-          strength: 30
-          health: 35
-          psiStrength: 86
-          psiSkill: 0
-          melee: 24
-          firing: 63
-          bravery: 50
-        currentStats:
-          psiStrength: 86
-          melee: 24
-          tu: 61
-          stamina: 72
-          firing: 73
-          health: 43
-          reactions: 31
-          psiSkill: 0
-          throwing: 64
-          strength: 47
-          bravery: 50
-        rank: 3
-        kills: 9
-      - currentStats:
-          stamina: 62
-          health: 48
-          throwing: 82
-          psiStrength: 93
-          bravery: 20
-          firing: 59
-          melee: 28
-          psiSkill: 0
-          tu: 58
-          reactions: 38
-          strength: 39
-        initialStats:
-          tu: 51
-          stamina: 53
-          psiSkill: 0
-          bravery: 20
-          health: 39
-          throwing: 80
-          firing: 55
-          strength: 27
-          psiStrength: 93
-          reactions: 37
-          melee: 28
-        psiStrImprovement: 0
-        rank: 1
-        armor: STR_PERSONAL_ARMOR_UC
-        improvement: 0
-        id: 30
-        kills: 8
-        name: Ludovit Slezak
-        gender: 0
-        craft:
-          lat: -0.27483864552248072
-          id: 1
-          type: STR_SKYRANGER
-          lon: 1.8187412085933599
-        equipmentLayout:
-          - itemType: STR_GRENADE
-            slot: STR_RIGHT_SHOULDER
-          - slot: STR_LEFT_SHOULDER
-            itemType: STR_HIGH_EXPLOSIVE
-          - itemType: STR_LASER_RIFLE
-            slot: STR_RIGHT_HAND
-          - itemType: STR_MEDI_KIT
-            slot: STR_BELT
-          - slot: STR_RIGHT_SHOULDER
-            slotX: 1
-            itemType: STR_SMOKE_GRENADE
-        missions: 6
-        look: 0
-      - improvement: 0
-        id: 34
-        rank: 2
-        name: Barlas Batu
-        kills: 4
-        initialStats:
-          melee: 20
-          psiStrength: 0
-          psiSkill: 0
-          firing: 65
-          bravery: 20
-          health: 39
-          stamina: 48
-          strength: 39
-          tu: 53
-          reactions: 34
-          throwing: 78
-        psiStrImprovement: 0
-        currentStats:
-          psiSkill: 0
-          throwing: 80
-          firing: 69
-          reactions: 34
-          psiStrength: 1
-          melee: 20
-          strength: 49
-          tu: 61
-          bravery: 20
-          stamina: 67
-          health: 50
-        gender: 0
-        missions: 6
-        look: 1
-        equipmentLayout:
-          - slot: STR_RIGHT_SHOULDER
-            itemType: STR_GRENADE
-          - itemType: STR_HIGH_EXPLOSIVE
-            slot: STR_LEFT_SHOULDER
-          - itemType: STR_HIGH_EXPLOSIVE
-            slot: STR_LEFT_LEG
-          - slot: STR_RIGHT_HAND
-            itemType: STR_LASER_RIFLE
-          - slot: STR_BELT
-            itemType: STR_MEDI_KIT
-          - slotX: 1
-            fuseTimer: 0
-            slot: STR_RIGHT_SHOULDER
-            itemType: STR_SMOKE_GRENADE
-          - slot: STR_LEFT_HAND
-            itemType: STR_ELECTRO_FLARE
-        armor: STR_PERSONAL_ARMOR_UC
-      - armor: STR_PERSONAL_ARMOR_UC
-        missions: 8
-        equipmentLayout:
-          - itemType: STR_GRENADE
-            slot: STR_RIGHT_SHOULDER
-          - slot: STR_LEFT_SHOULDER
-            itemType: STR_HIGH_EXPLOSIVE
-          - slot: STR_RIGHT_HAND
-            itemType: STR_LASER_RIFLE
-          - itemType: STR_MEDI_KIT
-            slot: STR_BELT
-          - slotX: 1
-            itemType: STR_SMOKE_GRENADE
-            slot: STR_RIGHT_SHOULDER
-        currentStats:
-          throwing: 53
-          reactions: 35
-          melee: 31
-          psiSkill: 0
-          stamina: 66
-          tu: 66
-          strength: 30
-          bravery: 50
-          firing: 66
-          health: 44
-          psiStrength: 100
-        psiStrImprovement: 0
-        kills: 2
-        improvement: 0
-        name: Sten Lund
-        id: 36
-        rank: 2
-        initialStats:
-          strength: 27
-          reactions: 35
-          psiSkill: 0
-          stamina: 63
-          bravery: 50
-          tu: 60
-          health: 39
-          psiStrength: 100
-          firing: 65
-          throwing: 52
-          melee: 31
-        craft:
-          lon: 1.8187412085933599
-          id: 1
-          lat: -0.27483864552248072
-          type: STR_SKYRANGER
-        look: 0
-        gender: 0
-      - gender: 1
-        equipmentLayout:
-          - itemType: STR_GRENADE
-            slot: STR_RIGHT_SHOULDER
-          - slot: STR_RIGHT_HAND
-            itemType: STR_HEAVY_LASER
-          - slot: STR_LEFT_LEG
-            itemType: STR_HIGH_EXPLOSIVE
-          - itemType: STR_MEDI_KIT
-            slot: STR_BELT
-          - fuseTimer: 0
-            slot: STR_LEFT_SHOULDER
-            itemType: STR_SMOKE_GRENADE
-        initialStats:
-          health: 32
-          psiStrength: 45
-          psiSkill: 0
-          strength: 40
-          throwing: 60
-          melee: 36
-          reactions: 42
-          tu: 57
-          bravery: 60
-          stamina: 61
-          firing: 70
-        psiStrImprovement: 0
-        name: Gabriele Krueger
-        rank: 4
-        missions: 7
-        look: 0
-        currentStats:
-          throwing: 61
-          reactions: 42
-          psiSkill: 0
-          melee: 36
-          firing: 74
-          strength: 46
-          health: 39
-          tu: 64
-          psiStrength: 45
-          bravery: 60
-          stamina: 75
-        id: 37
-        armor: STR_PERSONAL_ARMOR_UC
-        kills: 4
-        improvement: 0
-      - look: 1
-        armor: STR_PERSONAL_ARMOR_UC
-        rank: 2
-        psiStrImprovement: 0
-        improvement: 0
-        name: Gaston Berger
-        gender: 0
-        id: 40
-        kills: 7
-        missions: 6
-        equipmentLayout:
-          - slot: STR_RIGHT_SHOULDER
-            itemType: STR_GRENADE
-          - slot: STR_LEFT_SHOULDER
-            itemType: STR_HIGH_EXPLOSIVE
-          - slot: STR_RIGHT_HAND
-            itemType: STR_LASER_RIFLE
-          - itemType: STR_SMOKE_GRENADE
-            slot: STR_RIGHT_SHOULDER
-            slotX: 1
-          - slot: STR_BELT
-            itemType: STR_MEDI_KIT
-        currentStats:
-          throwing: 56
-          strength: 34
-          firing: 40
-          reactions: 32
-          psiStrength: 18
-          health: 44
-          bravery: 60
-          psiSkill: 0
-          stamina: 77
-          melee: 30
-          tu: 60
-        initialStats:
-          bravery: 60
-          psiSkill: 0
-          stamina: 63
-          firing: 40
-          throwing: 55
-          health: 37
-          reactions: 32
-          melee: 29
-          strength: 24
-          tu: 50
-          psiStrength: 18
-      - id: 41
-        currentStats:
-          bravery: 60
-          psiStrength: 40
-          firing: 54
-          throwing: 66
-          tu: 59
-          psiSkill: 0
-          melee: 34
-          strength: 40
-          health: 44
-          stamina: 60
-          reactions: 32
-        rank: 2
-        initialStats:
-          psiSkill: 0
-          tu: 54
-          health: 40
-          throwing: 66
-          melee: 34
-          strength: 34
-          firing: 53
-          psiStrength: 40
-          reactions: 32
-          stamina: 52
-          bravery: 60
-        kills: 2
-        gender: 0
-        look: 0
-        psiStrImprovement: 0
-        improvement: 0
-        armor: STR_PERSONAL_ARMOR_UC
-        equipmentLayout:
-          - slot: STR_RIGHT_SHOULDER
-            itemType: STR_GRENADE
-          - slot: STR_LEFT_SHOULDER
-            itemType: STR_HIGH_EXPLOSIVE
-          - itemType: STR_LASER_RIFLE
-            slot: STR_RIGHT_HAND
-          - itemType: STR_MEDI_KIT
-            slot: STR_BELT
-          - itemType: STR_SMOKE_GRENADE
-            slotX: 1
-            slot: STR_RIGHT_SHOULDER
-        name: Robert Savu
-        missions: 2
-      - look: 1
-        psiStrImprovement: 0
-        rank: 1
-        initialStats:
-          throwing: 67
-          firing: 59
-          strength: 38
-          bravery: 30
-          health: 29
-          psiStrength: 38
-          psiSkill: 0
-          reactions: 48
-          stamina: 59
-          melee: 23
-          tu: 51
-        armor: STR_PERSONAL_ARMOR_UC
-        currentStats:
-          reactions: 48
-          health: 35
-          bravery: 30
-          firing: 60
-          throwing: 67
-          stamina: 65
-          melee: 23
-          psiStrength: 38
-          tu: 57
-          strength: 45
-          psiSkill: 0
-        improvement: 0
-        kills: 2
-        name: Jan Pawlowski
-        missions: 5
-        gender: 0
-        id: 44
-        craft:
-          type: STR_SKYRANGER
-          lon: 1.8187412085933599
-          lat: -0.27483864552248072
-          id: 1
-        equipmentLayout:
-          - slot: STR_RIGHT_SHOULDER
-            itemType: STR_GRENADE
-          - itemType: STR_HIGH_EXPLOSIVE
-            slot: STR_LEFT_SHOULDER
-          - slot: STR_RIGHT_HAND
-            itemType: STR_LASER_RIFLE
-          - slot: STR_BELT
-            itemType: STR_MEDI_KIT
-          - itemType: STR_SMOKE_GRENADE
-            slotX: 1
-            slot: STR_RIGHT_SHOULDER
-      - equipmentLayout:
-          - itemType: STR_GRENADE
-            slot: STR_RIGHT_SHOULDER
-          - itemType: STR_HIGH_EXPLOSIVE
-            slot: STR_LEFT_SHOULDER
-          - slot: STR_RIGHT_HAND
-            itemType: STR_LASER_RIFLE
-          - slotX: 1
-            slot: STR_RIGHT_SHOULDER
-            itemType: STR_SMOKE_GRENADE
-        id: 46
-        missions: 3
-        improvement: 0
-        currentStats:
-          health: 30
-          bravery: 60
-          psiSkill: 0
-          strength: 35
-          reactions: 39
-          psiStrength: 82
-          stamina: 54
-          tu: 60
-          throwing: 74
-          firing: 53
-          melee: 20
-        initialStats:
-          tu: 58
-          throwing: 74
-          strength: 32
-          health: 26
-          psiSkill: 0
-          bravery: 60
-          psiStrength: 82
-          reactions: 39
-          stamina: 52
-          melee: 20
-          firing: 49
-        name: Fabio Santana
-        rank: 2
-        armor: STR_PERSONAL_ARMOR_UC
-        gender: 0
-        look: 2
-        kills: 5
-        psiStrImprovement: 0
-      - improvement: 0
-        kills: 2
-        gender: 1
-        psiStrImprovement: 0
-        missions: 4
-        armor: STR_PERSONAL_ARMOR_UC
-        initialStats:
-          reactions: 35
-          throwing: 52
-          bravery: 10
-          psiSkill: 0
-          health: 26
-          melee: 38
-          psiStrength: 19
-          firing: 56
-          strength: 31
-          stamina: 53
-          tu: 57
-        id: 47
-        equipmentLayout:
-          - itemType: STR_GRENADE
-            slot: STR_RIGHT_SHOULDER
-          - slot: STR_LEFT_SHOULDER
-            itemType: STR_HIGH_EXPLOSIVE
-          - itemType: STR_LASER_RIFLE
-            slot: STR_RIGHT_HAND
-          - slot: STR_BELT
-            itemType: STR_MEDI_KIT
-          - slot: STR_RIGHT_SHOULDER
-            itemType: STR_SMOKE_GRENADE
-            slotX: 1
-        look: 0
-        name: Julie Goossens
-        rank: 1
-        recovery: 5
-        currentStats:
-          bravery: 10
-          health: 31
-          melee: 38
-          reactions: 35
-          strength: 32
-          throwing: 52
-          psiSkill: 0
-          psiStrength: 19
-          stamina: 57
-          tu: 62
-          firing: 58
-      - currentStats:
-          stamina: 58
-          firing: 46
-          psiStrength: 7
-          reactions: 54
-          tu: 53
-          throwing: 69
-          psiSkill: 0
-          melee: 37
-          bravery: 50
-          strength: 25
-          health: 28
-        recovery: 23
-        equipmentLayout:
-          - itemType: STR_GRENADE
-            slot: STR_RIGHT_SHOULDER
-          - itemType: STR_HIGH_EXPLOSIVE
-            slot: STR_LEFT_SHOULDER
-          - slot: STR_RIGHT_HAND
-            itemType: STR_LASER_RIFLE
-          - slotX: 1
-            itemType: STR_SMOKE_GRENADE
-            slot: STR_RIGHT_SHOULDER
-        improvement: 0
-        gender: 0
-        missions: 4
-        psiStrImprovement: 0
-        look: 1
-        rank: 1
-        kills: 1
-        armor: STR_PERSONAL_ARMOR_UC
-        name: Xavier Guzman
-        initialStats:
-          psiStrength: 7
-          psiSkill: 0
-          melee: 37
-          strength: 22
-          firing: 46
-          throwing: 68
-          stamina: 52
-          bravery: 50
-          reactions: 54
-          health: 28
-          tu: 51
-        id: 53
-      - improvement: 0
-        rank: 1
-        equipmentLayout:
-          - slot: STR_RIGHT_SHOULDER
-            itemType: STR_GRENADE
-          - slot: STR_LEFT_SHOULDER
-            itemType: STR_HIGH_EXPLOSIVE
-          - slot: STR_RIGHT_HAND
-            itemType: STR_LASER_RIFLE
-          - slot: STR_BELT
-            itemType: STR_MEDI_KIT
-          - itemType: STR_SMOKE_GRENADE
-            slotX: 1
-            slot: STR_RIGHT_SHOULDER
-        initialStats:
-          strength: 26
-          stamina: 55
-          firing: 46
-          psiStrength: 7
-          throwing: 71
-          reactions: 44
-          bravery: 60
-          psiSkill: 0
-          tu: 56
-          health: 37
-          melee: 26
-        armor: STR_PERSONAL_ARMOR_UC
-        craft:
-          id: 1
-          lat: -0.27483864552248072
-          lon: 1.8187412085933599
-          type: STR_SKYRANGER
-        psiStrImprovement: 0
-        currentStats:
-          melee: 26
-          strength: 37
-          psiStrength: 7
-          psiSkill: 0
-          bravery: 60
-          health: 42
-          throwing: 71
-          stamina: 59
-          reactions: 44
-          tu: 62
-          firing: 48
-        kills: 4
-        name: Euan Rogers
-        missions: 5
-        look: 3
-        gender: 0
-        id: 54
-      - look: 2
-        craft:
-          lat: -0.27483864552248072
-          lon: 1.8187412085933599
-          id: 1
-          type: STR_SKYRANGER
-        improvement: 0
-        id: 55
-        missions: 5
-        kills: 2
-        currentStats:
-          melee: 38
-          strength: 34
-          psiStrength: 58
-          reactions: 49
-          psiSkill: 0
-          bravery: 20
-          health: 42
-          throwing: 53
-          firing: 54
-          stamina: 69
-          tu: 58
-        armor: STR_PERSONAL_ARMOR_UC
-        rank: 1
-        gender: 0
-        initialStats:
-          psiStrength: 58
-          psiSkill: 0
-          melee: 38
-          throwing: 53
-          tu: 55
-          strength: 32
-          health: 38
-          stamina: 62
-          reactions: 49
-          firing: 53
-          bravery: 20
-        equipmentLayout:
-          - slot: STR_RIGHT_SHOULDER
-            itemType: STR_GRENADE
-          - itemType: STR_HIGH_EXPLOSIVE
-            slot: STR_LEFT_SHOULDER
-          - itemType: STR_LASER_RIFLE
-            slot: STR_RIGHT_HAND
-          - slot: STR_RIGHT_SHOULDER
-            slotX: 1
-            itemType: STR_SMOKE_GRENADE
-        psiStrImprovement: 0
-        name: Abhijay Tendulkar
-      - look: 1
-        craft:
-          lon: 1.8187412085933599
-          id: 1
-          lat: -0.27483864552248072
-          type: STR_SKYRANGER
-        name: Janusz Kowalski
-        currentStats:
-          psiStrength: 15
-          psiSkill: 0
-          health: 34
-          throwing: 51
-          reactions: 40
-          bravery: 30
-          firing: 43
-          strength: 23
-          tu: 60
-          stamina: 59
-          melee: 39
-        gender: 0
-        rank: 0
-        missions: 4
-        improvement: 0
-        psiStrImprovement: 0
-        id: 56
-        armor: STR_PERSONAL_ARMOR_UC
-        initialStats:
-          reactions: 40
-          strength: 23
-          throwing: 51
-          tu: 60
-          stamina: 59
-          health: 34
-          firing: 43
-          melee: 39
-          psiStrength: 15
-          bravery: 30
-          psiSkill: 0
-        kills: 0
-        equipmentLayout:
-          - slot: STR_RIGHT_SHOULDER
-            itemType: STR_GRENADE
-          - slot: STR_LEFT_SHOULDER
-            itemType: STR_HIGH_EXPLOSIVE
-          - slot: STR_RIGHT_HAND
-            itemType: STR_LASER_RIFLE
-          - slotX: 1
-            itemType: STR_SMOKE_GRENADE
-            slot: STR_RIGHT_SHOULDER
-      - craft:
-          lon: 1.8187412085933599
-          lat: -0.27483864552248072
-          id: 1
-          type: STR_SKYRANGER
-        improvement: 0
-        missions: 4
-        currentStats:
-          health: 30
-          firing: 43
-          strength: 26
-          melee: 20
-          reactions: 59
-          psiSkill: 0
-          tu: 58
-          bravery: 60
-          psiStrength: 57
-          stamina: 51
-          throwing: 57
-        initialStats:
-          health: 30
-          bravery: 60
-          tu: 58
-          reactions: 59
-          strength: 26
-          stamina: 51
-          melee: 20
-          throwing: 57
-          psiSkill: 0
-          firing: 43
-          psiStrength: 57
-        name: Alem Neh Alem
-        rank: 0
-        kills: 0
-        gender: 0
-        look: 3
-        id: 65
-        equipmentLayout:
-          - itemType: STR_GRENADE
-            slot: STR_RIGHT_SHOULDER
-          - itemType: STR_HIGH_EXPLOSIVE
-            slot: STR_LEFT_SHOULDER
-          - slot: STR_RIGHT_HAND
-            itemType: STR_LASER_RIFLE
-          - slotX: 1
-            itemType: STR_SMOKE_GRENADE
-            slot: STR_RIGHT_SHOULDER
-        armor: STR_PERSONAL_ARMOR_UC
-        psiStrImprovement: 0
-    lon: 0.50163972540486657
-    lat: -0.68505863064443395
-    facilities:
-      - x: 0
-        y: 2
-        type: STR_ACCESS_LIFT
-      - type: STR_HANGAR
-        x: 0
-        y: 0
-      - x: 2
-        type: STR_HANGAR
-        y: 0
-      - x: 4
-        y: 0
-        type: STR_HANGAR
-      - x: 0
-        y: 3
-        type: STR_GENERAL_STORES
-      - type: STR_LIVING_QUARTERS
-        y: 4
-        x: 0
-      - type: STR_SMALL_RADAR_SYSTEM
-        y: 5
-        x: 0
-      - y: 3
-        x: 1
-        type: STR_LABORATORY
-      - x: 1
-        y: 4
-        type: STR_WORKSHOP
-      - x: 2
-        y: 3
-        type: STR_GENERAL_STORES
-      - y: 4
-        type: STR_LIVING_QUARTERS
-        x: 2
-      - y: 5
-        x: 1
-        type: STR_LARGE_RADAR_SYSTEM
-      - y: 5
-        x: 2
-        type: STR_ALIEN_CONTAINMENT
-      - type: STR_LIVING_QUARTERS
-        y: 3
-        x: 3
-      - type: STR_WORKSHOP
-        y: 4
-        x: 3
-      - buildTime: 7
-        x: 3
-        type: STR_HYPER_WAVE_DECODER
-        y: 5
-      - type: STR_LABORATORY
-        x: 4
-        buildTime: 11
-        y: 3
-      - y: 4
-        buildTime: 4
-        x: 4
-        type: STR_LIVING_QUARTERS
-    name: X1
-  - lat: -0.75745709380774906
-    soldiers:
-      - equipmentLayout:
-          - slot: STR_RIGHT_HAND
-            itemType: STR_LASER_RIFLE
-          - itemType: STR_STUN_ROD
-            slot: STR_BACK_PACK
-          - fuseTimer: 0
-            slot: STR_LEFT_HAND
-            itemType: STR_SMOKE_GRENADE
-          - itemType: STR_GRENADE
-            slot: STR_RIGHT_SHOULDER
-        improvement: 0
-        rank: 0
-        missions: 2
-        initialStats:
-          firing: 45
-          stamina: 44
-          bravery: 50
-          reactions: 37
-          psiSkill: 0
-          health: 35
-          strength: 21
-          throwing: 59
-          tu: 59
-          psiStrength: 71
-          melee: 21
-        currentStats:
-          firing: 45
-          strength: 21
-          throwing: 60
-          health: 35
-          melee: 21
-          bravery: 50
-          stamina: 44
-          psiStrength: 71
-          psiSkill: 0
-          tu: 59
-          reactions: 37
-        look: 1
-        name: Bjorn Bjoenkaer
-        armor: STR_PERSONAL_ARMOR_UC
-        gender: 0
-        id: 48
-        psiStrImprovement: 0
-        kills: 0
-      - armor: STR_PERSONAL_ARMOR_UC
-        gender: 0
-        equipmentLayout:
-          - itemType: STR_MEDI_KIT
-            slot: STR_BELT
-          - itemType: STR_HEAVY_LASER
-            slot: STR_RIGHT_HAND
-          - itemType: STR_GRENADE
-            slot: STR_RIGHT_SHOULDER
-          - itemType: STR_SMOKE_GRENADE
-            slotX: 1
-            slot: STR_RIGHT_SHOULDER
-            fuseTimer: 0
-        initialStats:
-          stamina: 42
-          throwing: 71
-          strength: 32
-          reactions: 31
-          bravery: 30
-          psiSkill: 0
-          health: 33
-          tu: 60
-          melee: 37
-          firing: 68
-          psiStrength: 26
-        currentStats:
-          tu: 65
-          stamina: 51
-          strength: 36
-          health: 39
-          psiSkill: 0
-          psiStrength: 26
-          throwing: 72
-          reactions: 32
-          firing: 69
-          melee: 37
-          bravery: 30
-        improvement: 0
-        name: Athamas Papadakis
-        rank: 1
-        psiStrImprovement: 0
-        kills: 2
-        look: 0
-        missions: 2
-        id: 49
-      - id: 50
-        initialStats:
-          throwing: 54
-          psiStrength: 19
-          bravery: 50
-          stamina: 41
-          health: 34
-          tu: 55
-          reactions: 56
-          psiSkill: 0
-          melee: 35
-          strength: 30
-          firing: 68
-        name: Dev Narayan
-        currentStats:
-          tu: 61
-          stamina: 50
-          reactions: 56
-          strength: 34
-          bravery: 50
-          psiStrength: 19
-          psiSkill: 0
-          health: 36
-          firing: 71
-          throwing: 54
-          melee: 35
-        armor: STR_PERSONAL_ARMOR_UC
-        equipmentLayout:
-          - slot: STR_RIGHT_HAND
-            itemType: STR_LASER_RIFLE
-          - slot: STR_BELT
-            itemType: STR_MEDI_KIT
-            slotX: 3
-          - slot: STR_BELT
-            itemType: STR_TASER
-            ammoItem: STR_TASER_CLIP
-          - itemType: STR_TASER_CLIP
-            slot: STR_LEFT_SHOULDER
-          - itemType: STR_GRENADE
-            slot: STR_RIGHT_SHOULDER
-          - slot: STR_LEFT_HAND
-            itemType: STR_SMOKE_GRENADE
-            fuseTimer: 0
-        rank: 2
-        improvement: 0
-        gender: 0
-        look: 2
-        psiStrImprovement: 0
-        kills: 3
-        missions: 2
-      - name: Timothy Nash
-        initialStats:
-          bravery: 40
-          throwing: 54
-          reactions: 51
-          firing: 59
-          stamina: 46
-          psiStrength: 16
-          psiSkill: 0
-          melee: 25
-          health: 39
-          strength: 24
-          tu: 59
-        psiStrImprovement: 0
-        improvement: 0
-        id: 51
-        gender: 0
-        rank: 1
-        look: 3
-        kills: 1
-        missions: 1
-        armor: STR_PERSONAL_ARMOR_UC
-        equipmentLayout:
-          - slot: STR_RIGHT_HAND
-            itemType: STR_LASER_RIFLE
-        currentStats:
-          bravery: 40
-          tu: 60
-          melee: 25
-          strength: 30
-          throwing: 54
-          firing: 60
-          reactions: 51
-          psiStrength: 16
-          stamina: 53
-          health: 40
-          psiSkill: 0
-      - psiStrImprovement: 0
-        kills: 1
-        look: 1
-        improvement: 0
-        equipmentLayout:
-          - slot: STR_RIGHT_HAND
-            itemType: STR_LASER_RIFLE
-          - itemType: STR_STUN_ROD
-            slot: STR_BACK_PACK
-          - slot: STR_LEFT_SHOULDER
-            itemType: STR_HIGH_EXPLOSIVE
-        gender: 0
-        currentStats:
-          psiStrength: 73
-          bravery: 20
-          throwing: 55
-          tu: 58
-          psiSkill: 0
-          strength: 43
-          stamina: 46
-          firing: 46
-          reactions: 55
-          melee: 40
-          health: 35
-        initialStats:
-          stamina: 46
-          firing: 45
-          psiSkill: 0
-          melee: 40
-          strength: 40
-          tu: 55
-          throwing: 55
-          reactions: 55
-          health: 33
-          psiStrength: 73
-          bravery: 20
-        name: Olan Jasperson
-        id: 52
-        armor: STR_PERSONAL_ARMOR_UC
-        missions: 1
-        rank: 1
-      - rank: 5
-        armor: STR_PERSONAL_ARMOR_UC
-        improvement: 0
-        equipmentLayout:
-          - slot: STR_RIGHT_SHOULDER
-            itemType: STR_GRENADE
-          - itemType: STR_ROCKET_LAUNCHER
-            ammoItem: STR_SMALL_ROCKET
-            slot: STR_RIGHT_HAND
-          - slot: STR_RIGHT_SHOULDER
-            slotX: 1
-            itemType: STR_SMOKE_GRENADE
-          - slot: STR_BACK_PACK
-            itemType: STR_SMALL_ROCKET
-          - itemType: STR_SMALL_ROCKET
-            slotX: 1
-            slot: STR_BACK_PACK
-          - slot: STR_BELT
-            itemType: STR_TASER
-            ammoItem: STR_TASER_CLIP
-        id: 29
-        initialStats:
-          psiStrength: 53
-          firing: 63
-          throwing: 78
-          strength: 27
-          bravery: 60
-          psiSkill: 0
-          melee: 37
-          reactions: 50
-          stamina: 58
-          tu: 60
-          health: 25
-        look: 1
-        name: Jayne Payne
-        psiStrImprovement: 0
-        currentStats:
-          strength: 44
-          throwing: 81
-          psiStrength: 53
-          reactions: 50
-          stamina: 78
-          psiSkill: 0
-          firing: 78
-          melee: 37
-          tu: 72
-          health: 37
-          bravery: 60
-        gender: 1
-        kills: 10
-        missions: 7
-      - id: 33
-        gender: 1
-        psiStrImprovement: 0
-        rank: 3
-        look: 1
-        equipmentLayout:
-          - ammoItem: STR_TASER_CLIP
-            slot: STR_BELT
-            itemType: STR_TASER
-          - slot: STR_LEFT_SHOULDER
-            itemType: STR_TASER_CLIP
-          - itemType: STR_HEAVY_LASER
-            slot: STR_RIGHT_HAND
-          - itemType: STR_HIGH_EXPLOSIVE
-            slot: STR_RIGHT_SHOULDER
-          - itemType: STR_MEDI_KIT
-            slotX: 3
-            slot: STR_BELT
-        improvement: 0
-        armor: STR_PERSONAL_ARMOR_UC
-        kills: 6
-        currentStats:
-          firing: 75
-          tu: 63
-          stamina: 73
-          melee: 30
-          throwing: 78
-          bravery: 30
-          psiSkill: 0
-          psiStrength: 52
-          health: 36
-          strength: 43
-          reactions: 60
-        name: Gaia De Luca
-        missions: 5
-        initialStats:
-          firing: 69
-          stamina: 63
-          bravery: 30
-          psiSkill: 0
-          strength: 33
-          health: 25
-          psiStrength: 52
-          melee: 30
-          reactions: 60
-          throwing: 77
-          tu: 52
-      - improvement: 0
-        rank: 1
-        look: 2
-        currentStats:
-          throwing: 56
-          health: 35
-          tu: 56
-          psiStrength: 15
-          strength: 33
-          psiSkill: 0
-          melee: 24
-          firing: 61
-          stamina: 59
-          bravery: 20
-          reactions: 45
-        gender: 0
-        psiStrImprovement: 0
-        kills: 1
-        missions: 1
-        id: 63
-        name: Jaideep Kumar
-        armor: STR_NONE_UC
-        equipmentLayout:
-          - itemType: STR_LASER_RIFLE
-            slot: STR_RIGHT_HAND
-          - itemType: STR_MEDI_KIT
-            slot: STR_BELT
-          - slot: STR_LEFT_SHOULDER
-            itemType: STR_HIGH_EXPLOSIVE
-        initialStats:
-          strength: 31
-          tu: 53
-          firing: 61
-          bravery: 20
-          stamina: 54
-          health: 32
-          melee: 24
-          reactions: 45
-          psiSkill: 0
-          throwing: 56
-          psiStrength: 15
-      - id: 64
-        rank: 1
-        initialStats:
-          strength: 28
-          melee: 29
-          throwing: 50
-          tu: 52
-          firing: 47
-          reactions: 57
-          psiSkill: 0
-          health: 32
-          stamina: 53
-          bravery: 30
-          psiStrength: 64
-        gender: 0
-        currentStats:
-          strength: 32
-          health: 34
-          melee: 29
-          throwing: 51
-          reactions: 57
-          psiStrength: 64
-          psiSkill: 0
-          tu: 53
-          stamina: 53
-          bravery: 30
-          firing: 48
-        kills: 1
-        improvement: 0
-        name: Tsoi Long
-        equipmentLayout:
-          - itemType: STR_LASER_RIFLE
-            slot: STR_RIGHT_HAND
-          - slot: STR_BACK_PACK
-            itemType: STR_STUN_ROD
-          - itemType: STR_GRENADE
-            slot: STR_RIGHT_SHOULDER
-          - slotX: 1
-            slot: STR_RIGHT_SHOULDER
-            itemType: STR_SMOKE_GRENADE
-        missions: 2
-        psiStrImprovement: 0
-        look: 0
-        armor: STR_PERSONAL_ARMOR_UC
-      - missions: 1
-        gender: 0
-        armor: STR_PERSONAL_ARMOR_UC
-        initialStats:
-          melee: 35
-          tu: 52
-          throwing: 61
-          psiSkill: 0
-          health: 29
-          firing: 49
-          stamina: 41
-          strength: 31
-          bravery: 30
-          reactions: 51
-          psiStrength: 53
-        currentStats:
-          tu: 56
-          bravery: 30
-          psiStrength: 53
-          firing: 49
-          strength: 35
-          melee: 35
-          throwing: 61
-          psiSkill: 0
-          stamina: 48
-          health: 30
-          reactions: 51
-        improvement: 0
-        rank: 1
-        equipmentLayout:
-          - itemType: STR_LASER_RIFLE
-            slot: STR_RIGHT_HAND
-          - itemType: STR_GRENADE
-            slot: STR_RIGHT_SHOULDER
-          - slot: STR_RIGHT_SHOULDER
-            itemType: STR_SMOKE_GRENADE
-            slotX: 1
-        name: James Harding
-        look: 0
-        psiStrImprovement: 0
-        kills: 2
-        id: 57
-      - rank: 0
-        improvement: 0
-        gender: 0
-        equipmentLayout:
-          - slot: STR_RIGHT_HAND
-            itemType: STR_LASER_RIFLE
-          - itemType: STR_GRENADE
-            slot: STR_RIGHT_SHOULDER
-          - itemType: STR_SMOKE_GRENADE
-            fuseTimer: 0
-            slotX: 1
-            slot: STR_RIGHT_SHOULDER
-          - itemType: STR_MEDI_KIT
-            slot: STR_BELT
-        name: Theis Schjonberg
-        initialStats:
-          melee: 37
-          stamina: 43
-          throwing: 62
-          health: 35
-          psiSkill: 0
-          reactions: 48
-          strength: 37
-          tu: 60
-          bravery: 10
-          psiStrength: 91
-          firing: 43
-        id: 58
-        currentStats:
-          reactions: 48
-          bravery: 10
-          strength: 37
-          melee: 37
-          stamina: 43
-          tu: 60
-          firing: 43
-          health: 35
-          psiStrength: 91
-          throwing: 62
-          psiSkill: 0
-        armor: STR_NONE_UC
-        look: 1
-        kills: 0
-        missions: 1
-        psiStrImprovement: 0
-      - name: Piet Visser
-        look: 0
-        id: 59
-        missions: 1
-        kills: 1
-        improvement: 0
-        initialStats:
-          psiStrength: 16
-          throwing: 50
-          melee: 35
-          psiSkill: 0
-          reactions: 46
-          firing: 42
-          tu: 53
-          bravery: 10
-          health: 31
-          stamina: 57
-          strength: 35
-        armor: STR_NONE_UC
-        rank: 1
-        equipmentLayout:
-          - itemType: STR_LASER_RIFLE
-            slot: STR_RIGHT_HAND
-          - itemType: STR_GRENADE
-            slot: STR_RIGHT_SHOULDER
-          - slot: STR_RIGHT_SHOULDER
-            fuseTimer: 0
-            itemType: STR_SMOKE_GRENADE
-            slotX: 1
-        gender: 0
-        currentStats:
-          melee: 35
-          reactions: 46
-          psiSkill: 0
-          health: 34
-          tu: 55
-          bravery: 10
-          throwing: 50
-          stamina: 60
-          psiStrength: 16
-          strength: 40
-          firing: 42
-        psiStrImprovement: 0
-      - missions: 1
-        equipmentLayout:
-          - slot: STR_RIGHT_HAND
-            itemType: STR_HEAVY_LASER
-          - itemType: STR_MEDI_KIT
-            slot: STR_BELT
-        name: Daisuke Nakajima
-        id: 60
-        improvement: 0
-        gender: 0
-        look: 0
-        initialStats:
-          psiStrength: 9
-          melee: 28
-          stamina: 54
-          bravery: 10
-          tu: 60
-          psiSkill: 0
-          health: 29
-          firing: 70
-          strength: 24
-          throwing: 55
-          reactions: 43
-        psiStrImprovement: 0
-        armor: STR_NONE_UC
-        currentStats:
-          psiSkill: 0
-          melee: 28
-          strength: 24
-          psiStrength: 9
-          stamina: 54
-          reactions: 43
-          tu: 60
-          throwing: 55
-          firing: 70
-          bravery: 10
-          health: 29
-        kills: 0
-        rank: 0
-      - psiStrImprovement: 0
-        missions: 0
-        look: 0
-        rank: 0
-        kills: 0
-        gender: 1
-        improvement: 0
-        armor: STR_NONE_UC
-        id: 61
-        initialStats:
-          bravery: 30
-          psiSkill: 0
-          health: 38
-          firing: 43
-          stamina: 44
-          tu: 56
-          melee: 23
-          psiStrength: 56
-          reactions: 58
-          throwing: 59
-          strength: 29
-        name: Lenie Mulder
-        currentStats:
-          psiStrength: 56
-          psiSkill: 0
-          strength: 29
-          melee: 23
-          tu: 56
-          firing: 43
-          bravery: 30
-          reactions: 58
-          stamina: 44
-          throwing: 59
-          health: 38
-      - currentStats:
-          throwing: 80
-          psiStrength: 47
-          reactions: 48
-          stamina: 48
-          psiSkill: 0
-          tu: 59
-          health: 37
-          strength: 20
-          bravery: 50
-          melee: 25
-          firing: 63
-        initialStats:
-          psiSkill: 0
-          melee: 25
-          reactions: 48
-          strength: 20
-          bravery: 50
-          throwing: 80
-          firing: 63
-          psiStrength: 47
-          health: 37
-          stamina: 48
-          tu: 59
-        missions: 0
-        kills: 0
-        armor: STR_NONE_UC
-        gender: 0
-        name: Lubomir Liska
-        id: 62
-        look: 0
-        psiStrImprovement: 0
-        rank: 0
-        improvement: 0
-      - kills: 0
-        initialStats:
-          firing: 66
-          melee: 38
-          strength: 34
-          psiSkill: 0
-          tu: 55
-          throwing: 73
-          psiStrength: 64
-          reactions: 60
-          bravery: 30
-          stamina: 44
-          health: 36
-        improvement: 0
-        currentStats:
-          melee: 38
-          stamina: 44
-          strength: 34
-          tu: 55
-          reactions: 60
-          throwing: 73
-          psiSkill: 0
-          firing: 66
-          health: 36
-          bravery: 30
-          psiStrength: 64
-        id: 66
-        psiStrImprovement: 0
-        armor: STR_NONE_UC
-        name: Selena Brewster
-        rank: 0
-        missions: 0
-        gender: 1
-        look: 0
-    facilities:
-      - type: STR_ACCESS_LIFT
-        y: 2
-        x: 0
-      - y: 3
-        type: STR_LARGE_RADAR_SYSTEM
-        x: 0
-      - y: 0
-        x: 0
-        type: STR_HANGAR
-      - x: 0
-        type: STR_GENERAL_STORES
-        y: 4
-      - type: STR_LIVING_QUARTERS
-        y: 5
-        x: 0
-      - x: 2
-        y: 0
-        type: STR_HANGAR
-      - y: 4
-        type: STR_GENERAL_STORES
-        x: 1
-    name: X2 USA
-    lon: 4.4880931256690175
-    retaliationTarget: false
-    engineers: 0
-    crafts:
-      - speedLon: 0
-        status: STR_READY
-        damage: 0
-        lat: -0.75745709380774906
-        speedLat: 0
-        speedRadian: 0
-        lon: 4.4880931256690175
-        type: STR_SKYRANGER
-        fuel: 1500
-        items:
-          {}
-        id: 2
-        speed: 0
-    inBattlescape: false
-    scientists: 0
-    items:
-      STR_GRENADE: 15
-      STR_SMOKE_GRENADE: 15
-      STR_HIGH_EXPLOSIVE: 10
-      STR_ALIEN_ALLOYS: 39
-      STR_PLASMA_RIFLE: 6
-      STR_STUN_ROD: 8
-      STR_LASER_RIFLE: 11
-      STR_MIND_PROBE: 1
-      STR_HEAVY_PLASMA: 7
-      STR_MEDI_KIT: 4
-      STR_TASER: 4
-      STR_DOGE: 1
-      STR_ALIEN_GRENADE: 4
-      STR_PERSONAL_ARMOR: 7
-      STR_TASER_CLIP: 12
-      STR_PLASMA_RIFLE_CLIP: 6
-      STR_HEAVY_LASER: 2
-      STR_PLASMA_PISTOL_CLIP: 2
-      STR_UFO_POWER_SOURCE: 5
-      STR_ELECTRO_FLARE: 10
-      STR_SMALL_ROCKET: 6
-      STR_UFO_NAVIGATION: 18
-      STR_HEAVY_PLASMA_CLIP: 7
-      STR_ELERIUM_115: 250
-      STR_PLASMA_PISTOL: 2
-      STR_ROCKET_LAUNCHER: 2
-  - engineers: 0
-    inBattlescape: false
-    facilities:
-      - x: 0
-        y: 2
-        type: STR_ACCESS_LIFT
-      - type: STR_LARGE_RADAR_SYSTEM
-        y: 3
-        x: 0
-      - x: 0
-        y: 0
-        type: STR_HANGAR
-      - x: 0
-        y: 4
-        type: STR_GENERAL_STORES
-      - y: 5
-        x: 0
-        type: STR_LIVING_QUARTERS
-      - x: 2
-        type: STR_HANGAR
-        y: 0
-      - buildTime: 15
-        type: STR_HYPER_WAVE_DECODER
-        x: 4
-        y: 0
-    lat: -0.56000001873814997
-    items:
-      STR_STINGRAY_MISSILES: 18
-      STR_ELERIUM_115: 50
-      STR_UFO_NAVIGATION: 13
-      STR_UFO_POWER_SOURCE: 3
-    crafts:
-      - fuel: 748
-        status: STR_REARMING
-        speedLat: 0
-        speed: 0
-        damage: 0
-        id: 2
-        items:
-          {}
-        lon: 2.2753608681918092
-        weapons:
-          - type: STR_STINGRAY
-            ammo: 6
-          - type: STR_STINGRAY
-            ammo: 6
-        speedRadian: 0
-        type: STR_INTERCEPTOR
-        lat: -0.56000001873814997
-        speedLon: 0
-    lon: 2.2753608681918092
-    scientists: 0
-    retaliationTarget: false
-    name: X3 Japan
-  - inBattlescape: false
-    name: X4 Tasmania
-    retaliationTarget: false
-    engineers: 0
-    scientists: 0
-    items:
-      {}
-    lon: 2.5505186975968099
-    facilities:
-      - y: 2
-        type: STR_ACCESS_LIFT
-        x: 0
-      - x: 0
-        y: 3
-        type: STR_LARGE_RADAR_SYSTEM
-    lat: 0.7519754122788691
-  - items:
-      {}
-    facilities:
-      - type: STR_ACCESS_LIFT
-        y: 2
-        x: 0
-      - y: 3
-        type: STR_SMALL_RADAR_SYSTEM
-        x: 0
-    inBattlescape: false
-    lat: 0.44249395589408169
-    scientists: 0
-    name: X5 Shaka
-    lon: 0.48504253647390538
-    retaliationTarget: false
-    engineers: 0
-  - scientists: 0
-    retaliationTarget: false
-    lon: 5.1529172545126825
-    lat: 0.53407587583504157
-    engineers: 0
-    facilities:
-      - type: STR_ACCESS_LIFT
-        y: 2
-        x: 0
-      - x: 0
-        type: STR_LARGE_RADAR_SYSTEM
-        y: 3
-    inBattlescape: false
-    name: X6 Argentina
-    items:
-      {}
+deadSoldiers:
+  - look: 1
+    armor: STR_NONE_UC
+    rank: 2
+    missions: 2
+    initialStats:
+      psiSkill: 0
+      melee: 26
+      stamina: 47
+      psiStrength: 25
+      firing: 70
+      throwing: 63
+      strength: 21
+      reactions: 38
+      tu: 53
+      health: 25
+      bravery: 30
+    death:
+      time:
+        second: 10
+        month: 1
+        weekday: 5
+        year: 1999
+        hour: 5
+        minute: 17
+        day: 21
+    name: Gaia De Luca
+    id: 5
+    gender: 1
+    kills: 4
+    psiStrImprovement: 0
+    currentStats:
+      psiSkill: 0
+      stamina: 50
+      melee: 26
+      tu: 56
+      strength: 21
+      throwing: 63
+      reactions: 38
+      bravery: 30
+      firing: 72
+      health: 29
+      psiStrength: 25
+    improvement: 0
+  - currentStats:
+      throwing: 58
+      firing: 44
+      stamina: 40
+      strength: 29
+      psiStrength: 76
+      melee: 40
+      health: 36
+      bravery: 50
+      tu: 59
+      reactions: 54
+      psiSkill: 0
+    id: 6
+    improvement: 0
+    rank: 0
+    initialStats:
+      psiStrength: 76
+      melee: 40
+      health: 36
+      bravery: 50
+      reactions: 54
+      tu: 59
+      firing: 44
+      psiSkill: 0
+      stamina: 40
+      throwing: 58
+      strength: 29
+    death:
+      time:
+        month: 1
+        minute: 17
+        day: 21
+        hour: 5
+        weekday: 5
+        second: 10
+        year: 1999
+    look: 1
+    armor: STR_NONE_UC
+    missions: 2
+    kills: 2
+    gender: 0
+    name: Peter Keniz
+    psiStrImprovement: 0
+  - currentStats:
+      psiStrength: 0
+      throwing: 62
+      strength: 40
+      bravery: 20
+      stamina: 67
+      reactions: 58
+      firing: 70
+      melee: 33
+      health: 38
+      psiSkill: 0
+      tu: 53
+    psiStrImprovement: 0
+    kills: 1
+    name: Mitsuko Kikuchi
+    gender: 1
+    armor: STR_NONE_UC
+    id: 7
+    rank: 3
+    missions: 3
+    death:
+      time:
+        minute: 17
+        month: 1
+        weekday: 5
+        year: 1999
+        second: 10
+        day: 21
+        hour: 5
+    look: 2
+    improvement: 0
+    initialStats:
+      firing: 69
+      melee: 33
+      psiStrength: 0
+      reactions: 58
+      tu: 51
+      throwing: 60
+      health: 33
+      strength: 31
+      psiSkill: 0
+      stamina: 59
+      bravery: 20
+  - armor: STR_NONE_UC
+    death:
+      time:
+        weekday: 5
+        day: 21
+        second: 10
+        minute: 17
+        hour: 5
+        year: 1999
+        month: 1
+    gender: 1
+    psiStrImprovement: 0
+    kills: 2
+    currentStats:
+      bravery: 60
+      tu: 51
+      psiSkill: 0
+      firing: 49
+      throwing: 62
+      psiStrength: 40
+      strength: 32
+      reactions: 37
+      melee: 35
+      stamina: 71
+      health: 32
+    initialStats:
+      stamina: 68
+      melee: 35
+      psiStrength: 40
+      firing: 49
+      psiSkill: 0
+      tu: 51
+      reactions: 37
+      strength: 32
+      bravery: 60
+      health: 27
+      throwing: 61
+    id: 8
+    improvement: 0
+    rank: 1
+    look: 1
+    missions: 3
+    name: Karoline Fjaerestad
+  - look: 0
+    gender: 0
+    id: 9
+    name: Ralf Lange
+    initialStats:
+      strength: 28
+      tu: 52
+      reactions: 52
+      psiStrength: 78
+      firing: 65
+      psiSkill: 0
+      throwing: 66
+      bravery: 10
+      health: 31
+      melee: 38
+      stamina: 67
+    armor: STR_NONE_UC
+    kills: 1
+    psiStrImprovement: 0
+    currentStats:
+      firing: 65
+      stamina: 67
+      health: 31
+      throwing: 67
+      strength: 28
+      reactions: 52
+      psiStrength: 78
+      bravery: 10
+      tu: 52
+      psiSkill: 0
+      melee: 38
+    death:
+      time:
+        day: 21
+        month: 1
+        year: 1999
+        minute: 17
+        second: 10
+        hour: 5
+        weekday: 5
+    missions: 3
+    improvement: 0
+    rank: 0
+  - rank: 1
+    armor: STR_NONE_UC
+    death:
+      time:
+        minute: 17
+        weekday: 5
+        second: 10
+        month: 1
+        year: 1999
+        day: 21
+        hour: 5
+    look: 0
+    name: Tapani Kokkonen
+    improvement: 0
+    gender: 0
+    kills: 1
+    id: 10
+    initialStats:
+      psiSkill: 0
+      health: 34
+      reactions: 45
+      strength: 36
+      throwing: 78
+      stamina: 70
+      firing: 41
+      tu: 53
+      bravery: 60
+      melee: 24
+      psiStrength: 35
+    missions: 3
+    currentStats:
+      stamina: 73
+      psiSkill: 0
+      throwing: 78
+      psiStrength: 35
+      melee: 24
+      strength: 40
+      firing: 41
+      health: 35
+      tu: 56
+      reactions: 45
+      bravery: 60
+    psiStrImprovement: 0
+  - death:
+      time:
+        year: 1999
+        weekday: 5
+        hour: 5
+        minute: 17
+        month: 1
+        second: 10
+        day: 21
+    currentStats:
+      tu: 55
+      psiSkill: 0
+      bravery: 10
+      reactions: 37
+      stamina: 49
+      health: 37
+      throwing: 65
+      psiStrength: 99
+      firing: 56
+      strength: 41
+      melee: 26
+    improvement: 0
+    gender: 0
+    armor: STR_NONE_UC
+    rank: 1
+    missions: 2
+    psiStrImprovement: 0
+    kills: 0
+    look: 3
+    id: 12
+    name: Nuno Peixe
+    initialStats:
+      psiStrength: 99
+      bravery: 10
+      strength: 40
+      melee: 26
+      firing: 55
+      reactions: 37
+      psiSkill: 0
+      health: 36
+      throwing: 65
+      stamina: 49
+      tu: 50
+  - id: 14
+    gender: 0
+    currentStats:
+      melee: 27
+      stamina: 49
+      reactions: 57
+      bravery: 30
+      health: 35
+      psiStrength: 23
+      firing: 62
+      tu: 51
+      strength: 25
+      throwing: 68
+      psiSkill: 0
+    kills: 0
+    name: Vural Ersoy
+    improvement: 0
+    rank: 0
+    look: 0
+    initialStats:
+      psiSkill: 0
+      psiStrength: 23
+      tu: 51
+      bravery: 30
+      firing: 62
+      health: 35
+      reactions: 57
+      stamina: 49
+      melee: 27
+      throwing: 68
+      strength: 25
+    armor: STR_NONE_UC
+    death:
+      time:
+        month: 1
+        year: 1999
+        hour: 5
+        day: 21
+        second: 10
+        weekday: 5
+        minute: 17
+    psiStrImprovement: 0
+    missions: 2
+  - missions: 2
+    improvement: 0
+    rank: 2
+    initialStats:
+      psiSkill: 0
+      stamina: 59
+      melee: 34
+      firing: 67
+      reactions: 59
+      strength: 23
+      health: 27
+      bravery: 40
+      psiStrength: 88
+      throwing: 52
+      tu: 54
+    id: 15
+    name: Mulu Ken Melku
+    kills: 1
+    armor: STR_NONE_UC
+    death:
+      time:
+        month: 1
+        minute: 17
+        year: 1999
+        day: 21
+        weekday: 5
+        hour: 5
+        second: 10
+    gender: 1
+    look: 3
+    psiStrImprovement: 0
+    currentStats:
+      reactions: 59
+      melee: 34
+      firing: 68
+      health: 31
+      strength: 26
+      stamina: 59
+      throwing: 52
+      bravery: 40
+      tu: 55
+      psiStrength: 88
+      psiSkill: 0
+  - initialStats:
+      strength: 23
+      health: 25
+      psiSkill: 0
+      throwing: 62
+      melee: 20
+      firing: 65
+      psiStrength: 53
+      stamina: 41
+      reactions: 43
+      tu: 52
+      bravery: 20
+    currentStats:
+      health: 27
+      psiSkill: 0
+      tu: 52
+      throwing: 63
+      firing: 67
+      psiStrength: 53
+      strength: 23
+      stamina: 44
+      melee: 20
+      bravery: 20
+      reactions: 43
+    psiStrImprovement: 0
+    improvement: 0
+    missions: 3
+    rank: 1
+    armor: STR_NONE_UC
+    id: 1
+    gender: 0
+    death:
+      time:
+        hour: 10
+        month: 2
+        weekday: 2
+        second: 20
+        day: 8
+        minute: 36
+        year: 1999
+    look: 0
+    name: Paolo Sansone
+    kills: 3
+  - armor: STR_NONE_UC
+    rank: 0
+    look: 0
+    death:
+      time:
+        hour: 10
+        day: 8
+        second: 20
+        minute: 36
+        month: 2
+        year: 1999
+        weekday: 2
+    kills: 0
+    name: David Vermeulen
+    missions: 3
+    psiStrImprovement: 0
+    id: 2
+    initialStats:
+      reactions: 57
+      health: 37
+      bravery: 20
+      melee: 27
+      firing: 45
+      throwing: 70
+      psiSkill: 0
+      psiStrength: 37
+      stamina: 45
+      strength: 28
+      tu: 58
+    currentStats:
+      melee: 27
+      bravery: 20
+      stamina: 45
+      psiSkill: 0
+      psiStrength: 37
+      health: 37
+      strength: 28
+      firing: 45
+      reactions: 57
+      tu: 58
+      throwing: 71
+    improvement: 0
+    gender: 0
+  - look: 2
+    gender: 1
+    missions: 3
+    id: 3
+    currentStats:
+      stamina: 62
+      tu: 59
+      reactions: 31
+      psiSkill: 0
+      bravery: 20
+      throwing: 80
+      health: 41
+      psiStrength: 81
+      firing: 66
+      melee: 23
+      strength: 28
+    improvement: 0
+    name: Huia Tamaki
+    armor: STR_NONE_UC
+    death:
+      time:
+        month: 2
+        weekday: 2
+        hour: 10
+        year: 1999
+        second: 20
+        day: 8
+        minute: 36
+    psiStrImprovement: 0
+    kills: 2
+    initialStats:
+      psiStrength: 81
+      reactions: 31
+      tu: 59
+      stamina: 61
+      psiSkill: 0
+      strength: 24
+      firing: 66
+      bravery: 20
+      melee: 23
+      health: 39
+      throwing: 79
+    rank: 3
+  - gender: 0
+    missions: 3
+    death:
+      time:
+        month: 2
+        year: 1999
+        weekday: 2
+        second: 20
+        minute: 36
+        day: 8
+        hour: 10
+    look: 0
+    armor: STR_NONE_UC
+    kills: 0
+    rank: 0
+    id: 4
+    currentStats:
+      tu: 54
+      strength: 20
+      bravery: 50
+      health: 33
+      psiSkill: 0
+      firing: 42
+      melee: 32
+      stamina: 43
+      psiStrength: 98
+      reactions: 36
+      throwing: 53
+    improvement: 0
+    psiStrImprovement: 0
+    name: Juho Hietala
+    initialStats:
+      reactions: 36
+      stamina: 43
+      melee: 32
+      bravery: 50
+      psiSkill: 0
+      psiStrength: 98
+      firing: 42
+      strength: 20
+      health: 33
+      tu: 54
+      throwing: 52
+  - look: 3
+    psiStrImprovement: 0
+    id: 11
+    gender: 0
+    armor: STR_NONE_UC
+    initialStats:
+      tu: 56
+      firing: 53
+      health: 30
+      stamina: 53
+      throwing: 78
+      reactions: 31
+      psiSkill: 0
+      psiStrength: 98
+      melee: 32
+      bravery: 60
+      strength: 36
+    improvement: 0
+    rank: 2
+    death:
+      time:
+        year: 1999
+        day: 8
+        weekday: 2
+        hour: 10
+        second: 20
+        minute: 36
+        month: 2
+    missions: 4
+    name: Céléstin Lubanga
+    currentStats:
+      bravery: 70
+      strength: 36
+      health: 32
+      tu: 56
+      stamina: 53
+      psiSkill: 0
+      psiStrength: 98
+      firing: 55
+      melee: 32
+      throwing: 82
+      reactions: 31
+    kills: 1
+  - kills: 3
+    gender: 0
+    rank: 2
+    currentStats:
+      psiStrength: 52
+      throwing: 56
+      firing: 47
+      psiSkill: 0
+      strength: 41
+      bravery: 30
+      reactions: 53
+      tu: 56
+      melee: 31
+      stamina: 76
+      health: 37
+    look: 1
+    death:
+      time:
+        day: 8
+        month: 2
+        year: 1999
+        minute: 36
+        hour: 10
+        weekday: 2
+        second: 20
+    missions: 4
+    name: Liviu Marinescu
+    psiStrImprovement: 0
+    armor: STR_NONE_UC
+    improvement: 0
+    id: 16
+    initialStats:
+      throwing: 55
+      melee: 31
+      bravery: 20
+      psiSkill: 0
+      strength: 35
+      stamina: 70
+      health: 27
+      firing: 45
+      tu: 53
+      reactions: 53
+      psiStrength: 52
+  - currentStats:
+      melee: 32
+      stamina: 49
+      psiStrength: 33
+      psiSkill: 0
+      bravery: 60
+      health: 37
+      throwing: 71
+      reactions: 33
+      firing: 64
+      tu: 52
+      strength: 24
+    missions: 1
+    psiStrImprovement: 0
+    initialStats:
+      throwing: 71
+      health: 37
+      strength: 24
+      psiStrength: 33
+      tu: 52
+      reactions: 33
+      firing: 64
+      bravery: 60
+      stamina: 49
+      psiSkill: 0
+      melee: 32
+    look: 0
+    rank: 0
+    improvement: 0
+    name: Akseli Savolainen
+    id: 17
+    kills: 0
+    armor: STR_NONE_UC
+    death:
+      time:
+        day: 8
+        second: 20
+        month: 2
+        weekday: 2
+        year: 1999
+        hour: 10
+        minute: 36
+    gender: 0
+  - psiStrImprovement: 0
+    initialStats:
+      tu: 55
+      melee: 30
+      firing: 55
+      throwing: 78
+      psiSkill: 0
+      bravery: 20
+      stamina: 61
+      health: 36
+      reactions: 45
+      psiStrength: 86
+      strength: 27
+    name: Henrik Balog
+    currentStats:
+      bravery: 20
+      tu: 55
+      psiSkill: 0
+      firing: 55
+      throwing: 78
+      reactions: 45
+      stamina: 61
+      melee: 30
+      psiStrength: 86
+      strength: 27
+      health: 36
+    look: 0
+    improvement: 0
+    rank: 0
+    gender: 0
+    kills: 0
+    missions: 1
+    death:
+      time:
+        year: 1999
+        minute: 36
+        month: 2
+        weekday: 2
+        hour: 10
+        second: 20
+        day: 8
+    id: 19
+    armor: STR_NONE_UC
+  - name: Gustav Jorgensen
+    id: 20
+    armor: STR_NONE_UC
+    currentStats:
+      psiSkill: 0
+      health: 37
+      strength: 30
+      psiStrength: 10
+      tu: 52
+      reactions: 45
+      firing: 51
+      melee: 27
+      stamina: 43
+      bravery: 40
+      throwing: 65
+    death:
+      time:
+        hour: 10
+        weekday: 2
+        month: 2
+        second: 20
+        minute: 36
+        year: 1999
+        day: 8
+    improvement: 0
+    gender: 0
+    missions: 1
+    psiStrImprovement: 0
+    rank: 0
+    look: 1
+    initialStats:
+      melee: 27
+      reactions: 45
+      bravery: 40
+      health: 37
+      strength: 30
+      throwing: 65
+      psiSkill: 0
+      tu: 52
+      firing: 51
+      psiStrength: 10
+      stamina: 43
+    kills: 0
+  - armor: STR_NONE_UC
+    initialStats:
+      bravery: 40
+      reactions: 51
+      strength: 26
+      stamina: 49
+      firing: 64
+      psiSkill: 0
+      tu: 50
+      melee: 28
+      health: 29
+      throwing: 71
+      psiStrength: 11
+    death:
+      time:
+        weekday: 5
+        minute: 31
+        year: 1999
+        second: 45
+        hour: 1
+        day: 18
+        month: 2
+    id: 21
+    name: Hans Schaefer
+    improvement: 0
+    gender: 0
+    missions: 1
+    psiStrImprovement: 0
+    kills: 0
+    look: 0
+    currentStats:
+      throwing: 71
+      tu: 50
+      health: 29
+      strength: 26
+      psiStrength: 11
+      psiSkill: 0
+      bravery: 40
+      reactions: 51
+      stamina: 49
+      melee: 28
+      firing: 64
+    rank: 0
+  - kills: 0
+    name: Freya Guildenstern
+    look: 0
+    armor: STR_NONE_UC
+    death:
+      time:
+        minute: 31
+        year: 1999
+        hour: 1
+        second: 45
+        day: 18
+        month: 2
+        weekday: 5
+    psiStrImprovement: 0
+    currentStats:
+      bravery: 50
+      psiSkill: 0
+      melee: 25
+      stamina: 58
+      tu: 50
+      reactions: 34
+      throwing: 66
+      firing: 46
+      health: 31
+      strength: 32
+      psiStrength: 24
+    initialStats:
+      throwing: 66
+      stamina: 58
+      melee: 25
+      health: 31
+      bravery: 50
+      tu: 50
+      psiStrength: 24
+      firing: 46
+      strength: 32
+      psiSkill: 0
+      reactions: 34
+    gender: 1
+    rank: 0
+    id: 25
+    improvement: 0
+    missions: 1
+  - id: 26
+    death:
+      time:
+        second: 45
+        minute: 31
+        month: 2
+        day: 18
+        weekday: 5
+        hour: 1
+        year: 1999
+    rank: 0
+    armor: STR_NONE_UC
+    initialStats:
+      strength: 25
+      melee: 23
+      reactions: 40
+      psiStrength: 49
+      stamina: 45
+      throwing: 50
+      firing: 56
+      psiSkill: 0
+      health: 33
+      tu: 57
+      bravery: 60
+    look: 0
+    improvement: 0
+    missions: 1
+    kills: 0
+    name: Fabio Nunes
+    gender: 0
+    currentStats:
+      bravery: 60
+      melee: 23
+      firing: 56
+      throwing: 50
+      strength: 25
+      psiSkill: 0
+      tu: 57
+      psiStrength: 49
+      stamina: 45
+      health: 33
+      reactions: 40
+    psiStrImprovement: 0
+  - id: 27
+    psiStrImprovement: 0
+    gender: 0
+    look: 2
+    rank: 0
+    initialStats:
+      tu: 57
+      firing: 65
+      health: 31
+      throwing: 78
+      psiSkill: 0
+      strength: 27
+      bravery: 20
+      psiStrength: 100
+      melee: 26
+      stamina: 55
+      reactions: 37
+    improvement: 0
+    armor: STR_NONE_UC
+    missions: 1
+    kills: 0
+    currentStats:
+      strength: 27
+      psiStrength: 100
+      stamina: 55
+      throwing: 78
+      bravery: 20
+      firing: 65
+      reactions: 37
+      tu: 57
+      psiSkill: 0
+      health: 31
+      melee: 26
+    death:
+      time:
+        hour: 1
+        year: 1999
+        second: 45
+        month: 2
+        minute: 31
+        weekday: 5
+        day: 18
+    name: Min-jun Chae
+  - initialStats:
+      reactions: 35
+      strength: 34
+      psiSkill: 0
+      firing: 69
+      stamina: 50
+      psiStrength: 75
+      health: 30
+      tu: 59
+      throwing: 63
+      melee: 21
+      bravery: 50
+    kills: 3
+    missions: 2
+    gender: 0
+    death:
+      time:
+        weekday: 2
+        year: 1999
+        second: 50
+        day: 22
+        minute: 16
+        month: 2
+        hour: 11
+    psiStrImprovement: 0
+    look: 0
+    name: Rudi de Bruyn
+    armor: STR_NONE_UC
+    rank: 1
+    improvement: 0
+    id: 22
+    currentStats:
+      bravery: 50
+      firing: 70
+      health: 31
+      strength: 38
+      throwing: 64
+      reactions: 35
+      melee: 21
+      tu: 59
+      stamina: 53
+      psiSkill: 0
+      psiStrength: 75
+  - improvement: 0
+    rank: 1
+    currentStats:
+      melee: 40
+      throwing: 70
+      tu: 53
+      firing: 56
+      bravery: 10
+      health: 35
+      psiSkill: 0
+      psiStrength: 73
+      reactions: 47
+      stamina: 68
+      strength: 29
+    initialStats:
+      melee: 40
+      bravery: 10
+      firing: 55
+      psiSkill: 0
+      tu: 53
+      throwing: 68
+      stamina: 66
+      psiStrength: 73
+      health: 27
+      reactions: 47
+      strength: 26
+    name: Gheorghe Stanciu
+    armor: STR_PERSONAL_ARMOR_UC
+    gender: 0
+    psiStrImprovement: 0
+    death:
+      time:
+        weekday: 2
+        second: 50
+        year: 1999
+        hour: 16
+        day: 1
+        month: 3
+        minute: 51
+    id: 24
+    missions: 3
+    kills: 3
+    look: 1
+  - initialStats:
+      firing: 41
+      psiSkill: 0
+      melee: 33
+      health: 32
+      strength: 22
+      bravery: 60
+      psiStrength: 17
+      throwing: 80
+      tu: 60
+      reactions: 32
+      stamina: 40
+    look: 1
+    id: 32
+    currentStats:
+      melee: 33
+      psiSkill: 0
+      throwing: 80
+      reactions: 32
+      strength: 22
+      bravery: 60
+      health: 32
+      psiStrength: 17
+      tu: 60
+      firing: 41
+      stamina: 40
+    improvement: 0
+    rank: 0
+    armor: STR_NONE_UC
+    psiStrImprovement: 0
+    kills: 0
+    death:
+      time:
+        minute: 51
+        hour: 16
+        month: 3
+        year: 1999
+        second: 50
+        weekday: 2
+        day: 1
+    name: Aniko Soltesz
+    missions: 2
+    gender: 1
+  - psiStrImprovement: 0
+    improvement: 0
+    look: 1
+    initialStats:
+      psiStrength: 62
+      reactions: 56
+      bravery: 20
+      health: 30
+      throwing: 52
+      stamina: 61
+      firing: 50
+      melee: 39
+      tu: 52
+      psiSkill: 0
+      strength: 40
+    gender: 0
+    missions: 4
+    id: 18
+    currentStats:
+      health: 39
+      bravery: 20
+      strength: 47
+      stamina: 65
+      melee: 39
+      psiStrength: 62
+      firing: 56
+      tu: 56
+      reactions: 56
+      throwing: 52
+      psiSkill: 0
+    kills: 4
+    death:
+      time:
+        minute: 38
+        second: 10
+        hour: 20
+        day: 7
+        year: 1999
+        weekday: 1
+        month: 3
+    armor: STR_NONE_UC
+    name: Pavel Romanov
+    rank: 1
+  - rank: 0
+    improvement: 0
+    currentStats:
+      health: 30
+      psiStrength: 49
+      tu: 59
+      psiSkill: 0
+      melee: 23
+      strength: 28
+      reactions: 43
+      firing: 64
+      bravery: 40
+      stamina: 58
+      throwing: 67
+    missions: 1
+    id: 39
+    look: 0
+    kills: 0
+    death:
+      time:
+        year: 1999
+        month: 3
+        weekday: 6
+        minute: 46
+        second: 5
+        day: 12
+        hour: 11
+    psiStrImprovement: 0
+    gender: 0
+    initialStats:
+      tu: 59
+      firing: 64
+      psiStrength: 49
+      health: 30
+      strength: 28
+      psiSkill: 0
+      reactions: 43
+      throwing: 67
+      melee: 23
+      stamina: 58
+      bravery: 40
+    name: Filippo Santoro
+    armor: STR_NONE_UC
+  - improvement: 0
+    psiStrImprovement: 0
+    name: Joachim Schulz
+    death:
+      time:
+        hour: 11
+        minute: 43
+        day: 23
+        weekday: 3
+        month: 3
+        year: 1999
+        second: 35
+    rank: 1
+    look: 3
+    id: 23
+    gender: 0
+    currentStats:
+      psiStrength: 33
+      stamina: 49
+      reactions: 56
+      psiSkill: 0
+      melee: 24
+      throwing: 54
+      bravery: 10
+      tu: 54
+      strength: 33
+      health: 41
+      firing: 50
+    initialStats:
+      tu: 51
+      reactions: 56
+      firing: 49
+      psiSkill: 0
+      stamina: 49
+      bravery: 10
+      psiStrength: 33
+      strength: 26
+      melee: 24
+      health: 40
+      throwing: 53
+    missions: 4
+    kills: 3
+    armor: STR_NONE_UC
+  - id: 31
+    initialStats:
+      reactions: 60
+      strength: 21
+      bravery: 10
+      tu: 56
+      firing: 43
+      psiSkill: 0
+      psiStrength: 24
+      health: 39
+      stamina: 45
+      melee: 38
+      throwing: 77
+    currentStats:
+      health: 42
+      throwing: 78
+      tu: 60
+      strength: 24
+      melee: 38
+      stamina: 48
+      psiSkill: 0
+      firing: 45
+      bravery: 10
+      psiStrength: 24
+      reactions: 60
+    improvement: 0
+    name: Vihaan Verma
+    kills: 3
+    gender: 0
+    missions: 2
+    armor: STR_NONE_UC
+    death:
+      time:
+        second: 35
+        day: 23
+        weekday: 3
+        month: 3
+        minute: 43
+        hour: 11
+        year: 1999
+    look: 2
+    rank: 1
+    psiStrImprovement: 0
+  - death:
+      time:
+        hour: 11
+        day: 23
+        month: 3
+        year: 1999
+        weekday: 3
+        minute: 43
+        second: 35
+    psiStrImprovement: 0
+    gender: 0
+    id: 38
+    armor: STR_NONE_UC
+    currentStats:
+      tu: 59
+      psiSkill: 0
+      reactions: 36
+      bravery: 20
+      stamina: 74
+      psiStrength: 34
+      strength: 37
+      health: 36
+      throwing: 51
+      melee: 21
+      firing: 59
+    rank: 1
+    initialStats:
+      reactions: 36
+      tu: 58
+      psiStrength: 34
+      strength: 33
+      stamina: 69
+      psiSkill: 0
+      firing: 57
+      health: 33
+      melee: 21
+      bravery: 20
+      throwing: 51
+    name: Hayate Hashimoto
+    improvement: 0
+    missions: 4
+    kills: 3
+    look: 1
+  - name: Ruben Wouters
+    improvement: 0
+    missions: 2
+    kills: 1
+    initialStats:
+      throwing: 64
+      strength: 31
+      firing: 49
+      melee: 28
+      tu: 58
+      health: 40
+      stamina: 55
+      psiSkill: 0
+      reactions: 42
+      bravery: 40
+      psiStrength: 62
+    id: 42
+    currentStats:
+      stamina: 58
+      health: 42
+      throwing: 64
+      bravery: 40
+      reactions: 42
+      strength: 35
+      tu: 59
+      psiStrength: 62
+      psiSkill: 0
+      firing: 49
+      melee: 28
+    psiStrImprovement: 0
+    look: 0
+    rank: 1
+    gender: 0
+    death:
+      time:
+        month: 3
+        minute: 43
+        weekday: 3
+        year: 1999
+        hour: 11
+        second: 35
+        day: 23
+    armor: STR_NONE_UC
+  - gender: 0
+    rank: 2
+    currentStats:
+      psiSkill: 0
+      melee: 24
+      tu: 69
+      psiStrength: 39
+      throwing: 60
+      stamina: 67
+      bravery: 40
+      health: 48
+      reactions: 52
+      strength: 46
+      firing: 55
+    id: 13
+    armor: STR_PERSONAL_ARMOR_UC
+    kills: 8
+    name: Robert Pawlowski
+    psiStrImprovement: 0
+    missions: 10
+    look: 0
+    improvement: 0
+    initialStats:
+      melee: 24
+      bravery: 40
+      throwing: 56
+      psiStrength: 39
+      psiSkill: 0
+      firing: 48
+      reactions: 48
+      tu: 54
+      strength: 29
+      health: 33
+      stamina: 47
+    death:
+      time:
+        month: 3
+        year: 1999
+        hour: 20
+        weekday: 4
+        minute: 2
+        day: 31
+        second: 15
+  - kills: 1
+    rank: 0
+    id: 43
+    armor: STR_NONE_UC
+    gender: 0
+    initialStats:
+      throwing: 64
+      bravery: 60
+      firing: 66
+      tu: 57
+      psiStrength: 25
+      stamina: 66
+      health: 40
+      reactions: 40
+      psiSkill: 0
+      strength: 37
+      melee: 28
+    name: Carl Mitchell
+    death:
+      time:
+        month: 3
+        year: 1999
+        weekday: 4
+        hour: 20
+        minute: 2
+        second: 15
+        day: 31
+    psiStrImprovement: 0
+    look: 1
+    improvement: 0
+    missions: 2
+    currentStats:
+      tu: 57
+      melee: 28
+      firing: 66
+      reactions: 40
+      health: 40
+      throwing: 64
+      psiStrength: 25
+      psiSkill: 0
+      bravery: 60
+      strength: 37
+      stamina: 66
+  - improvement: 0
+    currentStats:
+      health: 33
+      bravery: 20
+      psiStrength: 89
+      strength: 30
+      reactions: 43
+      stamina: 40
+      psiSkill: 0
+      throwing: 77
+      tu: 52
+      firing: 61
+      melee: 33
+    name: Augusto Alvarado
+    gender: 0
+    id: 45
+    armor: STR_NONE_UC
+    kills: 0
+    look: 1
+    rank: 0
+    missions: 1
+    initialStats:
+      stamina: 40
+      health: 33
+      throwing: 77
+      firing: 61
+      strength: 30
+      reactions: 43
+      bravery: 20
+      psiSkill: 0
+      psiStrength: 89
+      melee: 33
+      tu: 52
+    death:
+      time:
+        weekday: 4
+        second: 15
+        hour: 20
+        month: 3
+        day: 31
+        year: 1999
+        minute: 2
+    psiStrImprovement: 0
+  - death:
+      time:
+        second: 40
+        day: 19
+        hour: 1
+        weekday: 4
+        year: 1999
+        minute: 32
+        month: 5
+    initialStats:
+      melee: 30
+      throwing: 67
+      psiStrength: 61
+      reactions: 33
+      stamina: 41
+      bravery: 40
+      strength: 30
+      tu: 60
+      health: 26
+      psiSkill: 0
+      firing: 41
+    improvement: 0
+    rank: 1
+    psiStrImprovement: 0
+    id: 35
+    look: 3
+    gender: 0
+    kills: 4
+    name: Francisco Guerreiro
+    missions: 7
+    armor: STR_PERSONAL_ARMOR_UC
+    currentStats:
+      psiStrength: 61
+      reactions: 33
+      throwing: 69
+      stamina: 51
+      health: 31
+      tu: 63
+      psiSkill: 0
+      strength: 43
+      melee: 30
+      bravery: 40
+      firing: 43
 discovered:
   - STR_MEDI_KIT
   - STR_ALIEN_ALLOYS
@@ -1819,1715 +1556,184 @@ discovered:
   - STR_SECTOID
   - STR_SECTOPOD_CONSTRUCTION
   - STR_HEAVY_PLASMA
-alienStrategy:
-  regions:
-    STR_SOUTH_EAST_ASIA: 15
-    STR_PACIFIC: 5
-    STR_SOUTH_AMERICA: 10
-    STR_SOUTH_ATLANTIC: 5
-    STR_ARCTIC: 4
-    STR_ANTARCTICA: 4
-    STR_INDIAN_OCEAN: 5
-    STR_CENTRAL_ASIA: 12
-    STR_NORTH_AFRICA: 12
-    STR_EUROPE: 16
-    STR_NORTH_AMERICA: 18
-    STR_AUSTRALASIA: 10
-    STR_SIBERIA: 10
-    STR_SOUTHERN_AFRICA: 8
-    STR_NORTH_ATLANTIC: 45
-  possibleMissions:
-    - region: STR_ANTARCTICA
-      missions:
-        STR_ALIEN_RESEARCH: 25
-        STR_ALIEN_BASE: 35
-    - region: STR_ARCTIC
-      missions:
-        STR_ALIEN_RESEARCH: 25
-        STR_ALIEN_BASE: 35
-    - missions:
-        STR_ALIEN_HARVEST: 11
-        STR_ALIEN_INFILTRATION: 8
-        STR_ALIEN_BASE: 16
-        STR_ALIEN_ABDUCTION: 4
-        STR_ALIEN_RESEARCH: 15
-      region: STR_AUSTRALASIA
-    - region: STR_CENTRAL_ASIA
-      missions:
-        STR_ALIEN_BASE: 8
-        STR_ALIEN_RESEARCH: 5
-        STR_ALIEN_INFILTRATION: 10
-        STR_ALIEN_HARVEST: 5
-        STR_ALIEN_ABDUCTION: 6
-    - region: STR_EUROPE
-      missions:
-        STR_ALIEN_BASE: 6
-        STR_ALIEN_HARVEST: 10
-        STR_ALIEN_ABDUCTION: 15
-    - region: STR_INDIAN_OCEAN
-      missions:
-        STR_ALIEN_TERROR: 15
-        STR_ALIEN_RESEARCH: 15
-    - region: STR_NORTH_AFRICA
-      missions:
-        STR_ALIEN_HARVEST: 8
-        STR_ALIEN_RESEARCH: 8
-        STR_ALIEN_BASE: 19
-        STR_ALIEN_INFILTRATION: 8
-        STR_ALIEN_ABDUCTION: 8
-    - region: STR_NORTH_AMERICA
-      missions:
-        STR_ALIEN_ABDUCTION: 20
-        STR_ALIEN_RESEARCH: 14
-        STR_ALIEN_HARVEST: 17
-    - region: STR_NORTH_ATLANTIC
-      missions:
-        STR_ALIEN_RESEARCH: 15
-    - missions:
-        STR_ALIEN_RESEARCH: 15
-        STR_ALIEN_TERROR: 15
-        STR_ALIEN_BASE: 27
-      region: STR_PACIFIC
-    - missions:
-        STR_ALIEN_ABDUCTION: 4
-        STR_ALIEN_BASE: 9
-        STR_ALIEN_RESEARCH: 6
-      region: STR_SIBERIA
-    - region: STR_SOUTHERN_AFRICA
-      missions:
-        STR_ALIEN_ABDUCTION: 8
-        STR_ALIEN_INFILTRATION: 8
-        STR_ALIEN_RESEARCH: 7
-        STR_ALIEN_BASE: 9
-        STR_ALIEN_HARVEST: 8
-    - missions:
-        STR_ALIEN_HARVEST: 24
-        STR_ALIEN_ABDUCTION: 12
-        STR_ALIEN_BASE: 22
-        STR_ALIEN_RESEARCH: 10
-        STR_ALIEN_INFILTRATION: 18
-      region: STR_SOUTH_AMERICA
-    - missions:
-        STR_ALIEN_TERROR: 15
-        STR_ALIEN_RESEARCH: 15
-      region: STR_SOUTH_ATLANTIC
-    - region: STR_SOUTH_EAST_ASIA
-      missions:
-        STR_ALIEN_INFILTRATION: 13
-        STR_ALIEN_ABDUCTION: 21
-        STR_ALIEN_HARVEST: 13
-        STR_ALIEN_RESEARCH: 8
-        STR_ALIEN_BASE: 8
+  - STR_HEAVY_PLASMA_CLIP
+  - STR_PLASMA_CANNON_DEP1
+alienMissions:
+  - spawnCountdown: 11880
+    liveUfos: 0
+    nextUfoCounter: 0
+    uniqueID: 13
+    type: STR_ALIEN_INFILTRATION
+    region: STR_NORTH_AMERICA
+    nextWave: 7
+    race: STR_SECTOID
+  - nextUfoCounter: 1
+    uniqueID: 15
+    region: STR_SOUTH_EAST_ASIA
+    type: STR_ALIEN_RETALIATION
+    spawnCountdown: 2490
+    race: STR_SECTOID
+    nextWave: 2
+    liveUfos: 0
+  - uniqueID: 16
+    spawnCountdown: 11760
+    nextUfoCounter: 2
+    nextWave: 2
+    region: STR_EUROPE
+    liveUfos: 0
+    race: STR_SECTOID
+    type: STR_ALIEN_RETALIATION
+  - nextWave: 2
+    nextUfoCounter: 0
+    region: STR_EUROPE
+    liveUfos: 0
+    race: STR_FLOATER
+    spawnCountdown: 10620
+    uniqueID: 17
+    type: STR_ALIEN_INFILTRATION
+  - type: STR_ALIEN_RESEARCH
+    nextWave: 0
+    region: STR_NORTH_AMERICA
+    spawnCountdown: 13020
+    uniqueID: 19
+    liveUfos: 0
+    nextUfoCounter: 0
+    race: STR_MUTON
+  - region: STR_NORTH_AFRICA
+    liveUfos: 0
+    type: STR_ALIEN_TERROR
+    race: STR_MUTON
+    spawnCountdown: 120
+    uniqueID: 20
+    nextWave: 0
+    nextUfoCounter: 0
 poppedResearch:
   - STR_ALIEN_ORIGINS
   - STR_SECTOID_CORPSE
   - STR_SNAKEMAN_CORPSE
   - STR_REAPER_CORPSE
   - STR_LASER_DEFENSE
-deadSoldiers:
-  - look: 1
-    currentStats:
-      firing: 72
-      bravery: 30
-      psiStrength: 25
-      psiSkill: 0
-      reactions: 38
-      stamina: 50
-      throwing: 63
-      health: 29
-      tu: 56
-      strength: 21
-      melee: 26
-    id: 5
-    kills: 4
-    armor: STR_NONE_UC
-    gender: 1
-    name: Gaia De Luca
-    death:
-      time:
-        month: 1
-        second: 10
-        year: 1999
-        day: 21
-        hour: 5
-        minute: 17
-        weekday: 5
-    improvement: 0
-    rank: 2
-    initialStats:
-      psiStrength: 25
-      melee: 26
-      psiSkill: 0
-      firing: 70
-      strength: 21
-      tu: 53
-      bravery: 30
-      stamina: 47
-      health: 25
-      reactions: 38
-      throwing: 63
-    missions: 2
-    psiStrImprovement: 0
-  - initialStats:
-      firing: 44
-      throwing: 58
-      bravery: 50
-      stamina: 40
-      psiSkill: 0
-      strength: 29
-      tu: 59
-      reactions: 54
-      health: 36
-      psiStrength: 76
-      melee: 40
-    rank: 0
-    psiStrImprovement: 0
-    currentStats:
-      melee: 40
-      psiStrength: 76
-      tu: 59
-      health: 36
-      reactions: 54
-      strength: 29
-      firing: 44
-      throwing: 58
-      psiSkill: 0
-      stamina: 40
-      bravery: 50
-    kills: 2
-    gender: 0
-    id: 6
-    look: 1
-    name: Peter Keniz
-    armor: STR_NONE_UC
-    missions: 2
-    death:
-      time:
-        year: 1999
-        month: 1
-        second: 10
-        weekday: 5
-        day: 21
-        minute: 17
-        hour: 5
-    improvement: 0
-  - kills: 1
-    missions: 3
-    gender: 1
-    improvement: 0
-    psiStrImprovement: 0
-    death:
-      time:
-        minute: 17
-        day: 21
-        year: 1999
-        month: 1
-        second: 10
-        weekday: 5
-        hour: 5
-    armor: STR_NONE_UC
-    look: 2
-    rank: 3
-    initialStats:
-      psiSkill: 0
-      health: 33
-      reactions: 58
-      stamina: 59
-      tu: 51
-      firing: 69
-      psiStrength: 0
-      bravery: 20
-      throwing: 60
-      melee: 33
-      strength: 31
-    currentStats:
-      psiStrength: 0
-      strength: 40
-      melee: 33
-      psiSkill: 0
-      throwing: 62
-      health: 38
-      tu: 53
-      firing: 70
-      bravery: 20
-      stamina: 67
-      reactions: 58
-    id: 7
-    name: Mitsuko Kikuchi
-  - name: Karoline Fjaerestad
-    currentStats:
-      stamina: 71
-      reactions: 37
-      throwing: 62
-      psiSkill: 0
-      psiStrength: 40
-      bravery: 60
-      strength: 32
-      tu: 51
-      firing: 49
-      health: 32
-      melee: 35
-    gender: 1
-    improvement: 0
-    look: 1
-    initialStats:
-      bravery: 60
-      stamina: 68
-      psiStrength: 40
-      psiSkill: 0
-      tu: 51
-      reactions: 37
-      firing: 49
-      health: 27
-      melee: 35
-      strength: 32
-      throwing: 61
-    kills: 2
-    armor: STR_NONE_UC
-    death:
-      time:
-        day: 21
-        minute: 17
-        year: 1999
-        second: 10
-        weekday: 5
-        month: 1
-        hour: 5
-    psiStrImprovement: 0
-    missions: 3
-    rank: 1
-    id: 8
-  - psiStrImprovement: 0
-    death:
-      time:
-        hour: 5
-        month: 1
-        weekday: 5
-        day: 21
-        second: 10
-        minute: 17
-        year: 1999
-    currentStats:
-      tu: 52
-      stamina: 67
-      psiStrength: 78
-      throwing: 67
-      reactions: 52
-      strength: 28
-      firing: 65
-      health: 31
-      psiSkill: 0
-      bravery: 10
-      melee: 38
-    armor: STR_NONE_UC
-    initialStats:
-      psiSkill: 0
-      melee: 38
-      tu: 52
-      firing: 65
-      health: 31
-      reactions: 52
-      throwing: 66
-      stamina: 67
-      strength: 28
-      psiStrength: 78
-      bravery: 10
-    gender: 0
-    kills: 1
-    improvement: 0
-    look: 0
-    rank: 0
-    missions: 3
-    name: Ralf Lange
-    id: 9
-  - improvement: 0
-    id: 10
-    rank: 1
-    missions: 3
-    currentStats:
-      stamina: 73
-      throwing: 78
-      health: 35
-      tu: 56
-      psiSkill: 0
-      psiStrength: 35
-      bravery: 60
-      strength: 40
-      melee: 24
-      reactions: 45
-      firing: 41
-    psiStrImprovement: 0
-    gender: 0
-    name: Tapani Kokkonen
-    look: 0
-    kills: 1
-    initialStats:
-      reactions: 45
-      stamina: 70
-      firing: 41
-      tu: 53
-      psiSkill: 0
-      psiStrength: 35
-      strength: 36
-      bravery: 60
-      melee: 24
-      health: 34
-      throwing: 78
-    death:
-      time:
-        day: 21
-        second: 10
-        hour: 5
-        weekday: 5
-        minute: 17
-        month: 1
-        year: 1999
-    armor: STR_NONE_UC
-  - name: Nuno Peixe
-    missions: 2
-    gender: 0
-    kills: 0
-    death:
-      time:
-        second: 10
-        month: 1
-        minute: 17
-        weekday: 5
-        year: 1999
-        day: 21
-        hour: 5
-    initialStats:
-      bravery: 10
-      reactions: 37
-      melee: 26
-      firing: 55
-      psiStrength: 99
-      psiSkill: 0
-      health: 36
-      throwing: 65
-      strength: 40
-      tu: 50
-      stamina: 49
-    id: 12
-    psiStrImprovement: 0
-    armor: STR_NONE_UC
-    improvement: 0
-    currentStats:
-      strength: 41
-      health: 37
-      psiStrength: 99
-      bravery: 10
-      melee: 26
-      stamina: 49
-      throwing: 65
-      psiSkill: 0
-      reactions: 37
-      tu: 55
-      firing: 56
-    look: 3
-    rank: 1
-  - gender: 0
-    armor: STR_NONE_UC
-    look: 0
-    rank: 0
-    death:
-      time:
-        day: 21
-        month: 1
-        year: 1999
-        second: 10
-        hour: 5
-        minute: 17
-        weekday: 5
-    name: Vural Ersoy
-    missions: 2
-    kills: 0
-    id: 14
-    initialStats:
-      melee: 27
-      throwing: 68
-      psiSkill: 0
-      strength: 25
-      reactions: 57
-      stamina: 49
-      health: 35
-      psiStrength: 23
-      firing: 62
-      bravery: 30
-      tu: 51
-    currentStats:
-      melee: 27
-      reactions: 57
-      firing: 62
-      health: 35
-      tu: 51
-      stamina: 49
-      psiSkill: 0
-      strength: 25
-      throwing: 68
-      bravery: 30
-      psiStrength: 23
-    psiStrImprovement: 0
-    improvement: 0
-  - id: 15
-    improvement: 0
-    gender: 1
-    armor: STR_NONE_UC
-    initialStats:
-      firing: 67
-      psiStrength: 88
-      psiSkill: 0
-      throwing: 52
-      melee: 34
-      bravery: 40
-      strength: 23
-      health: 27
-      tu: 54
-      stamina: 59
-      reactions: 59
-    name: Mulu Ken Melku
-    missions: 2
-    rank: 2
-    psiStrImprovement: 0
-    currentStats:
-      bravery: 40
-      firing: 68
-      psiStrength: 88
-      health: 31
-      melee: 34
-      reactions: 59
-      stamina: 59
-      strength: 26
-      tu: 55
-      psiSkill: 0
-      throwing: 52
-    look: 3
-    death:
-      time:
-        day: 21
-        weekday: 5
-        minute: 17
-        second: 10
-        month: 1
-        year: 1999
-        hour: 5
-    kills: 1
-  - armor: STR_NONE_UC
-    name: Paolo Sansone
-    psiStrImprovement: 0
-    rank: 1
-    death:
-      time:
-        day: 8
-        minute: 36
-        second: 20
-        month: 2
-        weekday: 2
-        hour: 10
-        year: 1999
-    initialStats:
-      tu: 52
-      psiStrength: 53
-      reactions: 43
-      health: 25
-      bravery: 20
-      strength: 23
-      psiSkill: 0
-      throwing: 62
-      melee: 20
-      stamina: 41
-      firing: 65
-    id: 1
-    missions: 3
-    look: 0
-    currentStats:
-      tu: 52
-      bravery: 20
-      melee: 20
-      reactions: 43
-      throwing: 63
-      stamina: 44
-      health: 27
-      firing: 67
-      strength: 23
-      psiSkill: 0
-      psiStrength: 53
-    improvement: 0
-    kills: 3
-    gender: 0
-  - look: 0
-    id: 2
-    improvement: 0
-    death:
-      time:
-        weekday: 2
-        second: 20
-        month: 2
-        minute: 36
-        year: 1999
-        day: 8
-        hour: 10
-    armor: STR_NONE_UC
-    rank: 0
-    currentStats:
-      throwing: 71
-      psiStrength: 37
-      stamina: 45
-      melee: 27
-      reactions: 57
-      psiSkill: 0
-      strength: 28
-      bravery: 20
-      tu: 58
-      firing: 45
-      health: 37
-    gender: 0
-    initialStats:
-      firing: 45
-      melee: 27
-      stamina: 45
-      psiStrength: 37
-      psiSkill: 0
-      strength: 28
-      health: 37
-      bravery: 20
-      throwing: 70
-      tu: 58
-      reactions: 57
-    missions: 3
-    kills: 0
-    name: David Vermeulen
-    psiStrImprovement: 0
-  - death:
-      time:
-        minute: 36
-        day: 8
-        weekday: 2
-        hour: 10
-        second: 20
-        month: 2
-        year: 1999
-    name: Huia Tamaki
-    id: 3
-    look: 2
-    rank: 3
-    missions: 3
-    psiStrImprovement: 0
-    kills: 2
-    currentStats:
-      throwing: 80
-      stamina: 62
-      health: 41
-      reactions: 31
-      strength: 28
-      firing: 66
-      tu: 59
-      psiStrength: 81
-      bravery: 20
-      psiSkill: 0
-      melee: 23
-    improvement: 0
-    initialStats:
-      tu: 59
-      throwing: 79
-      strength: 24
-      reactions: 31
-      firing: 66
-      health: 39
-      melee: 23
-      psiStrength: 81
-      stamina: 61
-      psiSkill: 0
-      bravery: 20
-    armor: STR_NONE_UC
-    gender: 1
-  - name: Juho Hietala
-    kills: 0
-    gender: 0
-    initialStats:
-      firing: 42
-      psiSkill: 0
-      strength: 20
-      health: 33
-      psiStrength: 98
-      tu: 54
-      stamina: 43
-      throwing: 52
-      bravery: 50
-      reactions: 36
-      melee: 32
-    psiStrImprovement: 0
-    armor: STR_NONE_UC
-    rank: 0
-    currentStats:
-      psiSkill: 0
-      psiStrength: 98
-      reactions: 36
-      health: 33
-      stamina: 43
-      throwing: 53
-      bravery: 50
-      melee: 32
-      strength: 20
-      firing: 42
-      tu: 54
-    id: 4
-    look: 0
-    improvement: 0
-    missions: 3
-    death:
-      time:
-        weekday: 2
-        hour: 10
-        month: 2
-        second: 20
-        day: 8
-        minute: 36
-        year: 1999
-  - death:
-      time:
-        month: 2
-        second: 20
-        minute: 36
-        day: 8
-        hour: 10
-        year: 1999
-        weekday: 2
-    kills: 1
-    look: 3
-    initialStats:
-      strength: 36
-      psiSkill: 0
-      health: 30
-      melee: 32
-      tu: 56
-      bravery: 60
-      stamina: 53
-      reactions: 31
-      psiStrength: 98
-      firing: 53
-      throwing: 78
-    improvement: 0
-    name: Céléstin Lubanga
-    missions: 4
-    currentStats:
-      bravery: 70
-      throwing: 82
-      firing: 55
-      strength: 36
-      tu: 56
-      melee: 32
-      psiSkill: 0
-      stamina: 53
-      reactions: 31
-      psiStrength: 98
-      health: 32
-    gender: 0
-    rank: 2
-    psiStrImprovement: 0
-    armor: STR_NONE_UC
-    id: 11
-  - psiStrImprovement: 0
-    id: 16
-    rank: 2
-    initialStats:
-      stamina: 70
-      reactions: 53
-      melee: 31
-      throwing: 55
-      health: 27
-      firing: 45
-      psiSkill: 0
-      psiStrength: 52
-      bravery: 20
-      strength: 35
-      tu: 53
-    death:
-      time:
-        day: 8
-        second: 20
-        weekday: 2
-        month: 2
-        hour: 10
-        minute: 36
-        year: 1999
-    name: Liviu Marinescu
-    improvement: 0
-    currentStats:
-      psiSkill: 0
-      psiStrength: 52
-      throwing: 56
-      strength: 41
-      stamina: 76
-      melee: 31
-      bravery: 30
-      health: 37
-      reactions: 53
-      tu: 56
-      firing: 47
-    kills: 3
-    armor: STR_NONE_UC
-    look: 1
-    gender: 0
-    missions: 4
-  - currentStats:
-      strength: 24
-      psiStrength: 33
-      bravery: 60
-      melee: 32
-      firing: 64
-      throwing: 71
-      reactions: 33
-      tu: 52
-      psiSkill: 0
-      stamina: 49
-      health: 37
-    gender: 0
-    look: 0
-    initialStats:
-      psiStrength: 33
-      strength: 24
-      firing: 64
-      stamina: 49
-      health: 37
-      psiSkill: 0
-      tu: 52
-      reactions: 33
-      throwing: 71
-      bravery: 60
-      melee: 32
-    improvement: 0
-    rank: 0
-    name: Akseli Savolainen
-    id: 17
-    missions: 1
-    armor: STR_NONE_UC
-    death:
-      time:
-        weekday: 2
-        minute: 36
-        month: 2
-        second: 20
-        hour: 10
-        day: 8
-        year: 1999
-    kills: 0
-    psiStrImprovement: 0
-  - currentStats:
-      stamina: 61
-      bravery: 20
-      strength: 27
-      psiSkill: 0
-      firing: 55
-      tu: 55
-      melee: 30
-      reactions: 45
-      health: 36
-      psiStrength: 86
-      throwing: 78
-    look: 0
-    psiStrImprovement: 0
-    death:
-      time:
-        month: 2
-        minute: 36
-        hour: 10
-        day: 8
-        second: 20
-        year: 1999
-        weekday: 2
-    id: 19
-    armor: STR_NONE_UC
-    kills: 0
-    improvement: 0
-    missions: 1
-    rank: 0
-    gender: 0
-    initialStats:
-      bravery: 20
-      firing: 55
-      tu: 55
-      reactions: 45
-      psiSkill: 0
-      strength: 27
-      melee: 30
-      throwing: 78
-      stamina: 61
-      health: 36
-      psiStrength: 86
-    name: Henrik Balog
-  - rank: 0
-    armor: STR_NONE_UC
-    gender: 0
-    name: Gustav Jorgensen
-    currentStats:
-      bravery: 40
-      strength: 30
-      stamina: 43
-      firing: 51
-      melee: 27
-      tu: 52
-      psiStrength: 10
-      reactions: 45
-      health: 37
-      throwing: 65
-      psiSkill: 0
-    initialStats:
-      throwing: 65
-      stamina: 43
-      reactions: 45
-      psiSkill: 0
-      strength: 30
-      firing: 51
-      psiStrength: 10
-      health: 37
-      tu: 52
-      melee: 27
-      bravery: 40
-    improvement: 0
-    kills: 0
-    missions: 1
-    id: 20
-    death:
-      time:
-        month: 2
-        year: 1999
-        second: 20
-        day: 8
-        weekday: 2
-        hour: 10
-        minute: 36
-    psiStrImprovement: 0
-    look: 1
-  - currentStats:
-      firing: 64
-      psiStrength: 11
-      strength: 26
-      psiSkill: 0
-      stamina: 49
-      melee: 28
-      health: 29
-      reactions: 51
-      bravery: 40
-      throwing: 71
-      tu: 50
-    missions: 1
-    armor: STR_NONE_UC
-    id: 21
-    look: 0
-    kills: 0
-    death:
-      time:
-        second: 45
-        hour: 1
-        month: 2
-        year: 1999
-        day: 18
-        weekday: 5
-        minute: 31
-    psiStrImprovement: 0
-    improvement: 0
-    initialStats:
-      psiSkill: 0
-      reactions: 51
-      firing: 64
-      bravery: 40
-      melee: 28
-      stamina: 49
-      health: 29
-      strength: 26
-      throwing: 71
-      tu: 50
-      psiStrength: 11
-    name: Hans Schaefer
-    gender: 0
-    rank: 0
-  - missions: 1
-    armor: STR_NONE_UC
-    psiStrImprovement: 0
-    id: 25
-    currentStats:
-      psiSkill: 0
-      melee: 25
-      health: 31
-      strength: 32
-      stamina: 58
-      tu: 50
-      bravery: 50
-      firing: 46
-      psiStrength: 24
-      throwing: 66
-      reactions: 34
-    initialStats:
-      psiSkill: 0
-      psiStrength: 24
-      reactions: 34
-      firing: 46
-      tu: 50
-      stamina: 58
-      melee: 25
-      bravery: 50
-      health: 31
-      throwing: 66
-      strength: 32
-    look: 0
-    improvement: 0
-    gender: 1
-    name: Freya Guildenstern
-    death:
-      time:
-        second: 45
-        hour: 1
-        minute: 31
-        day: 18
-        month: 2
-        year: 1999
-        weekday: 5
-    kills: 0
-    rank: 0
-  - currentStats:
-      strength: 25
-      tu: 57
-      stamina: 45
-      psiStrength: 49
-      bravery: 60
-      melee: 23
-      throwing: 50
-      health: 33
-      firing: 56
-      reactions: 40
-      psiSkill: 0
-    name: Fabio Nunes
-    improvement: 0
-    death:
-      time:
-        hour: 1
-        weekday: 5
-        day: 18
-        year: 1999
-        month: 2
-        second: 45
-        minute: 31
-    armor: STR_NONE_UC
-    psiStrImprovement: 0
-    initialStats:
-      stamina: 45
-      firing: 56
-      bravery: 60
-      melee: 23
-      psiSkill: 0
-      strength: 25
-      health: 33
-      throwing: 50
-      tu: 57
-      psiStrength: 49
-      reactions: 40
-    id: 26
-    look: 0
-    gender: 0
-    rank: 0
-    missions: 1
-    kills: 0
-  - missions: 1
-    psiStrImprovement: 0
-    armor: STR_NONE_UC
-    improvement: 0
-    kills: 0
-    death:
-      time:
-        hour: 1
-        second: 45
-        month: 2
-        year: 1999
-        day: 18
-        weekday: 5
-        minute: 31
-    initialStats:
-      reactions: 37
-      tu: 57
-      throwing: 78
-      strength: 27
-      melee: 26
-      firing: 65
-      psiStrength: 100
-      health: 31
-      bravery: 20
-      psiSkill: 0
-      stamina: 55
-    name: Min-jun Chae
-    rank: 0
-    id: 27
-    look: 2
-    currentStats:
-      tu: 57
-      bravery: 20
-      health: 31
-      psiSkill: 0
-      reactions: 37
-      psiStrength: 100
-      melee: 26
-      stamina: 55
-      firing: 65
-      throwing: 78
-      strength: 27
-    gender: 0
-  - currentStats:
-      health: 31
-      melee: 21
-      throwing: 64
-      reactions: 35
-      psiSkill: 0
-      bravery: 50
-      psiStrength: 75
-      strength: 38
-      tu: 59
-      firing: 70
-      stamina: 53
-    id: 22
-    initialStats:
-      throwing: 63
-      psiStrength: 75
-      bravery: 50
-      psiSkill: 0
-      firing: 69
-      tu: 59
-      strength: 34
-      health: 30
-      stamina: 50
-      reactions: 35
-      melee: 21
-    death:
-      time:
-        minute: 16
-        weekday: 2
-        second: 50
-        day: 22
-        year: 1999
-        month: 2
-        hour: 11
-    look: 0
-    armor: STR_NONE_UC
-    name: Rudi de Bruyn
-    improvement: 0
-    rank: 1
-    gender: 0
-    psiStrImprovement: 0
-    missions: 2
-    kills: 3
-  - gender: 0
-    initialStats:
-      throwing: 68
-      firing: 55
-      psiStrength: 73
-      melee: 40
-      bravery: 10
-      strength: 26
-      stamina: 66
-      tu: 53
-      psiSkill: 0
-      health: 27
-      reactions: 47
-    improvement: 0
-    rank: 1
-    name: Gheorghe Stanciu
-    death:
-      time:
-        minute: 51
-        hour: 16
-        weekday: 2
-        second: 50
-        day: 1
-        month: 3
-        year: 1999
-    kills: 3
-    armor: STR_PERSONAL_ARMOR_UC
-    id: 24
-    psiStrImprovement: 0
-    missions: 3
-    currentStats:
-      strength: 29
-      psiSkill: 0
-      bravery: 10
-      reactions: 47
-      tu: 53
-      melee: 40
-      health: 35
-      firing: 56
-      stamina: 68
-      throwing: 70
-      psiStrength: 73
-    look: 1
-  - currentStats:
-      throwing: 80
-      psiStrength: 17
-      stamina: 40
-      tu: 60
-      bravery: 60
-      reactions: 32
-      psiSkill: 0
-      melee: 33
-      health: 32
-      firing: 41
-      strength: 22
-    death:
-      time:
-        weekday: 2
-        minute: 51
-        second: 50
-        month: 3
-        hour: 16
-        day: 1
-        year: 1999
-    id: 32
-    improvement: 0
-    armor: STR_NONE_UC
-    psiStrImprovement: 0
-    gender: 1
-    missions: 2
-    kills: 0
-    rank: 0
-    initialStats:
-      psiStrength: 17
-      firing: 41
-      psiSkill: 0
-      reactions: 32
-      stamina: 40
-      strength: 22
-      health: 32
-      tu: 60
-      bravery: 60
-      throwing: 80
-      melee: 33
-    look: 1
-    name: Aniko Soltesz
-  - kills: 4
-    rank: 1
-    name: Pavel Romanov
-    improvement: 0
-    psiStrImprovement: 0
-    death:
-      time:
-        minute: 38
-        weekday: 1
-        month: 3
-        year: 1999
-        hour: 20
-        second: 10
-        day: 7
-    initialStats:
-      health: 30
-      firing: 50
-      psiSkill: 0
-      strength: 40
-      tu: 52
-      psiStrength: 62
-      throwing: 52
-      stamina: 61
-      melee: 39
-      bravery: 20
-      reactions: 56
-    look: 1
-    currentStats:
-      firing: 56
-      bravery: 20
-      psiSkill: 0
-      health: 39
-      throwing: 52
-      stamina: 65
-      reactions: 56
-      strength: 47
-      melee: 39
-      tu: 56
-      psiStrength: 62
-    id: 18
-    armor: STR_NONE_UC
-    missions: 4
-    gender: 0
-  - look: 0
-    initialStats:
-      psiSkill: 0
-      stamina: 58
-      melee: 23
-      reactions: 43
-      bravery: 40
-      tu: 59
-      psiStrength: 49
-      throwing: 67
-      firing: 64
-      health: 30
-      strength: 28
-    id: 39
-    currentStats:
-      tu: 59
-      throwing: 67
-      strength: 28
-      bravery: 40
-      firing: 64
-      stamina: 58
-      melee: 23
-      reactions: 43
-      psiSkill: 0
-      psiStrength: 49
-      health: 30
-    improvement: 0
-    rank: 0
-    death:
-      time:
-        weekday: 6
-        month: 3
-        second: 5
-        hour: 11
-        year: 1999
-        minute: 46
-        day: 12
-    kills: 0
-    armor: STR_NONE_UC
-    psiStrImprovement: 0
-    name: Filippo Santoro
-    gender: 0
-    missions: 1
-  - death:
-      time:
-        month: 3
-        weekday: 3
-        year: 1999
-        day: 23
-        hour: 11
-        second: 35
-        minute: 43
-    id: 23
-    psiStrImprovement: 0
-    armor: STR_NONE_UC
-    missions: 4
-    name: Joachim Schulz
-    improvement: 0
-    rank: 1
-    gender: 0
-    initialStats:
-      psiSkill: 0
-      reactions: 56
-      throwing: 53
-      melee: 24
-      stamina: 49
-      strength: 26
-      bravery: 10
-      tu: 51
-      firing: 49
-      psiStrength: 33
-      health: 40
-    currentStats:
-      firing: 50
-      melee: 24
-      bravery: 10
-      psiSkill: 0
-      strength: 33
-      throwing: 54
-      health: 41
-      tu: 54
-      stamina: 49
-      psiStrength: 33
-      reactions: 56
-    look: 3
-    kills: 3
-  - gender: 0
-    name: Vihaan Verma
-    psiStrImprovement: 0
-    armor: STR_NONE_UC
-    rank: 1
-    kills: 3
-    improvement: 0
-    look: 2
-    initialStats:
-      strength: 21
-      melee: 38
-      firing: 43
-      psiSkill: 0
-      psiStrength: 24
-      bravery: 10
-      health: 39
-      tu: 56
-      throwing: 77
-      reactions: 60
-      stamina: 45
-    death:
-      time:
-        hour: 11
-        second: 35
-        month: 3
-        minute: 43
-        weekday: 3
-        day: 23
-        year: 1999
-    id: 31
-    missions: 2
-    currentStats:
-      strength: 24
-      firing: 45
-      reactions: 60
-      bravery: 10
-      health: 42
-      stamina: 48
-      melee: 38
-      tu: 60
-      psiStrength: 24
-      psiSkill: 0
-      throwing: 78
-  - id: 38
-    currentStats:
-      bravery: 20
-      firing: 59
-      tu: 59
-      psiSkill: 0
-      melee: 21
-      reactions: 36
-      health: 36
-      psiStrength: 34
-      throwing: 51
-      strength: 37
-      stamina: 74
-    kills: 3
-    armor: STR_NONE_UC
-    initialStats:
-      stamina: 69
-      tu: 58
-      psiSkill: 0
-      psiStrength: 34
-      throwing: 51
-      reactions: 36
-      firing: 57
-      strength: 33
-      bravery: 20
-      melee: 21
-      health: 33
-    missions: 4
-    gender: 0
-    psiStrImprovement: 0
-    death:
-      time:
-        month: 3
-        minute: 43
-        weekday: 3
-        year: 1999
-        hour: 11
-        second: 35
-        day: 23
-    look: 1
-    rank: 1
-    name: Hayate Hashimoto
-    improvement: 0
-  - improvement: 0
-    kills: 1
-    rank: 1
-    gender: 0
-    look: 0
-    psiStrImprovement: 0
-    death:
-      time:
-        day: 23
-        hour: 11
-        year: 1999
-        second: 35
-        month: 3
-        minute: 43
-        weekday: 3
-    missions: 2
-    currentStats:
-      tu: 59
-      melee: 28
-      reactions: 42
-      throwing: 64
-      stamina: 58
-      firing: 49
-      health: 42
-      bravery: 40
-      strength: 35
-      psiSkill: 0
-      psiStrength: 62
-    armor: STR_NONE_UC
-    name: Ruben Wouters
-    initialStats:
-      reactions: 42
-      melee: 28
-      psiSkill: 0
-      bravery: 40
-      strength: 31
-      firing: 49
-      psiStrength: 62
-      throwing: 64
-      stamina: 55
-      health: 40
-      tu: 58
-    id: 42
-  - look: 0
-    armor: STR_PERSONAL_ARMOR_UC
-    id: 13
-    kills: 8
-    currentStats:
-      throwing: 60
-      melee: 24
-      bravery: 40
-      psiSkill: 0
-      tu: 69
-      firing: 55
-      stamina: 67
-      reactions: 52
-      psiStrength: 39
-      health: 48
-      strength: 46
-    improvement: 0
-    missions: 10
-    name: Robert Pawlowski
-    initialStats:
-      stamina: 47
-      throwing: 56
-      strength: 29
-      bravery: 40
-      tu: 54
-      psiSkill: 0
-      firing: 48
-      psiStrength: 39
-      melee: 24
-      health: 33
-      reactions: 48
-    rank: 2
-    death:
-      time:
-        minute: 2
-        month: 3
-        weekday: 4
-        hour: 20
-        day: 31
-        second: 15
-        year: 1999
-    psiStrImprovement: 0
-    gender: 0
-  - currentStats:
-      stamina: 66
-      throwing: 64
-      psiStrength: 25
-      health: 40
-      bravery: 60
-      firing: 66
-      reactions: 40
-      strength: 37
-      tu: 57
-      psiSkill: 0
-      melee: 28
-    rank: 0
-    armor: STR_NONE_UC
-    improvement: 0
-    initialStats:
-      psiStrength: 25
-      firing: 66
-      melee: 28
-      tu: 57
-      health: 40
-      throwing: 64
-      stamina: 66
-      strength: 37
-      bravery: 60
-      psiSkill: 0
-      reactions: 40
-    gender: 0
-    name: Carl Mitchell
-    death:
-      time:
-        hour: 20
-        minute: 2
-        day: 31
-        second: 15
-        month: 3
-        year: 1999
-        weekday: 4
-    look: 1
-    kills: 1
-    missions: 2
-    id: 43
-    psiStrImprovement: 0
-  - look: 1
-    missions: 1
-    name: Augusto Alvarado
-    armor: STR_NONE_UC
-    gender: 0
-    kills: 0
-    id: 45
-    psiStrImprovement: 0
-    currentStats:
-      stamina: 40
-      strength: 30
-      reactions: 43
-      bravery: 20
-      melee: 33
-      throwing: 77
-      psiSkill: 0
-      health: 33
-      tu: 52
-      psiStrength: 89
-      firing: 61
-    initialStats:
-      health: 33
-      psiStrength: 89
-      melee: 33
-      reactions: 43
-      psiSkill: 0
-      bravery: 20
-      throwing: 77
-      tu: 52
-      firing: 61
-      stamina: 40
-      strength: 30
-    improvement: 0
-    rank: 0
-    death:
-      time:
-        day: 31
-        weekday: 4
-        minute: 2
-        month: 3
-        second: 15
-        year: 1999
-        hour: 20
-  - psiStrImprovement: 0
-    kills: 4
-    missions: 7
-    id: 35
-    armor: STR_PERSONAL_ARMOR_UC
-    gender: 0
-    rank: 1
-    look: 3
-    death:
-      time:
-        year: 1999
-        month: 5
-        day: 19
-        second: 40
-        minute: 32
-        weekday: 4
-        hour: 1
-    initialStats:
-      strength: 30
-      bravery: 40
-      psiStrength: 61
-      tu: 60
-      health: 26
-      psiSkill: 0
-      throwing: 67
-      melee: 30
-      reactions: 33
-      stamina: 41
-      firing: 41
-    name: Francisco Guerreiro
-    improvement: 0
-    currentStats:
-      strength: 43
-      psiSkill: 0
-      melee: 30
-      health: 31
-      firing: 43
-      stamina: 51
-      throwing: 69
-      tu: 63
-      reactions: 33
-      psiStrength: 61
-      bravery: 40
-alienMissions:
-  - region: STR_NORTH_AMERICA
-    race: STR_SECTOID
-    type: STR_ALIEN_INFILTRATION
-    uniqueID: 13
-    nextWave: 3
-    spawnCountdown: 15480
-    nextUfoCounter: 0
-    liveUfos: 0
-  - nextUfoCounter: 0
-    race: STR_SECTOID
-    uniqueID: 15
-    liveUfos: 0
-    spawnCountdown: 16110
-    nextWave: 2
-    region: STR_SOUTH_EAST_ASIA
-    type: STR_ALIEN_RETALIATION
-  - uniqueID: 16
-    nextUfoCounter: 0
-    race: STR_SECTOID
-    spawnCountdown: 13800
-    region: STR_EUROPE
-    liveUfos: 0
-    type: STR_ALIEN_RETALIATION
-    nextWave: 2
-  - region: STR_EUROPE
-    nextUfoCounter: 0
-    liveUfos: 0
-    spawnCountdown: 6540
-    type: STR_ALIEN_INFILTRATION
-    race: STR_FLOATER
-    uniqueID: 17
-    nextWave: 1
-  - uniqueID: 18
-    race: STR_SNAKEMAN
-    type: STR_ALIEN_TERROR
-    liveUfos: 0
-    nextWave: 2
-    region: STR_AUSTRALASIA
-    nextUfoCounter: 0
-    spawnCountdown: 3240
-researchScores:
-  - 50
-  - 450
-  - 795
-  - 625
-  - 80
-warned: false
-expenditures:
-  - 6868900
-  - 9812400
-  - 11617113
-  - 16967553
-  - 19793399
-graphFinanceToggles: 00000
-monthsPassed: 4
-difficulty: 2
-rng: 4169212523811989478
-funds:
-  - 2677308
-  - 2012178
-  - 1709450
-  - 2457947
-  - 1754098
-maintenance:
-  - 3629000
-  - 3992000
-  - 5010000
-  - 6009000
-  - 0
-globeZoom: 0
-graphRegionToggles: 0000000000000000
-incomes:
-  - 7170208
-  - 9543270
-  - 12088385
-  - 17905050
-  - 20106550
-globeLon: 1.8187412085933599
+  - STR_PLASMA_CANNON
+alienStrategy:
+  regions:
+    STR_PACIFIC: 5
+    STR_INDIAN_OCEAN: 5
+    STR_SOUTH_ATLANTIC: 5
+    STR_NORTH_AFRICA: 12
+    STR_NORTH_AMERICA: 18
+    STR_AUSTRALASIA: 10
+    STR_SOUTH_EAST_ASIA: 15
+    STR_EUROPE: 16
+    STR_CENTRAL_ASIA: 12
+    STR_ANTARCTICA: 4
+    STR_SOUTHERN_AFRICA: 8
+    STR_SOUTH_AMERICA: 10
+    STR_NORTH_ATLANTIC: 45
+    STR_ARCTIC: 4
+    STR_SIBERIA: 10
+  possibleMissions:
+    - region: STR_ANTARCTICA
+      missions:
+        STR_ALIEN_BASE: 35
+        STR_ALIEN_RESEARCH: 25
+    - missions:
+        STR_ALIEN_RESEARCH: 25
+        STR_ALIEN_BASE: 35
+      region: STR_ARCTIC
+    - region: STR_AUSTRALASIA
+      missions:
+        STR_ALIEN_BASE: 16
+        STR_ALIEN_RESEARCH: 15
+        STR_ALIEN_INFILTRATION: 8
+        STR_ALIEN_HARVEST: 11
+        STR_ALIEN_ABDUCTION: 4
+    - missions:
+        STR_ALIEN_INFILTRATION: 10
+        STR_ALIEN_BASE: 8
+        STR_ALIEN_HARVEST: 5
+        STR_ALIEN_RESEARCH: 5
+        STR_ALIEN_ABDUCTION: 6
+      region: STR_CENTRAL_ASIA
+    - missions:
+        STR_ALIEN_BASE: 6
+        STR_ALIEN_ABDUCTION: 15
+        STR_ALIEN_HARVEST: 10
+      region: STR_EUROPE
+    - missions:
+        STR_ALIEN_TERROR: 15
+        STR_ALIEN_RESEARCH: 15
+      region: STR_INDIAN_OCEAN
+    - region: STR_NORTH_AFRICA
+      missions:
+        STR_ALIEN_RESEARCH: 8
+        STR_ALIEN_BASE: 19
+        STR_ALIEN_ABDUCTION: 8
+        STR_ALIEN_HARVEST: 8
+        STR_ALIEN_INFILTRATION: 8
+    - missions:
+        STR_ALIEN_ABDUCTION: 20
+        STR_ALIEN_HARVEST: 17
+      region: STR_NORTH_AMERICA
+    - missions:
+        STR_ALIEN_RESEARCH: 15
+      region: STR_NORTH_ATLANTIC
+    - region: STR_PACIFIC
+      missions:
+        STR_ALIEN_RESEARCH: 15
+        STR_ALIEN_BASE: 27
+        STR_ALIEN_TERROR: 15
+    - region: STR_SIBERIA
+      missions:
+        STR_ALIEN_ABDUCTION: 4
+        STR_ALIEN_RESEARCH: 6
+        STR_ALIEN_BASE: 9
+    - region: STR_SOUTHERN_AFRICA
+      missions:
+        STR_ALIEN_HARVEST: 8
+        STR_ALIEN_ABDUCTION: 8
+        STR_ALIEN_INFILTRATION: 8
+        STR_ALIEN_BASE: 9
+        STR_ALIEN_RESEARCH: 7
+    - missions:
+        STR_ALIEN_BASE: 22
+        STR_ALIEN_ABDUCTION: 12
+        STR_ALIEN_INFILTRATION: 18
+        STR_ALIEN_HARVEST: 24
+        STR_ALIEN_RESEARCH: 10
+      region: STR_SOUTH_AMERICA
+    - missions:
+        STR_ALIEN_RESEARCH: 15
+        STR_ALIEN_TERROR: 15
+      region: STR_SOUTH_ATLANTIC
+    - region: STR_SOUTH_EAST_ASIA
+      missions:
+        STR_ALIEN_INFILTRATION: 13
+        STR_ALIEN_BASE: 8
+        STR_ALIEN_ABDUCTION: 21
+        STR_ALIEN_HARVEST: 13
+        STR_ALIEN_RESEARCH: 8
 regions:
-  - activityAlien:
-      - 1
-      - 482
-      - 261
-      - 16
-      - 12
+  - type: STR_NORTH_AMERICA
     activityXcom:
       - 0
       - 234
       - 1871
       - 260
-      - 75
-    type: STR_NORTH_AMERICA
+      - 200
+      - 0
+    activityAlien:
+      - 1
+      - 482
+      - 261
+      - 16
+      - 214
+      - 0
   - activityAlien:
       - 1
       - 6
       - 23
       - 2
+      - 5
       - 0
     activityXcom:
       - 0
@@ -3535,51 +1741,59 @@ regions:
       - 177
       - 0
       - 0
+      - 0
     type: STR_ARCTIC
-  - type: STR_ANTARCTICA
+  - activityAlien:
+      - 7
+      - 4
+      - 3
+      - 2
+      - 7
+      - 0
     activityXcom:
       - 0
       - 0
       - 0
       - 0
       - 0
-    activityAlien:
-      - 7
-      - 4
-      - 3
-      - 2
-      - 2
+      - 0
+    type: STR_ANTARCTICA
   - type: STR_SOUTH_AMERICA
     activityAlien:
       - 1
       - 180
       - 7
       - 2
-      - 1
+      - 3
+      - 0
     activityXcom:
       - 0
       - 173
       - 0
       - 0
       - 0
+      - 0
   - type: STR_EUROPE
-    activityAlien:
-      - 104
-      - 1
-      - 23
-      - 3
-      - 10
     activityXcom:
       - 714
       - 0
       - 159
       - 100
-      - 543
+      - 1026
+      - 0
+    activityAlien:
+      - 104
+      - 1
+      - 23
+      - 3
+      - 27
+      - 0
   - activityAlien:
       - 5
       - 7
       - 5
       - 4
+      - 1
       - 0
     type: STR_NORTH_AFRICA
     activityXcom:
@@ -3588,53 +1802,62 @@ regions:
       - 0
       - 0
       - 0
-  - activityAlien:
       - 0
-      - 0
-      - 151
-      - 4
-      - 0
-    activityXcom:
+  - activityXcom:
       - 0
       - 0
       - 338
       - 0
       - 0
+      - 0
     type: STR_SOUTHERN_AFRICA
-  - type: STR_CENTRAL_ASIA
+    activityAlien:
+      - 0
+      - 0
+      - 151
+      - 4
+      - 0
+      - 0
+  - activityXcom:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
     activityAlien:
       - 4
       - 2
       - 0
       - 0
-      - 3
-    activityXcom:
+      - 5
       - 0
-      - 0
-      - 0
-      - 0
-      - 0
+    type: STR_CENTRAL_ASIA
   - activityAlien:
       - 8
       - 1
       - 0
       - 8
-      - 11
+      - 37
+      - 0
+    type: STR_SOUTH_EAST_ASIA
     activityXcom:
       - 0
       - 0
       - 0
       - 0
       - 429
-    type: STR_SOUTH_EAST_ASIA
-  - type: STR_SIBERIA
-    activityAlien:
+      - 0
+  - activityAlien:
       - 2
       - 2
       - 1
       - 1
       - 6
+      - 0
+    type: STR_SIBERIA
     activityXcom:
+      - 0
       - 0
       - 0
       - 0
@@ -3645,52 +1868,45 @@ regions:
       - 0
       - 0
       - -336
-      - 434
+      - 1415
+      - 0
+    type: STR_AUSTRALASIA
     activityAlien:
       - 220
       - 7
       - 3
       - 189
-      - 91
-    type: STR_AUSTRALASIA
+      - 120
+      - 0
   - activityAlien:
       - 2
       - 15
       - 14
       - 0
-      - 8
+      - 18
+      - 0
+    activityXcom:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
     type: STR_PACIFIC
-    activityXcom:
+  - activityXcom:
       - 0
       - 0
       - 0
       - 0
       - 0
-  - type: STR_NORTH_ATLANTIC
-    activityXcom:
       - 0
-      - 0
-      - 0
-      - 0
-      - 0
+    type: STR_NORTH_ATLANTIC
     activityAlien:
       - 0
       - 2
       - 25
       - 3
-      - 1
-  - type: STR_SOUTH_ATLANTIC
-    activityAlien:
-      - 6
-      - 4
-      - 8
-      - 0
-      - 0
-    activityXcom:
-      - 0
-      - 0
-      - 0
-      - 0
+      - 5
       - 0
   - activityXcom:
       - 0
@@ -3698,43 +1914,92 @@ regions:
       - 0
       - 0
       - 0
+      - 0
+    type: STR_SOUTH_ATLANTIC
     activityAlien:
+      - 6
+      - 4
+      - 8
+      - 0
+      - 0
+      - 0
+  - activityAlien:
       - 2
       - 0
       - 3
       - 9
-      - 4
+      - 8
+      - 0
     type: STR_INDIAN_OCEAN
-globeLat: -0.27483864552248072
-graphCountryToggles: 00000000000000000
+    activityXcom:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+difficulty: 2
+globeZoom: 0
+researchScores:
+  - 50
+  - 450
+  - 795
+  - 625
+  - 487
+  - 0
+rng: 10116624261877229674
+maintenance:
+  - 3629000
+  - 3992000
+  - 5010000
+  - 6009000
+  - 7669000
+  - 0
+globeLon: 1.1684398224220596
+ids:
+  STR_WAYPOINT: 85
+  STR_CRASH_SITE: 9
+  STR_INTERCEPTOR: 3
+  STR_SOLDIER: 68
+  STR_TERROR_SITE: 7
+  STR_LANDING_SITE: 24
+  STR_SKYRANGER: 3
+  ALIEN_MISSIONS: 21
+  STR_UFO: 47
+  STR_ALIEN_BASE: 2
 countries:
-  - funding:
-      - 1144000
-      - 1144000
-      - 1144000
-      - 1315000
-      - 1551000
-    activityAlien:
+  - activityAlien:
       - 1
       - 262
       - 231
       - 6
-      - 8
+      - 79
+      - 0
     activityXcom:
       - 0
       - 234
       - 1518
       - 0
       - 75
+      - 0
     type: STR_USA
-  - type: STR_RUSSIA
-    activityAlien:
+    funding:
+      - 1144000
+      - 1144000
+      - 1144000
+      - 1315000
+      - 1551000
+      - 1551000
+  - activityAlien:
       - 3
       - 4
       - 1
       - 2
-      - 10
+      - 12
+      - 0
+    type: STR_RUSSIA
     activityXcom:
+      - 0
       - 0
       - 0
       - 0
@@ -3746,65 +2011,76 @@ countries:
       - 431000
       - 478000
       - 521000
+      - 625000
   - type: STR_UK
+    activityXcom:
+      - 0
+      - 0
+      - 0
+      - 100
+      - 483
+      - 0
     funding:
       - 439000
       - 439000
       - 478000
       - 549000
       - 592000
-    activityXcom:
-      - 0
-      - 0
-      - 0
-      - 100
-      - 0
+      - 680000
     activityAlien:
       - 2
       - 0
       - 0
       - 0
+      - 3
+      - 0
+  - type: STR_FRANCE
+    funding:
+      - 596000
+      - 596000
+      - 596000
+      - 673000
+      - 673000
+      - 747000
+    activityAlien:
+      - 3
+      - 0
+      - 0
       - 1
-  - funding:
-      - 596000
-      - 596000
-      - 596000
-      - 673000
-      - 673000
+      - 1
+      - 0
     activityXcom:
       - 0
       - 0
       - 0
       - 0
       - 228
-    type: STR_FRANCE
-    activityAlien:
-      - 3
       - 0
-      - 0
-      - 1
-      - 1
-  - activityAlien:
-      - 19
-      - 0
-      - 0
-      - 0
-      - 1
-    type: STR_GERMANY
-    activityXcom:
-      - 149
-      - 0
-      - 0
-      - 0
-      - 215
+  - type: STR_GERMANY
     funding:
       - 253000
       - 288000
       - 302000
       - 332000
       - 358000
-  - activityAlien:
+      - 375000
+    activityAlien:
+      - 19
+      - 0
+      - 0
+      - 0
       - 3
+      - 0
+    activityXcom:
+      - 149
+      - 0
+      - 0
+      - 0
+      - 215
+      - 0
+  - activityXcom:
+      - 0
+      - 0
       - 0
       - 0
       - 0
@@ -3816,62 +2092,64 @@ countries:
       - 225000
       - 245000
       - 289000
-    activityXcom:
+      - 315000
+    activityAlien:
+      - 3
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+  - activityAlien:
       - 0
       - 0
       - 0
       - 0
+      - 1
       - 0
-  - type: STR_SPAIN
     funding:
       - 218000
       - 218000
       - 218000
       - 246000
       - 285000
-    activityAlien:
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
+      - 339000
+    type: STR_SPAIN
     activityXcom:
       - 0
       - 0
       - 0
       - 0
       - 0
-  - activityXcom:
       - 0
-      - 0
-      - 0
-      - 0
-      - 229
-    type: STR_CHINA
-    activityAlien:
+  - activityAlien:
       - 3
       - 1
       - 0
       - 3
-      - 6
+      - 20
+      - 0
     funding:
       - 359000
       - 359000
       - 359000
       - 391000
       - 418000
-  - type: STR_JAPAN
-    activityAlien:
-      - 1
-      - 0
-      - 0
-      - 0
-      - 1
+      - 484000
     activityXcom:
       - 0
       - 0
       - 0
       - 0
+      - 229
+      - 0
+    type: STR_CHINA
+  - activityAlien:
+      - 1
+      - 0
+      - 0
+      - 0
+      - 2
       - 0
     funding:
       - 616000
@@ -3879,31 +2157,51 @@ countries:
       - 677000
       - 792000
       - 879000
-  - activityAlien:
-      - 1
-      - 0
-      - 0
-      - 0
-      - 0
-    type: STR_INDIA
-    funding:
-      - 175000
-      - 175000
-      - 197000
-      - 234000
-      - 234000
+      - 1054000
     activityXcom:
       - 0
       - 0
       - 0
       - 0
       - 0
-  - type: STR_BRAZIL
+      - 0
+    type: STR_JAPAN
+  - activityAlien:
+      - 1
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+    activityXcom:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    funding:
+      - 175000
+      - 175000
+      - 197000
+      - 234000
+      - 234000
+      - 259000
+    type: STR_INDIA
+  - activityAlien:
+      - 1
+      - 88
+      - 2
+      - 1
+      - 2
+      - 0
+    type: STR_BRAZIL
     funding:
       - 291000
       - 291000
       - 311000
       - 338000
+      - 398000
       - 398000
     activityXcom:
       - 0
@@ -3911,61 +2209,56 @@ countries:
       - 0
       - 0
       - 0
-    activityAlien:
-      - 1
-      - 88
-      - 2
-      - 1
       - 0
-  - funding:
-      - 428000
-      - 360000
-      - 360000
-      - 432000
-      - 376000
+  - activityXcom:
+      - -422
+      - 0
+      - 0
+      - -436
+      - 981
+      - 0
+    type: STR_AUSTRALIA
     activityAlien:
       - 127
       - 4
       - 2
       - 111
-      - 84
-    type: STR_AUSTRALIA
-    activityXcom:
-      - -422
+      - 103
       - 0
-      - 0
-      - -436
-      - 0
+    funding:
+      - 428000
+      - 360000
+      - 360000
+      - 432000
+      - 376000
+      - 376000
   - activityAlien:
+      - 0
       - 0
       - 0
       - 0
       - 0
       - 0
     type: STR_NIGERIA
+    activityXcom:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
     funding:
       - 171000
       - 171000
       - 171000
       - 201000
       - 225000
-    activityXcom:
-      - 0
-      - 0
-      - 0
-      - 0
-      - 0
+      - 225000
   - activityAlien:
       - 0
       - 0
       - 10
       - 0
-      - 0
-    type: STR_SOUTH_AFRICA
-    activityXcom:
-      - 0
-      - 0
-      - 177
       - 0
       - 0
     funding:
@@ -3974,52 +2267,1952 @@ countries:
       - 268000
       - 286000
       - 328000
-  - activityXcom:
+      - 383000
+    type: STR_SOUTH_AFRICA
+    activityXcom:
+      - 0
+      - 0
+      - 177
       - 0
       - 0
       - 0
-      - 0
-      - 0
+  - funding:
+      - 279000
+      - 279000
+      - 279000
+      - 292000
+      - 327000
+      - 349000
     activityAlien:
       - 0
       - 0
       - 0
       - 0
       - 0
-    funding:
-      - 279000
-      - 279000
-      - 279000
-      - 292000
-      - 327000
+      - 0
     type: STR_EGYPT
-  - type: STR_CANADA
     activityXcom:
       - 0
       - 0
-      - 353
-      - 260
       - 0
+      - 0
+      - 0
+      - 0
+  - type: STR_CANADA
     funding:
       - 232000
       - 232000
       - 200000
       - 222000
       - 266000
+      - 297000
     activityAlien:
       - 0
       - 98
       - 25
       - 6
-      - 3
-ids:
-  ALIEN_MISSIONS: 19
-  STR_CRASH_SITE: 8
-  STR_INTERCEPTOR: 3
-  STR_WAYPOINT: 85
-  STR_SKYRANGER: 3
-  STR_UFO: 37
-  STR_TERROR_SITE: 6
-  STR_SOLDIER: 68
-  STR_ALIEN_BASE: 2
-  STR_LANDING_SITE: 21
+      - 12
+      - 0
+    activityXcom:
+      - 0
+      - 0
+      - 353
+      - 260
+      - 0
+      - 0
+graphRegionToggles: 1000000000000000
+incomes:
+  - 7170208
+  - 9543270
+  - 12088385
+  - 17905050
+  - 36988230
+  - 7931000
+funds:
+  - 2677308
+  - 2012178
+  - 1709450
+  - 2457947
+  - 2669788
+  - 2698788
+expenditures:
+  - 6868900
+  - 9812400
+  - 11617113
+  - 16967553
+  - 35810389
+  - 7851000
+warned: false
+monthsPassed: 5
+globeLat: -0.61658105065791524
+graphCountryToggles: 00000000000000000
+graphFinanceToggles: 00000
+bases:
+  - facilities:
+      - y: 2
+        type: STR_ACCESS_LIFT
+        x: 0
+      - x: 0
+        type: STR_HANGAR
+        y: 0
+      - type: STR_HANGAR
+        x: 2
+        y: 0
+      - type: STR_HANGAR
+        x: 4
+        y: 0
+      - x: 0
+        y: 3
+        type: STR_GENERAL_STORES
+      - type: STR_LIVING_QUARTERS
+        y: 4
+        x: 0
+      - x: 1
+        type: STR_LABORATORY
+        y: 3
+      - y: 4
+        x: 1
+        type: STR_WORKSHOP
+      - type: STR_GENERAL_STORES
+        y: 3
+        x: 2
+      - x: 2
+        type: STR_LIVING_QUARTERS
+        y: 4
+      - x: 2
+        y: 5
+        type: STR_ALIEN_CONTAINMENT
+      - y: 3
+        x: 3
+        type: STR_LIVING_QUARTERS
+      - x: 3
+        y: 4
+        type: STR_WORKSHOP
+      - type: STR_HYPER_WAVE_DECODER
+        y: 5
+        x: 3
+      - y: 3
+        x: 4
+        type: STR_LABORATORY
+      - type: STR_LIVING_QUARTERS
+        y: 4
+        x: 4
+    name: X1
+    lon: 0.50163972540486657
+    soldiers:
+      - initialStats:
+          psiSkill: 0
+          health: 35
+          bravery: 50
+          tu: 50
+          melee: 24
+          reactions: 31
+          psiStrength: 86
+          firing: 63
+          strength: 30
+          stamina: 57
+          throwing: 63
+        improvement: 0
+        armor: STR_PERSONAL_ARMOR_UC
+        currentStats:
+          firing: 75
+          reactions: 35
+          psiSkill: 0
+          throwing: 64
+          melee: 24
+          stamina: 76
+          bravery: 50
+          health: 45
+          psiStrength: 86
+          tu: 64
+          strength: 51
+        name: Fernande Mpoyi
+        look: 3
+        kills: 19
+        psiStrImprovement: 0
+        gender: 1
+        equipmentLayout:
+          - itemType: STR_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - slot: STR_BELT
+            itemType: STR_MEDI_KIT
+          - fuseTimer: 0
+            slot: STR_RIGHT_SHOULDER
+            slotX: 1
+            itemType: STR_SMOKE_GRENADE
+          - itemType: STR_HEAVY_PLASMA
+            ammoItem: STR_HEAVY_PLASMA_CLIP
+            slot: STR_RIGHT_HAND
+          - itemType: STR_TASER
+            slotX: 3
+            ammoItem: STR_TASER_CLIP
+            slot: STR_BELT
+          - slot: STR_LEFT_SHOULDER
+            itemType: STR_TASER_CLIP
+          - itemType: STR_ELECTRO_FLARE
+            slot: STR_LEFT_HAND
+        rank: 3
+        missions: 10
+        id: 28
+      - name: Ludovit Slezak
+        improvement: 0
+        equipmentLayout:
+          - slot: STR_RIGHT_SHOULDER
+            itemType: STR_GRENADE
+          - slot: STR_LEFT_SHOULDER
+            itemType: STR_HIGH_EXPLOSIVE
+          - slot: STR_BELT
+            itemType: STR_MEDI_KIT
+          - slotX: 1
+            slot: STR_RIGHT_SHOULDER
+            fuseTimer: 0
+            itemType: STR_SMOKE_GRENADE
+          - itemType: STR_HEAVY_PLASMA
+            slot: STR_RIGHT_HAND
+            ammoItem: STR_HEAVY_PLASMA_CLIP
+          - slot: STR_BELT
+            slotX: 3
+            itemType: STR_TASER
+            ammoItem: STR_TASER_CLIP
+        kills: 17
+        id: 30
+        currentStats:
+          melee: 28
+          reactions: 41
+          health: 48
+          tu: 60
+          psiStrength: 93
+          bravery: 20
+          throwing: 83
+          firing: 61
+          strength: 41
+          stamina: 62
+          psiSkill: 0
+        missions: 7
+        look: 0
+        initialStats:
+          health: 39
+          reactions: 37
+          tu: 51
+          melee: 28
+          firing: 55
+          stamina: 53
+          bravery: 20
+          psiStrength: 93
+          psiSkill: 0
+          throwing: 80
+          strength: 27
+        gender: 0
+        armor: STR_PERSONAL_ARMOR_UC
+        rank: 1
+        psiStrImprovement: 0
+      - initialStats:
+          throwing: 78
+          bravery: 20
+          stamina: 48
+          reactions: 34
+          tu: 53
+          strength: 39
+          psiStrength: 0
+          firing: 65
+          health: 39
+          melee: 20
+          psiSkill: 0
+        name: Barlas Batu
+        id: 34
+        missions: 7
+        psiStrImprovement: 0
+        improvement: 0
+        gender: 0
+        look: 1
+        currentStats:
+          tu: 64
+          bravery: 20
+          melee: 20
+          psiStrength: 1
+          stamina: 68
+          throwing: 80
+          strength: 49
+          reactions: 37
+          firing: 71
+          health: 50
+          psiSkill: 0
+        armor: STR_PERSONAL_ARMOR_UC
+        rank: 2
+        equipmentLayout:
+          - slot: STR_LEFT_HAND
+            itemType: STR_ELECTRO_FLARE
+          - itemType: STR_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - itemType: STR_HIGH_EXPLOSIVE
+            slot: STR_LEFT_SHOULDER
+          - itemType: STR_MEDI_KIT
+            slot: STR_BELT
+          - slotX: 1
+            itemType: STR_SMOKE_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - slot: STR_RIGHT_HAND
+            ammoItem: STR_HEAVY_PLASMA_CLIP
+            itemType: STR_HEAVY_PLASMA
+          - ammoItem: STR_TASER_CLIP
+            slot: STR_BELT
+            slotX: 3
+            itemType: STR_TASER
+          - itemType: STR_TASER_CLIP
+            slot: STR_LEFT_LEG
+        kills: 8
+      - rank: 2
+        id: 36
+        psiStrImprovement: 0
+        improvement: 0
+        currentStats:
+          health: 46
+          psiSkill: 0
+          bravery: 50
+          reactions: 37
+          tu: 68
+          melee: 31
+          psiStrength: 100
+          throwing: 53
+          stamina: 70
+          firing: 67
+          strength: 36
+        equipmentLayout:
+          - itemType: STR_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - slot: STR_LEFT_SHOULDER
+            itemType: STR_HIGH_EXPLOSIVE
+          - slot: STR_BELT
+            itemType: STR_MEDI_KIT
+          - slot: STR_RIGHT_SHOULDER
+            slotX: 1
+            itemType: STR_SMOKE_GRENADE
+          - slot: STR_RIGHT_HAND
+            itemType: STR_HEAVY_PLASMA
+            ammoItem: STR_HEAVY_PLASMA_CLIP
+        look: 0
+        kills: 7
+        initialStats:
+          bravery: 50
+          melee: 31
+          firing: 65
+          health: 39
+          reactions: 35
+          tu: 60
+          stamina: 63
+          strength: 27
+          psiStrength: 100
+          psiSkill: 0
+          throwing: 52
+        name: Sten Lund
+        missions: 9
+        gender: 0
+        armor: STR_PERSONAL_ARMOR_UC
+      - missions: 8
+        equipmentLayout:
+          - slot: STR_RIGHT_SHOULDER
+            itemType: STR_GRENADE
+          - slot: STR_LEFT_LEG
+            itemType: STR_HIGH_EXPLOSIVE
+          - itemType: STR_MEDI_KIT
+            slot: STR_BELT
+          - itemType: STR_SMOKE_GRENADE
+            slot: STR_LEFT_SHOULDER
+          - itemType: STR_HEAVY_PLASMA
+            slot: STR_RIGHT_HAND
+            ammoItem: STR_HEAVY_PLASMA_CLIP
+          - itemType: STR_TASER
+            slotX: 3
+            ammoItem: STR_TASER_CLIP
+            slot: STR_BELT
+          - slotX: 1
+            itemType: STR_TASER_CLIP
+            slot: STR_LEFT_SHOULDER
+        psiStrImprovement: 0
+        improvement: 0
+        look: 0
+        initialStats:
+          melee: 36
+          throwing: 60
+          tu: 57
+          psiStrength: 45
+          strength: 40
+          bravery: 60
+          stamina: 61
+          psiSkill: 0
+          reactions: 42
+          firing: 70
+          health: 32
+        id: 37
+        name: Gabriele Krueger
+        gender: 1
+        kills: 5
+        rank: 4
+        currentStats:
+          bravery: 60
+          tu: 66
+          stamina: 78
+          melee: 36
+          firing: 74
+          psiStrength: 45
+          throwing: 62
+          health: 43
+          reactions: 43
+          strength: 47
+          psiSkill: 0
+        armor: STR_PERSONAL_ARMOR_UC
+      - currentStats:
+          health: 47
+          firing: 43
+          psiStrength: 18
+          throwing: 57
+          stamina: 81
+          bravery: 60
+          melee: 30
+          reactions: 32
+          strength: 38
+          tu: 63
+          psiSkill: 0
+        missions: 7
+        rank: 2
+        initialStats:
+          psiStrength: 18
+          stamina: 63
+          throwing: 55
+          melee: 29
+          bravery: 60
+          health: 37
+          psiSkill: 0
+          reactions: 32
+          tu: 50
+          strength: 24
+          firing: 40
+        name: Gaston Berger
+        gender: 0
+        psiStrImprovement: 0
+        armor: STR_PERSONAL_ARMOR_UC
+        look: 1
+        improvement: 0
+        recovery: 23
+        id: 40
+        kills: 9
+        equipmentLayout:
+          - itemType: STR_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - slot: STR_LEFT_SHOULDER
+            itemType: STR_HIGH_EXPLOSIVE
+          - itemType: STR_SMOKE_GRENADE
+            slot: STR_RIGHT_SHOULDER
+            slotX: 1
+          - itemType: STR_HEAVY_PLASMA
+            ammoItem: STR_HEAVY_PLASMA_CLIP
+            slot: STR_RIGHT_HAND
+          - slot: STR_BACK_PACK
+            itemType: STR_STUN_ROD
+          - itemType: STR_ELECTRO_FLARE
+            slot: STR_LEFT_HAND
+      - initialStats:
+          psiStrength: 40
+          melee: 34
+          strength: 34
+          reactions: 32
+          health: 40
+          bravery: 60
+          stamina: 52
+          tu: 54
+          throwing: 66
+          psiSkill: 0
+          firing: 53
+        gender: 0
+        name: Robert Savu
+        armor: STR_PERSONAL_ARMOR_UC
+        id: 41
+        kills: 2
+        improvement: 0
+        look: 0
+        missions: 3
+        rank: 2
+        equipmentLayout:
+          - slot: STR_RIGHT_SHOULDER
+            itemType: STR_GRENADE
+          - itemType: STR_HIGH_EXPLOSIVE
+            slot: STR_LEFT_SHOULDER
+          - slot: STR_RIGHT_SHOULDER
+            itemType: STR_SMOKE_GRENADE
+            slotX: 1
+          - slot: STR_RIGHT_HAND
+            itemType: STR_HEAVY_PLASMA
+            ammoItem: STR_HEAVY_PLASMA_CLIP
+          - itemType: STR_STUN_ROD
+            slot: STR_BACK_PACK
+          - itemType: STR_ELECTRO_FLARE
+            slot: STR_LEFT_HAND
+        currentStats:
+          tu: 59
+          psiStrength: 40
+          throwing: 67
+          psiSkill: 0
+          reactions: 32
+          firing: 54
+          stamina: 60
+          melee: 34
+          strength: 40
+          health: 44
+          bravery: 60
+        psiStrImprovement: 0
+      - rank: 1
+        improvement: 0
+        name: Jan Pawlowski
+        armor: STR_PERSONAL_ARMOR_UC
+        missions: 6
+        gender: 0
+        initialStats:
+          reactions: 48
+          psiSkill: 0
+          health: 29
+          stamina: 59
+          throwing: 67
+          melee: 23
+          psiStrength: 38
+          tu: 51
+          firing: 59
+          bravery: 30
+          strength: 38
+        look: 1
+        kills: 2
+        psiStrImprovement: 0
+        id: 44
+        equipmentLayout:
+          - slot: STR_RIGHT_SHOULDER
+            itemType: STR_GRENADE
+          - slot: STR_LEFT_SHOULDER
+            itemType: STR_HIGH_EXPLOSIVE
+          - itemType: STR_SMOKE_GRENADE
+            slotX: 1
+            slot: STR_RIGHT_SHOULDER
+          - slot: STR_RIGHT_HAND
+            itemType: STR_HEAVY_PLASMA
+            ammoItem: STR_HEAVY_PLASMA_CLIP
+          - itemType: STR_ELECTRO_FLARE
+            slot: STR_LEFT_HAND
+          - itemType: STR_TASER
+            slot: STR_BELT
+            ammoItem: STR_TASER_CLIP
+          - slot: STR_LEFT_LEG
+            itemType: STR_TASER_CLIP
+            slotX: 1
+        currentStats:
+          firing: 61
+          psiSkill: 0
+          stamina: 65
+          psiStrength: 38
+          bravery: 30
+          tu: 57
+          health: 38
+          melee: 23
+          reactions: 49
+          strength: 46
+          throwing: 68
+      - equipmentLayout:
+          - slot: STR_RIGHT_SHOULDER
+            itemType: STR_GRENADE
+          - itemType: STR_HIGH_EXPLOSIVE
+            slot: STR_LEFT_SHOULDER
+          - itemType: STR_SMOKE_GRENADE
+            slotX: 1
+            slot: STR_RIGHT_SHOULDER
+          - itemType: STR_HEAVY_PLASMA
+            slot: STR_RIGHT_HAND
+            ammoItem: STR_HEAVY_PLASMA_CLIP
+          - itemType: STR_STUN_ROD
+            slot: STR_BACK_PACK
+        gender: 0
+        kills: 5
+        name: Fabio Santana
+        armor: STR_PERSONAL_ARMOR_UC
+        id: 46
+        missions: 4
+        look: 2
+        initialStats:
+          health: 26
+          reactions: 39
+          melee: 20
+          psiStrength: 82
+          stamina: 52
+          strength: 32
+          bravery: 60
+          throwing: 74
+          firing: 49
+          tu: 58
+          psiSkill: 0
+        psiStrImprovement: 0
+        improvement: 0
+        rank: 2
+        currentStats:
+          reactions: 40
+          melee: 20
+          strength: 36
+          throwing: 74
+          tu: 61
+          psiSkill: 0
+          firing: 53
+          health: 35
+          bravery: 60
+          psiStrength: 82
+          stamina: 58
+      - currentStats:
+          health: 31
+          stamina: 57
+          reactions: 35
+          tu: 62
+          melee: 38
+          throwing: 52
+          strength: 32
+          firing: 58
+          psiStrength: 19
+          bravery: 10
+          psiSkill: 0
+        id: 47
+        improvement: 0
+        psiStrImprovement: 0
+        armor: STR_PERSONAL_ARMOR_UC
+        equipmentLayout:
+          - itemType: STR_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - slot: STR_LEFT_SHOULDER
+            itemType: STR_HIGH_EXPLOSIVE
+          - slot: STR_RIGHT_HAND
+            itemType: STR_LASER_RIFLE
+          - itemType: STR_MEDI_KIT
+            slot: STR_BELT
+          - itemType: STR_SMOKE_GRENADE
+            slotX: 1
+            slot: STR_RIGHT_SHOULDER
+        gender: 1
+        look: 0
+        initialStats:
+          tu: 57
+          psiStrength: 19
+          health: 26
+          throwing: 52
+          psiSkill: 0
+          firing: 56
+          reactions: 35
+          strength: 31
+          melee: 38
+          stamina: 53
+          bravery: 10
+        rank: 1
+        missions: 4
+        name: Julie Goossens
+        kills: 2
+      - id: 53
+        armor: STR_PERSONAL_ARMOR_UC
+        initialStats:
+          melee: 37
+          psiSkill: 0
+          tu: 51
+          throwing: 68
+          strength: 22
+          psiStrength: 7
+          reactions: 54
+          health: 28
+          firing: 46
+          stamina: 52
+          bravery: 50
+        equipmentLayout:
+          - itemType: STR_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - slot: STR_LEFT_SHOULDER
+            itemType: STR_HIGH_EXPLOSIVE
+          - slot: STR_RIGHT_HAND
+            itemType: STR_LASER_RIFLE
+          - slot: STR_RIGHT_SHOULDER
+            slotX: 1
+            itemType: STR_SMOKE_GRENADE
+        look: 1
+        currentStats:
+          psiSkill: 0
+          stamina: 58
+          throwing: 69
+          health: 28
+          bravery: 50
+          psiStrength: 7
+          melee: 37
+          strength: 25
+          tu: 53
+          reactions: 54
+          firing: 46
+        psiStrImprovement: 0
+        recovery: 11
+        missions: 4
+        name: Xavier Guzman
+        kills: 1
+        gender: 0
+        rank: 1
+        improvement: 0
+      - psiStrImprovement: 0
+        name: Euan Rogers
+        missions: 5
+        armor: STR_PERSONAL_ARMOR_UC
+        look: 3
+        rank: 1
+        id: 54
+        currentStats:
+          melee: 26
+          bravery: 60
+          stamina: 59
+          health: 42
+          tu: 62
+          psiStrength: 7
+          reactions: 44
+          firing: 48
+          psiSkill: 0
+          strength: 37
+          throwing: 71
+        initialStats:
+          bravery: 60
+          psiSkill: 0
+          firing: 46
+          psiStrength: 7
+          tu: 56
+          throwing: 71
+          strength: 26
+          melee: 26
+          health: 37
+          stamina: 55
+          reactions: 44
+        improvement: 0
+        equipmentLayout:
+          - slot: STR_RIGHT_SHOULDER
+            itemType: STR_GRENADE
+          - itemType: STR_HIGH_EXPLOSIVE
+            slot: STR_LEFT_SHOULDER
+          - itemType: STR_LASER_RIFLE
+            slot: STR_RIGHT_HAND
+          - itemType: STR_MEDI_KIT
+            slot: STR_BELT
+          - slotX: 1
+            itemType: STR_SMOKE_GRENADE
+            slot: STR_RIGHT_SHOULDER
+        kills: 4
+        gender: 0
+      - armor: STR_PERSONAL_ARMOR_UC
+        equipmentLayout:
+          - itemType: STR_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - slot: STR_LEFT_SHOULDER
+            itemType: STR_HIGH_EXPLOSIVE
+          - itemType: STR_LASER_RIFLE
+            slot: STR_RIGHT_HAND
+          - slotX: 1
+            slot: STR_RIGHT_SHOULDER
+            itemType: STR_SMOKE_GRENADE
+        look: 2
+        kills: 2
+        gender: 0
+        rank: 1
+        name: Abhijay Tendulkar
+        missions: 5
+        initialStats:
+          psiStrength: 58
+          melee: 38
+          stamina: 62
+          psiSkill: 0
+          tu: 55
+          firing: 53
+          strength: 32
+          throwing: 53
+          health: 38
+          bravery: 20
+          reactions: 49
+        psiStrImprovement: 0
+        id: 55
+        currentStats:
+          health: 42
+          psiSkill: 0
+          psiStrength: 58
+          tu: 58
+          melee: 38
+          throwing: 53
+          firing: 54
+          bravery: 20
+          stamina: 69
+          strength: 34
+          reactions: 49
+        improvement: 0
+      - name: Janusz Kowalski
+        initialStats:
+          psiSkill: 0
+          tu: 60
+          firing: 43
+          melee: 39
+          stamina: 59
+          health: 34
+          reactions: 40
+          strength: 23
+          throwing: 51
+          bravery: 30
+          psiStrength: 15
+        id: 56
+        look: 1
+        gender: 0
+        improvement: 0
+        armor: STR_PERSONAL_ARMOR_UC
+        rank: 1
+        currentStats:
+          psiSkill: 0
+          reactions: 40
+          tu: 63
+          bravery: 30
+          throwing: 51
+          stamina: 62
+          strength: 26
+          firing: 43
+          melee: 39
+          psiStrength: 15
+          health: 36
+        missions: 5
+        equipmentLayout:
+          - itemType: STR_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - itemType: STR_SMOKE_GRENADE
+            slot: STR_RIGHT_SHOULDER
+            slotX: 1
+          - ammoItem: STR_HEAVY_PLASMA_CLIP
+            slot: STR_RIGHT_HAND
+            itemType: STR_HEAVY_PLASMA
+          - slot: STR_BACK_PACK
+            itemType: STR_STUN_ROD
+        psiStrImprovement: 0
+        kills: 0
+      - equipmentLayout:
+          - itemType: STR_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - slot: STR_RIGHT_SHOULDER
+            slotX: 1
+            itemType: STR_SMOKE_GRENADE
+          - itemType: STR_HEAVY_PLASMA
+            ammoItem: STR_HEAVY_PLASMA_CLIP
+            slot: STR_RIGHT_HAND
+          - slot: STR_BACK_PACK
+            itemType: STR_STUN_ROD
+        improvement: 0
+        name: Alem Neh Alem
+        id: 65
+        armor: STR_PERSONAL_ARMOR_UC
+        psiStrImprovement: 0
+        missions: 5
+        gender: 0
+        kills: 0
+        currentStats:
+          strength: 26
+          health: 30
+          melee: 20
+          throwing: 57
+          bravery: 60
+          psiStrength: 57
+          reactions: 59
+          psiSkill: 0
+          tu: 58
+          firing: 43
+          stamina: 51
+        initialStats:
+          psiSkill: 0
+          bravery: 60
+          tu: 58
+          psiStrength: 57
+          stamina: 51
+          melee: 20
+          reactions: 59
+          health: 30
+          firing: 43
+          throwing: 57
+          strength: 26
+        rank: 0
+        look: 3
+      - id: 67
+        look: 1
+        armor: STR_PERSONAL_ARMOR_UC
+        rank: 0
+        psiStrImprovement: 0
+        improvement: 0
+        name: Antal Mindszenty
+        gender: 0
+        equipmentLayout:
+          - slot: STR_RIGHT_HAND
+            ammoItem: STR_HEAVY_PLASMA_CLIP
+            itemType: STR_HEAVY_PLASMA
+          - slot: STR_RIGHT_SHOULDER
+            itemType: STR_GRENADE
+          - slotX: 1
+            itemType: STR_SMOKE_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - slot: STR_LEFT_HAND
+            itemType: STR_ELECTRO_FLARE
+          - itemType: STR_TASER
+            ammoItem: STR_TASER_CLIP
+            slot: STR_BELT
+          - slot: STR_LEFT_SHOULDER
+            itemType: STR_TASER_CLIP
+        initialStats:
+          health: 38
+          tu: 57
+          psiSkill: 0
+          throwing: 79
+          psiStrength: 73
+          strength: 36
+          melee: 38
+          reactions: 36
+          stamina: 62
+          firing: 65
+          bravery: 60
+        kills: 0
+        missions: 1
+        currentStats:
+          tu: 57
+          stamina: 62
+          psiStrength: 73
+          bravery: 60
+          health: 38
+          strength: 36
+          firing: 65
+          throwing: 79
+          reactions: 36
+          melee: 38
+          psiSkill: 0
+    lat: -0.68505863064443395
+    inBattlescape: false
+    transfers:
+      - hours: 48
+        scientists: 30
+      - hours: 27
+        itemQty: 6
+        itemId: STR_AVALANCHE_MISSILES
+      - itemQty: 5
+        itemId: STR_SMOKE_GRENADE
+        hours: 5
+      - hours: 5
+        itemId: STR_ELECTRO_FLARE
+        itemQty: 4
+    productions:
+      - infinite: true
+        sell: true
+        item: STR_LASER_CANNON
+        amount: 1
+        spent: 47430
+        assigned: 76
+    items:
+      STR_UFO_NAVIGATION: 7
+      STR_ALIEN_ENTERTAINMENT: 1
+      STR_DART_RIFLE: 3
+      STR_PLASMA_PISTOL: 10
+      STR_LASER_RIFLE: 12
+      STR_SNAKEMAN_CORPSE: 1
+      STR_HEAVY_PLASMA: 18
+      STR_ELERIUM_115: 200
+      STR_ALIEN_HABITAT: 1
+      STR_CYBERDISC_CORPSE: 1
+      STR_MEDI_KIT: 5
+      STR_SECTOID_SOLDIER: 2
+      STR_BLASTER_LAUNCHER: 2
+      STR_ALIEN_GRENADE: 20
+      STR_PLASMA_PISTOL_CLIP: 20
+      STR_CHRYSSALID_CORPSE: 1
+      STR_TASER_CLIP: 16
+      STR_GRENADE: 15
+      STR_EXAMINATION_ROOM: 1
+      STR_REAPER_CORPSE: 1
+      STR_SMALL_ROCKET: 6
+      STR_PLASMA_RIFLE: 10
+      STR_SNAKEMAN_SOLDIER: 1
+      STR_PLASMA_RIFLE_CLIP: 20
+      STR_SECTOID_CORPSE: 1
+      STR_REAPER_TERRORIST: 3
+      STR_ELECTRO_FLARE: 6
+      STR_LARGE_ROCKET: 6
+      STR_HEAVY_CANNON: 2
+      STR_HC_I_AMMO: 2
+      STR_STUN_BOMB: 9
+      STR_UFO_POWER_SOURCE: 3
+      STR_SMOKE_GRENADE: 10
+      STR_HC_HE_AMMO: 4
+      STR_HIGH_EXPLOSIVE: 8
+      STR_STUN_ROD: 8
+      STR_SMALL_LAUNCHER: 3
+      STR_TASER: 8
+      STR_DART_RIFLE_CLIP_A: 3
+      STR_BLASTER_BOMB: 7
+      STR_HEAVY_PLASMA_CLIP: 17
+      STR_HEAVY_LASER: 4
+      STR_MIND_PROBE: 1
+      STR_ROCKET_LAUNCHER: 2
+      STR_ALIEN_ALLOYS: 74
+    scientists: 0
+    engineers: 0
+    retaliationTarget: false
+    research:
+      - cost: 349
+        spent: 100
+        project: STR_PLASMA_CANNON
+        assigned: 50
+    crafts:
+      - items:
+          {}
+        lat: -0.68505863064443395
+        lon: 0.50163972540486657
+        speedLat: 0
+        speedRadian: 0
+        speed: 0
+        fuel: 1500
+        speedLon: 0
+        status: STR_READY
+        type: STR_SKYRANGER
+        damage: 0
+        id: 1
+      - type: STR_INTERCEPTOR
+        speedLon: 0
+        id: 1
+        speedRadian: 0
+        damage: 0
+        speedLat: 0
+        items:
+          {}
+        fuel: 1000
+        weapons:
+          - ammo: 0
+            type: STR_AVALANCHE
+          - ammo: 0
+            type: STR_AVALANCHE
+        lat: -0.68505863064443395
+        lon: 0.50163972540486657
+        status: STR_READY
+        speed: 0
+  - engineers: 0
+    retaliationTarget: false
+    inBattlescape: false
+    crafts:
+      - lat: -0.75745709380774906
+        status: STR_READY
+        lon: 4.4880931256690175
+        speedRadian: 0
+        items:
+          STR_GRENADE: 14
+          STR_TASER_CLIP: 12
+          STR_LASER_RIFLE: 11
+          STR_TASER: 4
+          STR_HEAVY_PLASMA: 7
+          STR_STUN_ROD: 8
+          STR_HEAVY_LASER: 2
+          STR_ELECTRO_FLARE: 10
+          STR_SMOKE_GRENADE: 12
+          STR_MEDI_KIT: 4
+          STR_HIGH_EXPLOSIVE: 10
+          STR_HEAVY_PLASMA_CLIP: 7
+        type: STR_SKYRANGER
+        speed: 0
+        fuel: 1500
+        speedLon: 0
+        id: 2
+        speedLat: 0
+        damage: 0
+    items:
+      STR_ALIEN_GRENADE: 4
+      STR_SMALL_ROCKET: 6
+      STR_UFO_POWER_SOURCE: 5
+      STR_HEAVY_PLASMA: 1
+      STR_MIND_PROBE: 5
+      STR_HEAVY_PLASMA_CLIP: 1
+      STR_PLASMA_PISTOL: 9
+      STR_ALIEN_ALLOYS: 69
+      STR_PLASMA_PISTOL_CLIP: 11
+      STR_ROCKET_LAUNCHER: 2
+      STR_PLASMA_RIFLE_CLIP: 9
+      STR_ELERIUM_115: 250
+      STR_PLASMA_RIFLE: 8
+      STR_SECTOID_CORPSE: 10
+      STR_UFO_NAVIGATION: 21
+    scientists: 0
+    name: X2 USA
+    facilities:
+      - y: 2
+        x: 0
+        type: STR_ACCESS_LIFT
+      - y: 3
+        type: STR_LARGE_RADAR_SYSTEM
+        x: 0
+      - x: 0
+        y: 0
+        type: STR_HANGAR
+      - y: 4
+        type: STR_GENERAL_STORES
+        x: 0
+      - type: STR_LIVING_QUARTERS
+        y: 5
+        x: 0
+      - y: 0
+        type: STR_HANGAR
+        x: 2
+      - y: 4
+        x: 1
+        type: STR_GENERAL_STORES
+      - type: STR_HYPER_WAVE_DECODER
+        y: 0
+        x: 4
+        buildTime: 25
+    lat: -0.75745709380774906
+    soldiers:
+      - initialStats:
+          psiStrength: 71
+          melee: 21
+          psiSkill: 0
+          throwing: 59
+          bravery: 50
+          stamina: 44
+          tu: 59
+          health: 35
+          reactions: 37
+          strength: 21
+          firing: 45
+        armor: STR_PERSONAL_ARMOR_UC
+        kills: 0
+        gender: 0
+        rank: 0
+        craft:
+          type: STR_SKYRANGER
+          id: 2
+          lon: 4.4880931256690175
+          lat: -0.75745709380774906
+        id: 48
+        currentStats:
+          tu: 59
+          stamina: 44
+          bravery: 50
+          melee: 21
+          throwing: 60
+          health: 35
+          psiSkill: 0
+          reactions: 37
+          strength: 21
+          psiStrength: 71
+          firing: 45
+        name: Bjorn Bjoenkaer
+        psiStrImprovement: 0
+        equipmentLayout:
+          - slot: STR_RIGHT_SHOULDER
+            itemType: STR_GRENADE
+          - itemType: STR_LASER_RIFLE
+            slot: STR_RIGHT_HAND
+          - itemType: STR_SMOKE_GRENADE
+            slot: STR_RIGHT_SHOULDER
+            slotX: 1
+          - itemType: STR_ELECTRO_FLARE
+            slot: STR_LEFT_HAND
+        look: 1
+        improvement: 0
+        missions: 3
+      - psiStrImprovement: 0
+        id: 49
+        currentStats:
+          tu: 65
+          strength: 37
+          psiSkill: 0
+          firing: 70
+          stamina: 52
+          throwing: 72
+          bravery: 30
+          reactions: 32
+          health: 40
+          melee: 37
+          psiStrength: 26
+        kills: 3
+        improvement: 0
+        craft:
+          type: STR_SKYRANGER
+          id: 2
+          lon: 4.4880931256690175
+          lat: -0.75745709380774906
+        armor: STR_PERSONAL_ARMOR_UC
+        gender: 0
+        name: Athamas Papadakis
+        missions: 3
+        look: 0
+        rank: 1
+        initialStats:
+          throwing: 71
+          strength: 32
+          psiSkill: 0
+          melee: 37
+          psiStrength: 26
+          bravery: 30
+          health: 33
+          firing: 68
+          stamina: 42
+          reactions: 31
+          tu: 60
+        equipmentLayout:
+          - itemType: STR_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - itemType: STR_HEAVY_LASER
+            slot: STR_RIGHT_HAND
+          - itemType: STR_MEDI_KIT
+            slot: STR_BELT
+          - slot: STR_RIGHT_SHOULDER
+            itemType: STR_SMOKE_GRENADE
+            slotX: 1
+          - slot: STR_BACK_PACK
+            itemType: STR_STUN_ROD
+      - name: Dev Narayan
+        craft:
+          lat: -0.75745709380774906
+          id: 2
+          lon: 4.4880931256690175
+          type: STR_SKYRANGER
+        missions: 3
+        gender: 0
+        currentStats:
+          melee: 35
+          firing: 71
+          reactions: 56
+          tu: 63
+          throwing: 54
+          bravery: 50
+          health: 39
+          strength: 39
+          psiSkill: 0
+          psiStrength: 19
+          stamina: 51
+        improvement: 0
+        id: 50
+        kills: 5
+        equipmentLayout:
+          - itemType: STR_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - itemType: STR_MEDI_KIT
+            slot: STR_BELT
+            slotX: 3
+          - itemType: STR_SMOKE_GRENADE
+            slotX: 1
+            slot: STR_RIGHT_SHOULDER
+          - itemType: STR_TASER
+            slot: STR_BELT
+            ammoItem: STR_TASER_CLIP
+          - itemType: STR_TASER_CLIP
+            slot: STR_LEFT_SHOULDER
+          - itemType: STR_HEAVY_PLASMA
+            ammoItem: STR_HEAVY_PLASMA_CLIP
+            slot: STR_RIGHT_HAND
+          - itemType: STR_ELECTRO_FLARE
+            slot: STR_LEFT_HAND
+        initialStats:
+          reactions: 56
+          health: 34
+          firing: 68
+          throwing: 54
+          tu: 55
+          psiStrength: 19
+          psiSkill: 0
+          strength: 30
+          melee: 35
+          stamina: 41
+          bravery: 50
+        rank: 2
+        armor: STR_PERSONAL_ARMOR_UC
+        psiStrImprovement: 0
+        look: 2
+      - armor: STR_PERSONAL_ARMOR_UC
+        kills: 1
+        improvement: 0
+        rank: 1
+        initialStats:
+          bravery: 40
+          reactions: 51
+          strength: 24
+          psiSkill: 0
+          tu: 59
+          melee: 25
+          throwing: 54
+          psiStrength: 16
+          stamina: 46
+          firing: 59
+          health: 39
+        look: 3
+        id: 51
+        equipmentLayout:
+          - slot: STR_RIGHT_HAND
+            itemType: STR_LASER_RIFLE
+        currentStats:
+          tu: 60
+          firing: 60
+          melee: 25
+          psiSkill: 0
+          bravery: 40
+          psiStrength: 16
+          throwing: 54
+          stamina: 53
+          reactions: 51
+          health: 40
+          strength: 30
+        psiStrImprovement: 0
+        gender: 0
+        name: Timothy Nash
+        missions: 1
+      - armor: STR_PERSONAL_ARMOR_UC
+        rank: 1
+        gender: 0
+        missions: 1
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_LASER_RIFLE
+            slot: STR_RIGHT_HAND
+          - slot: STR_BACK_PACK
+            itemType: STR_STUN_ROD
+          - slot: STR_LEFT_SHOULDER
+            itemType: STR_HIGH_EXPLOSIVE
+        name: Olan Jasperson
+        initialStats:
+          health: 33
+          reactions: 55
+          melee: 40
+          stamina: 46
+          strength: 40
+          psiStrength: 73
+          tu: 55
+          psiSkill: 0
+          firing: 45
+          throwing: 55
+          bravery: 20
+        look: 1
+        id: 52
+        improvement: 0
+        kills: 1
+        currentStats:
+          reactions: 55
+          health: 35
+          strength: 43
+          melee: 40
+          tu: 58
+          firing: 46
+          stamina: 46
+          throwing: 55
+          psiStrength: 73
+          psiSkill: 0
+          bravery: 20
+      - armor: STR_PERSONAL_ARMOR_UC
+        rank: 5
+        gender: 1
+        missions: 7
+        psiStrImprovement: 0
+        improvement: 0
+        kills: 10
+        name: Jayne Payne
+        currentStats:
+          strength: 44
+          firing: 78
+          melee: 37
+          tu: 72
+          psiStrength: 53
+          bravery: 60
+          health: 37
+          stamina: 78
+          psiSkill: 0
+          reactions: 50
+          throwing: 81
+        id: 29
+        equipmentLayout:
+          - itemType: STR_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - ammoItem: STR_SMALL_ROCKET
+            itemType: STR_ROCKET_LAUNCHER
+            slot: STR_RIGHT_HAND
+          - slot: STR_RIGHT_SHOULDER
+            slotX: 1
+            itemType: STR_SMOKE_GRENADE
+          - itemType: STR_SMALL_ROCKET
+            slot: STR_BACK_PACK
+          - slotX: 1
+            itemType: STR_SMALL_ROCKET
+            slot: STR_BACK_PACK
+          - slot: STR_BELT
+            ammoItem: STR_TASER_CLIP
+            itemType: STR_TASER
+        initialStats:
+          psiSkill: 0
+          firing: 63
+          bravery: 60
+          reactions: 50
+          melee: 37
+          psiStrength: 53
+          health: 25
+          tu: 60
+          strength: 27
+          stamina: 58
+          throwing: 78
+        look: 1
+      - kills: 6
+        armor: STR_PERSONAL_ARMOR_UC
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_TASER
+            ammoItem: STR_TASER_CLIP
+            slot: STR_BELT
+          - itemType: STR_TASER_CLIP
+            slot: STR_LEFT_SHOULDER
+          - itemType: STR_HEAVY_LASER
+            slot: STR_RIGHT_HAND
+          - slot: STR_RIGHT_SHOULDER
+            itemType: STR_HIGH_EXPLOSIVE
+          - slotX: 3
+            itemType: STR_MEDI_KIT
+            slot: STR_BELT
+        missions: 5
+        improvement: 0
+        look: 1
+        gender: 1
+        rank: 3
+        currentStats:
+          strength: 43
+          psiSkill: 0
+          melee: 30
+          throwing: 78
+          psiStrength: 52
+          reactions: 60
+          tu: 63
+          firing: 75
+          bravery: 30
+          stamina: 73
+          health: 36
+        initialStats:
+          tu: 52
+          bravery: 30
+          strength: 33
+          psiStrength: 52
+          throwing: 77
+          reactions: 60
+          health: 25
+          melee: 30
+          firing: 69
+          psiSkill: 0
+          stamina: 63
+        name: Gaia De Luca
+        id: 33
+      - armor: STR_PERSONAL_ARMOR_UC
+        improvement: 0
+        psiStrImprovement: 0
+        name: Jaideep Kumar
+        id: 63
+        missions: 1
+        currentStats:
+          strength: 33
+          health: 35
+          melee: 24
+          throwing: 56
+          psiStrength: 15
+          bravery: 20
+          psiSkill: 0
+          stamina: 59
+          reactions: 45
+          tu: 56
+          firing: 61
+        rank: 1
+        equipmentLayout:
+          - slot: STR_RIGHT_HAND
+            itemType: STR_LASER_RIFLE
+          - slot: STR_BELT
+            itemType: STR_MEDI_KIT
+          - itemType: STR_HIGH_EXPLOSIVE
+            slot: STR_LEFT_SHOULDER
+        kills: 1
+        gender: 0
+        initialStats:
+          firing: 61
+          throwing: 56
+          psiStrength: 15
+          strength: 31
+          melee: 24
+          health: 32
+          reactions: 45
+          psiSkill: 0
+          bravery: 20
+          stamina: 54
+          tu: 53
+        look: 2
+      - armor: STR_PERSONAL_ARMOR_UC
+        equipmentLayout:
+          - itemType: STR_LASER_RIFLE
+            slot: STR_RIGHT_HAND
+          - itemType: STR_STUN_ROD
+            slot: STR_BACK_PACK
+          - slot: STR_RIGHT_SHOULDER
+            itemType: STR_GRENADE
+          - itemType: STR_SMOKE_GRENADE
+            slotX: 1
+            slot: STR_RIGHT_SHOULDER
+        name: Tsoi Long
+        currentStats:
+          bravery: 30
+          stamina: 53
+          throwing: 51
+          tu: 53
+          firing: 48
+          reactions: 57
+          psiSkill: 0
+          melee: 29
+          health: 34
+          psiStrength: 64
+          strength: 32
+        psiStrImprovement: 0
+        gender: 0
+        missions: 2
+        improvement: 0
+        kills: 1
+        rank: 1
+        initialStats:
+          firing: 47
+          stamina: 53
+          bravery: 30
+          throwing: 50
+          psiSkill: 0
+          reactions: 57
+          health: 32
+          psiStrength: 64
+          tu: 52
+          strength: 28
+          melee: 29
+        look: 0
+        id: 64
+      - kills: 2
+        currentStats:
+          bravery: 30
+          firing: 49
+          strength: 35
+          stamina: 48
+          reactions: 51
+          psiStrength: 53
+          melee: 35
+          throwing: 61
+          psiSkill: 0
+          health: 30
+          tu: 56
+        equipmentLayout:
+          - itemType: STR_LASER_RIFLE
+            slot: STR_RIGHT_HAND
+          - itemType: STR_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - itemType: STR_SMOKE_GRENADE
+            slot: STR_RIGHT_SHOULDER
+            slotX: 1
+        missions: 1
+        id: 57
+        improvement: 0
+        psiStrImprovement: 0
+        armor: STR_PERSONAL_ARMOR_UC
+        gender: 0
+        initialStats:
+          bravery: 30
+          melee: 35
+          health: 29
+          tu: 52
+          reactions: 51
+          psiStrength: 53
+          psiSkill: 0
+          strength: 31
+          throwing: 61
+          firing: 49
+          stamina: 41
+        look: 0
+        name: James Harding
+        rank: 1
+      - improvement: 0
+        rank: 1
+        gender: 0
+        currentStats:
+          tu: 60
+          psiStrength: 91
+          health: 38
+          stamina: 45
+          firing: 43
+          throwing: 62
+          strength: 40
+          bravery: 10
+          psiSkill: 0
+          reactions: 48
+          melee: 37
+        armor: STR_PERSONAL_ARMOR_UC
+        kills: 2
+        look: 1
+        equipmentLayout:
+          - slot: STR_RIGHT_SHOULDER
+            itemType: STR_GRENADE
+          - itemType: STR_LASER_RIFLE
+            slot: STR_RIGHT_HAND
+          - slot: STR_BELT
+            itemType: STR_MEDI_KIT
+          - itemType: STR_SMOKE_GRENADE
+            slotX: 1
+            slot: STR_RIGHT_SHOULDER
+          - itemType: STR_ELECTRO_FLARE
+            slot: STR_LEFT_HAND
+        name: Theis Schjonberg
+        id: 58
+        psiStrImprovement: 0
+        craft:
+          id: 2
+          lat: -0.75745709380774906
+          type: STR_SKYRANGER
+          lon: 4.4880931256690175
+        initialStats:
+          tu: 60
+          bravery: 10
+          throwing: 62
+          strength: 37
+          firing: 43
+          stamina: 43
+          health: 35
+          psiStrength: 91
+          reactions: 48
+          melee: 37
+          psiSkill: 0
+        missions: 2
+      - look: 0
+        id: 59
+        missions: 1
+        name: Piet Visser
+        initialStats:
+          bravery: 10
+          stamina: 57
+          psiSkill: 0
+          strength: 35
+          melee: 35
+          health: 31
+          firing: 42
+          throwing: 50
+          psiStrength: 16
+          reactions: 46
+          tu: 53
+        equipmentLayout:
+          - slot: STR_RIGHT_HAND
+            itemType: STR_LASER_RIFLE
+          - itemType: STR_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - fuseTimer: 0
+            itemType: STR_SMOKE_GRENADE
+            slot: STR_RIGHT_SHOULDER
+            slotX: 1
+        gender: 0
+        armor: STR_PERSONAL_ARMOR_UC
+        currentStats:
+          health: 34
+          stamina: 60
+          throwing: 50
+          psiStrength: 16
+          melee: 35
+          psiSkill: 0
+          firing: 42
+          reactions: 46
+          tu: 55
+          bravery: 10
+          strength: 40
+        rank: 1
+        psiStrImprovement: 0
+        improvement: 0
+        kills: 1
+      - id: 60
+        rank: 1
+        gender: 0
+        armor: STR_PERSONAL_ARMOR_UC
+        craft:
+          lon: 4.4880931256690175
+          lat: -0.75745709380774906
+          type: STR_SKYRANGER
+          id: 2
+        kills: 1
+        currentStats:
+          strength: 29
+          firing: 71
+          bravery: 10
+          stamina: 55
+          melee: 28
+          psiSkill: 0
+          throwing: 56
+          psiStrength: 9
+          health: 32
+          reactions: 43
+          tu: 61
+        psiStrImprovement: 0
+        initialStats:
+          bravery: 10
+          strength: 24
+          throwing: 55
+          health: 29
+          psiSkill: 0
+          firing: 70
+          tu: 60
+          stamina: 54
+          psiStrength: 9
+          melee: 28
+          reactions: 43
+        improvement: 0
+        equipmentLayout:
+          - itemType: STR_HEAVY_LASER
+            slot: STR_RIGHT_HAND
+          - itemType: STR_MEDI_KIT
+            slot: STR_BELT
+        missions: 2
+        look: 0
+        name: Daisuke Nakajima
+      - armor: STR_PERSONAL_ARMOR_UC
+        name: Lenie Mulder
+        rank: 0
+        id: 61
+        psiStrImprovement: 0
+        equipmentLayout:
+          - itemType: STR_LASER_RIFLE
+            slot: STR_RIGHT_HAND
+          - slot: STR_LEFT_HAND
+            itemType: STR_ELECTRO_FLARE
+          - itemType: STR_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - slot: STR_RIGHT_SHOULDER
+            slotX: 1
+            itemType: STR_SMOKE_GRENADE
+          - itemType: STR_STUN_ROD
+            slot: STR_BACK_PACK
+        initialStats:
+          strength: 29
+          stamina: 44
+          throwing: 59
+          firing: 43
+          psiSkill: 0
+          health: 38
+          psiStrength: 56
+          bravery: 30
+          reactions: 58
+          tu: 56
+          melee: 23
+        kills: 0
+        recovery: 7
+        currentStats:
+          strength: 29
+          melee: 23
+          psiStrength: 56
+          psiSkill: 0
+          throwing: 59
+          tu: 56
+          stamina: 44
+          firing: 43
+          health: 38
+          bravery: 30
+          reactions: 58
+        missions: 1
+        look: 0
+        gender: 1
+        improvement: 0
+      - psiStrImprovement: 0
+        kills: 1
+        missions: 1
+        id: 62
+        rank: 1
+        currentStats:
+          psiStrength: 47
+          health: 38
+          firing: 63
+          psiSkill: 0
+          stamina: 55
+          tu: 61
+          strength: 25
+          throwing: 80
+          melee: 25
+          reactions: 48
+          bravery: 50
+        initialStats:
+          throwing: 80
+          bravery: 50
+          melee: 25
+          stamina: 48
+          tu: 59
+          strength: 20
+          psiStrength: 47
+          health: 37
+          firing: 63
+          reactions: 48
+          psiSkill: 0
+        craft:
+          lon: 4.4880931256690175
+          id: 2
+          lat: -0.75745709380774906
+          type: STR_SKYRANGER
+        equipmentLayout:
+          - slot: STR_RIGHT_HAND
+            itemType: STR_LASER_RIFLE
+          - itemType: STR_ELECTRO_FLARE
+            slot: STR_LEFT_HAND
+          - itemType: STR_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - slot: STR_RIGHT_SHOULDER
+            itemType: STR_SMOKE_GRENADE
+            slotX: 1
+        improvement: 0
+        armor: STR_PERSONAL_ARMOR_UC
+        look: 0
+        gender: 0
+        name: Lubomir Liska
+      - gender: 1
+        id: 66
+        improvement: 0
+        rank: 1
+        missions: 1
+        armor: STR_PERSONAL_ARMOR_UC
+        equipmentLayout:
+          - itemType: STR_LASER_RIFLE
+            slot: STR_RIGHT_HAND
+          - itemType: STR_ELECTRO_FLARE
+            slot: STR_LEFT_HAND
+          - itemType: STR_GRENADE
+            slot: STR_RIGHT_SHOULDER
+          - itemType: STR_SMOKE_GRENADE
+            slot: STR_RIGHT_SHOULDER
+            slotX: 1
+          - itemType: STR_TASER
+            slot: STR_BELT
+            ammoItem: STR_TASER_CLIP
+          - slot: STR_LEFT_SHOULDER
+            itemType: STR_TASER_CLIP
+        craft:
+          lat: -0.75745709380774906
+          id: 2
+          type: STR_SKYRANGER
+          lon: 4.4880931256690175
+        kills: 1
+        initialStats:
+          psiStrength: 64
+          strength: 34
+          throwing: 73
+          firing: 66
+          tu: 55
+          psiSkill: 0
+          health: 36
+          melee: 38
+          bravery: 30
+          reactions: 60
+          stamina: 44
+        look: 0
+        name: Selena Brewster
+        currentStats:
+          throwing: 74
+          stamina: 47
+          health: 40
+          reactions: 60
+          psiSkill: 0
+          firing: 67
+          psiStrength: 64
+          melee: 38
+          strength: 38
+          bravery: 30
+          tu: 59
+        psiStrImprovement: 0
+    lon: 4.4880931256690175
+  - facilities:
+      - type: STR_ACCESS_LIFT
+        x: 0
+        y: 2
+      - y: 3
+        type: STR_LARGE_RADAR_SYSTEM
+        x: 0
+      - y: 0
+        x: 0
+        type: STR_HANGAR
+      - y: 4
+        type: STR_GENERAL_STORES
+        x: 0
+      - x: 0
+        type: STR_LIVING_QUARTERS
+        y: 5
+      - y: 0
+        x: 2
+        type: STR_HANGAR
+      - x: 4
+        type: STR_HYPER_WAVE_DECODER
+        y: 0
+        buildTime: 3
+    name: X3 Japan
+    lon: 2.2753608681918092
+    lat: -0.56000001873814997
+    retaliationTarget: false
+    engineers: 0
+    scientists: 0
+    items:
+      STR_ELERIUM_115: 50
+      STR_UFO_NAVIGATION: 13
+      STR_UFO_POWER_SOURCE: 3
+      STR_STINGRAY_MISSILES: 18
+    crafts:
+      - lat: -0.56000001873814997
+        lon: 2.2753608681918092
+        id: 2
+        fuel: 0
+        speedRadian: 0
+        speedLon: 0
+        type: STR_INTERCEPTOR
+        damage: 43
+        speedLat: 0
+        speed: 0
+        weapons:
+          - rearming: true
+            ammo: 5
+            type: STR_STINGRAY
+          - ammo: 5
+            type: STR_STINGRAY
+            rearming: true
+        status: STR_REPAIRS
+        items:
+          {}
+    inBattlescape: false
+  - items:
+      {}
+    inBattlescape: false
+    name: X4 Tasmania
+    engineers: 0
+    facilities:
+      - x: 0
+        y: 2
+        type: STR_ACCESS_LIFT
+      - type: STR_LARGE_RADAR_SYSTEM
+        y: 3
+        x: 0
+    scientists: 0
+    lat: 0.7519754122788691
+    retaliationTarget: false
+    lon: 2.5505186975968099
+  - scientists: 0
+    retaliationTarget: false
+    facilities:
+      - type: STR_ACCESS_LIFT
+        x: 0
+        y: 2
+      - x: 0
+        y: 3
+        type: STR_SMALL_RADAR_SYSTEM
+    inBattlescape: false
+    engineers: 0
+    lat: 0.44249395589408169
+    name: X5 Shaka
+    items:
+      {}
+    lon: 0.48504253647390538
+  - retaliationTarget: false
+    name: X6 Argentina
+    engineers: 0
+    scientists: 0
+    facilities:
+      - type: STR_ACCESS_LIFT
+        y: 2
+        x: 0
+      - type: STR_LARGE_RADAR_SYSTEM
+        y: 3
+        x: 0
+    items:
+      {}
+    inBattlescape: false
+    lon: 5.1529172545126825
+    lat: 0.53407587583504157
