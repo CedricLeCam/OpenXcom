@@ -1,25 +1,105 @@
-[23-04-2015 21:38:35]	[INFO]	Data folder is: 
-[23-04-2015 21:38:35]	[INFO]	Data search is: 
-[23-04-2015 21:38:35]	[INFO]	- C:\Users\User\Documents\OpenXcom\data\
-[23-04-2015 21:38:35]	[INFO]	- C:\Games\OpenXcom\data\
-[23-04-2015 21:38:35]	[INFO]	- C:\Games\OpenXcom\data\
-[23-04-2015 21:38:35]	[INFO]	User folder is: C:\Users\User\Documents\OpenXcom\
-[23-04-2015 21:38:35]	[INFO]	Config folder is: C:\Users\User\Documents\OpenXcom\
-[23-04-2015 21:38:35]	[INFO]	Options loaded successfully.
-[23-04-2015 21:38:35]	[INFO]	SDL initialized successfully.
-[23-04-2015 21:38:35]	[INFO]	SDL_mixer initialized successfully.
-[23-04-2015 21:38:35]	[INFO]	Attempting to set display to 800x600x8...
-[23-04-2015 21:38:36]	[INFO]	Display set to 800x600x8.
-[23-04-2015 21:38:36]	[INFO]	Loading ruleset...
-[23-04-2015 21:38:36]	[INFO]	Ruleset loaded successfully.
-[23-04-2015 21:38:36]	[INFO]	Loading resources...
-[23-04-2015 21:38:37]	[INFO]	Loading extra resources from ruleset...
-[23-04-2015 21:38:37]	[INFO]	Resources loaded successfully.
-[23-04-2015 21:38:37]	[INFO]	Loading language...
-[23-04-2015 21:38:37]	[INFO]	Language loaded successfully.
-[23-04-2015 21:38:37]	[INFO]	OpenXcom started successfully!
-[23-04-2015 21:38:37]	[INFO]	Playing flx, 320x200, 890 frames
-[23-04-2015 21:38:37]	[INFO]	Using software scaling routine. For best results, try an OpenGL filter.
-[23-04-2015 21:38:45]	[INFO]	SDL_mixer initialized successfully.
-[23-04-2015 21:38:46]	[INFO]	Attempting to set display to 800x600x32...
-[23-04-2015 21:38:46]	[INFO]	Display set to 800x600x32.
+[24-04-2015 12:54:00]	[INFO]	Data folder is: 
+[24-04-2015 12:54:00]	[INFO]	Data search is: 
+[24-04-2015 12:54:00]	[INFO]	- C:\Users\clecam\Documents\OpenXcom\data\
+[24-04-2015 12:54:00]	[INFO]	- C:\Games\OpenXcom\data\
+[24-04-2015 12:54:00]	[INFO]	- C:\Games\OpenXcom\data\
+[24-04-2015 12:54:00]	[INFO]	User folder is: C:\Users\clecam\Documents\OpenXcom\
+[24-04-2015 12:54:00]	[INFO]	Config folder is: C:\Users\clecam\Documents\OpenXcom\
+[24-04-2015 12:54:00]	[INFO]	Options loaded successfully.
+[24-04-2015 12:54:00]	[INFO]	SDL initialized successfully.
+[24-04-2015 12:54:00]	[INFO]	SDL_mixer initialized successfully.
+[24-04-2015 12:54:00]	[INFO]	Attempting to set display to 800x600x8...
+[24-04-2015 12:54:01]	[INFO]	Display set to 800x600x8.
+[24-04-2015 12:54:01]	[INFO]	Loading ruleset...
+[24-04-2015 12:54:02]	[INFO]	Ruleset loaded successfully.
+[24-04-2015 12:54:02]	[INFO]	Loading resources...
+[24-04-2015 12:54:02]	[INFO]	Loading extra resources from ruleset...
+[24-04-2015 12:54:03]	[INFO]	Resources loaded successfully.
+[24-04-2015 12:54:03]	[INFO]	Loading language...
+[24-04-2015 12:54:03]	[INFO]	Language loaded successfully.
+[24-04-2015 12:54:03]	[INFO]	OpenXcom started successfully!
+[24-04-2015 12:54:03]	[INFO]	Playing flx, 320x200, 890 frames
+[24-04-2015 12:54:03]	[INFO]	Using software scaling routine. For best results, try an OpenGL filter.
+[24-04-2015 12:54:10]	[INFO]	SDL_mixer initialized successfully.
+[24-04-2015 12:54:11]	[INFO]	Attempting to set display to 800x600x32...
+[24-04-2015 12:54:11]	[INFO]	Display set to 800x600x32.
+[24-04-2015 13:45:45]	[WARN]	No free channels available
+[24-04-2015 13:45:45]	[WARN]	No free channels available
+[24-04-2015 13:45:45]	[WARN]	No free channels available
+[24-04-2015 13:45:45]	[WARN]	No free channels available
+[24-04-2015 13:45:50]	[WARN]	No free channels available
+[24-04-2015 13:45:50]	[WARN]	No free channels available
+[24-04-2015 13:45:50]	[WARN]	No free channels available
+[24-04-2015 13:45:54]	[WARN]	No free channels available
+[24-04-2015 13:45:54]	[WARN]	No free channels available
+[24-04-2015 13:45:54]	[WARN]	No free channels available
+[24-04-2015 13:45:54]	[WARN]	No free channels available
+[24-04-2015 13:46:04]	[WARN]	No free channels available
+[24-04-2015 13:46:12]	[WARN]	No free channels available
+[24-04-2015 13:46:12]	[WARN]	No free channels available
+[24-04-2015 13:46:12]	[WARN]	No free channels available
+[24-04-2015 13:49:53]	[WARN]	No free channels available
+[24-04-2015 13:49:53]	[WARN]	No free channels available
+[24-04-2015 13:52:04]	[WARN]	No free channels available
+[24-04-2015 13:52:29]	[WARN]	No free channels available
+[24-04-2015 13:52:29]	[WARN]	No free channels available
+[24-04-2015 13:52:29]	[WARN]	No free channels available
+[24-04-2015 13:52:29]	[WARN]	No free channels available
+[24-04-2015 13:52:29]	[WARN]	No free channels available
+[24-04-2015 13:55:06]	[WARN]	No free channels available
+[24-04-2015 13:55:06]	[WARN]	No free channels available
+[24-04-2015 13:55:06]	[WARN]	No free channels available
+[24-04-2015 13:56:47]	[WARN]	No free channels available
+[24-04-2015 13:56:47]	[WARN]	No free channels available
+[24-04-2015 13:56:47]	[WARN]	No free channels available
+[24-04-2015 13:57:02]	[WARN]	No free channels available
+[24-04-2015 13:57:02]	[WARN]	No free channels available
+[24-04-2015 13:57:02]	[WARN]	No free channels available
+[24-04-2015 13:57:34]	[WARN]	No free channels available
+[24-04-2015 13:57:34]	[WARN]	No free channels available
+[24-04-2015 13:57:34]	[WARN]	No free channels available
+[24-04-2015 13:57:52]	[WARN]	No free channels available
+[24-04-2015 13:57:52]	[WARN]	No free channels available
+[24-04-2015 13:59:44]	[WARN]	No free channels available
+[24-04-2015 13:59:44]	[WARN]	No free channels available
+[24-04-2015 13:59:44]	[WARN]	No free channels available
+[24-04-2015 14:04:49]	[WARN]	No free channels available
+[24-04-2015 14:06:22]	[WARN]	No free channels available
+[24-04-2015 14:06:51]	[WARN]	No free channels available
+[24-04-2015 14:06:51]	[WARN]	No free channels available
+[24-04-2015 14:06:51]	[WARN]	No free channels available
+[24-04-2015 14:06:51]	[WARN]	No free channels available
+[24-04-2015 14:07:04]	[WARN]	No free channels available
+[24-04-2015 14:11:37]	[WARN]	No free channels available
+[24-04-2015 14:11:37]	[WARN]	No free channels available
+[24-04-2015 14:14:03]	[WARN]	No free channels available
+[24-04-2015 14:14:03]	[WARN]	No free channels available
+[24-04-2015 14:14:10]	[WARN]	No free channels available
+[24-04-2015 14:14:10]	[WARN]	No free channels available
+[24-04-2015 14:14:10]	[WARN]	No free channels available
+[24-04-2015 14:14:10]	[WARN]	No free channels available
+[24-04-2015 14:14:25]	[WARN]	No free channels available
+[24-04-2015 14:14:25]	[WARN]	No free channels available
+[24-04-2015 14:14:25]	[WARN]	No free channels available
+[24-04-2015 14:14:25]	[WARN]	No free channels available
+[24-04-2015 14:14:41]	[WARN]	No free channels available
+[24-04-2015 14:14:49]	[WARN]	No free channels available
+[24-04-2015 14:14:49]	[WARN]	No free channels available
+[24-04-2015 14:14:49]	[WARN]	No free channels available
+[24-04-2015 14:14:49]	[WARN]	No free channels available
+[24-04-2015 14:17:52]	[WARN]	No free channels available
+[24-04-2015 14:17:52]	[WARN]	No free channels available
+[24-04-2015 14:17:52]	[WARN]	No free channels available
+[24-04-2015 14:17:52]	[WARN]	No free channels available
+[24-04-2015 14:17:52]	[WARN]	No free channels available
+[24-04-2015 14:17:52]	[WARN]	No free channels available
+[24-04-2015 14:19:17]	[WARN]	No free channels available
+[24-04-2015 14:19:17]	[WARN]	No free channels available
+[24-04-2015 14:19:17]	[WARN]	No free channels available
+[24-04-2015 14:19:17]	[WARN]	No free channels available
+[24-04-2015 14:19:17]	[WARN]	No free channels available
+[24-04-2015 14:21:24]	[WARN]	No free channels available
+[24-04-2015 14:22:59]	[WARN]	No free channels available
+[24-04-2015 14:23:34]	[WARN]	No free channels available
+[24-04-2015 14:23:38]	[WARN]	No free channels available
+[24-04-2015 14:23:39]	[WARN]	No free channels available
